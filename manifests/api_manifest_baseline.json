@@ -1,0 +1,4585 @@
+{
+  "generated_starlink_versions": [
+    {
+      "commit": "b6ca36bf8884802759017298539489d11795861e",
+      "generated_at": "2018-07-06 09:36:39",
+      "release": "2018A"
+    }
+  ],
+  "modules": {
+    "atools": {
+      "file": "atools.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Add a Frame to a FrameSet to define a new coordinate system.",
+          "kind": "function",
+          "name": "astaddframe",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Store a new variant Mapping for the current Frame in a FrameSet.",
+          "kind": "function",
+          "name": "astaddvariant",
+          "signature": "(this, map, name, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate the angle subtended by two points at a third point",
+          "kind": "function",
+          "name": "astangle",
+          "signature": "(this, a, b, c, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Box.",
+          "kind": "function",
+          "name": "astbox",
+          "signature": "(frame, form, point1, point2, unc, **kwargs)"
+        },
+        {
+          "doc_summary": "Returns the bounding box of the domain of a ChebyMap.",
+          "kind": "function",
+          "name": "astchebydomain",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a ChebyMap.",
+          "kind": "function",
+          "name": "astchebymap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Circle.",
+          "kind": "function",
+          "name": "astcircle",
+          "signature": "(frame, form, centre, point, unc, **kwargs)"
+        },
+        {
+          "doc_summary": "Clear attribute values for an Object.",
+          "kind": "function",
+          "name": "astclear",
+          "signature": "(this, attrib, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a CmpFrame.",
+          "kind": "function",
+          "name": "astcmpframe",
+          "signature": "(frame1, frame2, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a CmpMap.",
+          "kind": "function",
+          "name": "astcmpmap",
+          "signature": "(map1, map2, series, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a CmpRegion.",
+          "kind": "function",
+          "name": "astcmpregion",
+          "signature": "(region1, region2, oper, **kwargs)"
+        },
+        {
+          "doc_summary": "Determine how to convert between two coordinate systems.",
+          "kind": "function",
+          "name": "astconvert",
+          "signature": "(from_, to, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a new Polygon representing the convex hull of a 2D data grid.",
+          "kind": "function",
+          "name": "astconvex",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Copy an AST Object.",
+          "kind": "function",
+          "name": "astcopy",
+          "signature": "(this, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate the distance between two points in a Frame",
+          "kind": "function",
+          "name": "astdistance",
+          "signature": "(this, point1, point2, **kwargs)"
+        },
+        {
+          "doc_summary": "Reduce the number of vertices in a Polygon.",
+          "kind": "function",
+          "name": "astdownsize",
+          "signature": "(this, maxerr, maxvert, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a DSBSpecFrame.",
+          "kind": "function",
+          "name": "astdsbframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Ellipse.",
+          "kind": "function",
+          "name": "astellipse",
+          "signature": "(frame, form, centre, point1, point2, unc, **kwargs)"
+        },
+        {
+          "doc_summary": "Find a coordinate system with specified characteristics.",
+          "kind": "function",
+          "name": "astfindframe",
+          "signature": "(target, template, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a FluxFrame.",
+          "kind": "function",
+          "name": "astfluxframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Format coordinate values for a Frame axis",
+          "kind": "function",
+          "name": "astformat",
+          "signature": "(this, axis, value, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Frame.",
+          "kind": "function",
+          "name": "astframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a FrameSet.",
+          "kind": "function",
+          "name": "astframeset",
+          "signature": "(frame, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a KeyMap containing the contents of an HDS object.",
+          "kind": "function",
+          "name": "astfromhds",
+          "signature": "(object, keymap, **kwargs)"
+        },
+        {
+          "doc_summary": "Get an attribute value for an Object.",
+          "kind": "function",
+          "name": "astget",
+          "signature": "(this, attrib, **kwargs)"
+        },
+        {
+          "doc_summary": "Get the value of the ActiveUnit flag for a rame.",
+          "kind": "function",
+          "name": "astgetactunit",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Obtain a specified Frame in a FrameSet",
+          "kind": "function",
+          "name": "astgetframe",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Obtain a Mapping that converts between two Frames in a FrameSet.",
+          "kind": "function",
+          "name": "astgetmapping",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Get the reference position for a SpecFrame.",
+          "kind": "function",
+          "name": "astgetrefpos",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Returns the bounding box of Region.",
+          "kind": "function",
+          "name": "astgetregbounds",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Obtain the Frame represented by a Region.",
+          "kind": "function",
+          "name": "astgetregframe",
+          "signature": "(this, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Obtain uncertainty information from a Region.",
+          "kind": "function",
+          "name": "astgetunc",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Interval.",
+          "kind": "function",
+          "name": "astinterval",
+          "signature": "(frame, lbnd, ubnd, unc, **kwargs)"
+        },
+        {
+          "doc_summary": "Invert a Mapping.",
+          "kind": "function",
+          "name": "astinvert",
+          "signature": "(this, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Find a linear approximation to a mapping",
+          "kind": "function",
+          "name": "astlinearapprox",
+          "signature": "(this, lbndin, ubndin, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a LutMap.",
+          "kind": "function",
+          "name": "astlutmap",
+          "signature": "(lut, **kwargs)"
+        },
+        {
+          "doc_summary": "Find a bounding box for a Mapping.",
+          "kind": "function",
+          "name": "astmapbox",
+          "signature": "(this, lbndin, ubndin, **kwargs)"
+        },
+        {
+          "doc_summary": "Transform a Region into a new Frame using a given Mapping",
+          "kind": "function",
+          "name": "astmapregion",
+          "signature": "(this, map, frame, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Split a Mapping up into parallel component Mappings.",
+          "kind": "function",
+          "name": "astmapsplit",
+          "signature": "(this, in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Mask a region of a data grid.",
+          "kind": "function",
+          "name": "astmask",
+          "signature": "(this, map, **kwargs)"
+        },
+        {
+          "doc_summary": "Find any corresponding axes in two Frames.",
+          "kind": "function",
+          "name": "astmatchaxes",
+          "signature": "(frm1, frm2, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a MathMap.",
+          "kind": "function",
+          "name": "astmathmap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a MatrixMap.",
+          "kind": "function",
+          "name": "astmatrixmap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Make the current Frame in a FrameSet mirror the variant Mappings",
+          "kind": "function",
+          "name": "astmirrorvars",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Negate the area represented by a Region.",
+          "kind": "function",
+          "name": "astnegate",
+          "signature": "(this, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a new Polygon outling values in a 2D NDF.",
+          "kind": "function",
+          "name": "astoutline",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Test if two regions overlap each other.",
+          "kind": "function",
+          "name": "astoverlap",
+          "signature": "(this, that, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a PcdMap.",
+          "kind": "function",
+          "name": "astpcdmap",
+          "signature": "(disco, pcdcen, **kwargs)"
+        },
+        {
+          "doc_summary": "Permute the axis order in a Frame.",
+          "kind": "function",
+          "name": "astpermaxes",
+          "signature": "(this, perm, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a PermMap.",
+          "kind": "function",
+          "name": "astpermmap",
+          "signature": "(inperm, outperm, constants, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a new Frame by picking axes from an existing one.",
+          "kind": "function",
+          "name": "astpickaxes",
+          "signature": "(this, axes, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Polygon.",
+          "kind": "function",
+          "name": "astpolygon",
+          "signature": "(frame, xin, yin, unc, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a PolyMap.",
+          "kind": "function",
+          "name": "astpolymap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Fit a PolyMap inverse or forward transformation.",
+          "kind": "function",
+          "name": "astpolytran",
+          "signature": "(this, forward, acc, maxacc, maxorder, lbnd, ubnd, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a Prism.",
+          "kind": "function",
+          "name": "astprism",
+          "signature": "(region1, region2, **kwargs)"
+        },
+        {
+          "doc_summary": "Obtain a quadratic approximation to a 2D Mapping.",
+          "kind": "function",
+          "name": "astquadapprox",
+          "signature": "(this, lbnd, ubnd, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate the rate of change of a Mapping output",
+          "kind": "function",
+          "name": "astrate",
+          "signature": "(this, at, ax1, ax2, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a RateMap.",
+          "kind": "function",
+          "name": "astratemap",
+          "signature": "(map, ax1, ax2, **kwargs)"
+        },
+        {
+          "doc_summary": "Modify a Frame's relationship to other Frames in a FrameSet.",
+          "kind": "function",
+          "name": "astremapframe",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Remove a Frame from a FrameSet.",
+          "kind": "function",
+          "name": "astremoveframe",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Remove any Regions from a Mapping.",
+          "kind": "function",
+          "name": "astremoveregion",
+          "signature": "(this, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a SelectorMap.",
+          "kind": "function",
+          "name": "astselectormap",
+          "signature": "(reg1, reg2, **kwargs)"
+        },
+        {
+          "doc_summary": "Set an attribute value for an Object.",
+          "kind": "function",
+          "name": "astset",
+          "signature": "(this, attrib, value, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Set the ActiveUnit flag for a Frame.",
+          "kind": "function",
+          "name": "astsetactunit",
+          "signature": "(this, value, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Set the reference position for a SpecFrame.",
+          "kind": "function",
+          "name": "astsetrefpos",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a SpecFluxFrame.",
+          "kind": "function",
+          "name": "astsfluxframe",
+          "signature": "(frame1, frame2, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a ShiftMap.",
+          "kind": "function",
+          "name": "astshiftmap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $ATOOLS_DIR/astshow.tcl .",
+          "kind": "function",
+          "name": "astshow",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Display a mesh of points covering the surface of a Region.",
+          "kind": "function",
+          "name": "astshowmesh",
+          "signature": "(this, format, ttl, **kwargs)"
+        },
+        {
+          "doc_summary": "Simplify a Mapping.",
+          "kind": "function",
+          "name": "astsimplify",
+          "signature": "(this, result, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a SkyFrame.",
+          "kind": "function",
+          "name": "astskyframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a SpecFrame.",
+          "kind": "function",
+          "name": "astspecframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a SphMap.",
+          "kind": "function",
+          "name": "astsphmap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a SwitchMap.",
+          "kind": "function",
+          "name": "astswitchmap",
+          "signature": "(fsmap, ismap, routemap1, routemap2, **kwargs)"
+        },
+        {
+          "doc_summary": "Test if an Object attribute value is set.",
+          "kind": "function",
+          "name": "asttest",
+          "signature": "(this, attrib, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a TimeFrame.",
+          "kind": "function",
+          "name": "asttimeframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Copy the contents of a KeyMap to a new HDS object.",
+          "kind": "function",
+          "name": "asttohds",
+          "signature": "(keymap, object, **kwargs)"
+        },
+        {
+          "doc_summary": "Use a Mapping to transform a set of position in one dimension.",
+          "kind": "function",
+          "name": "asttran1",
+          "signature": "(this, xin, **kwargs)"
+        },
+        {
+          "doc_summary": "Use a Mapping to transform a set of position in two dimensions.",
+          "kind": "function",
+          "name": "asttran2",
+          "signature": "(this, xin, yin, **kwargs)"
+        },
+        {
+          "doc_summary": "Transform a grid of positions",
+          "kind": "function",
+          "name": "asttrangrid",
+          "signature": "(this, lbnd, ubnd, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a TranMap.",
+          "kind": "function",
+          "name": "asttranmap",
+          "signature": "(map1, map2, **kwargs)"
+        },
+        {
+          "doc_summary": "Transform N-dimensional coordinates.",
+          "kind": "function",
+          "name": "asttrann",
+          "signature": "(this, **kwargs)"
+        },
+        {
+          "doc_summary": "Read a formatted coordinate value for a Frame axis",
+          "kind": "function",
+          "name": "astunformat",
+          "signature": "(this, axis, value, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a UnitMap.",
+          "kind": "function",
+          "name": "astunitmap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a WcsMap.",
+          "kind": "function",
+          "name": "astwcsmap",
+          "signature": "(ncoord, type, lonax, latax, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a WinMap.",
+          "kind": "function",
+          "name": "astwinmap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a ZoomMap.",
+          "kind": "function",
+          "name": "astzoommap",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Display information about ATOOLS.",
+          "kind": "function",
+          "name": "atlhelp",
+          "signature": "(*args, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "cae31427b90eb4b11b520e3e76273fde48839f125fc6955704782897febcce77"
+    },
+    "ccdpack": {
+      "file": "ccdpack.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Exports coordinate system information from images",
+          "kind": "function",
+          "name": "astexp",
+          "signature": "(in_, astfile, outdomain, **kwargs)"
+        },
+        {
+          "doc_summary": "Imports coordinate system information into NDFs from AST files.",
+          "kind": "function",
+          "name": "astimp",
+          "signature": "(in_, astfile, indomain, **kwargs)"
+        },
+        {
+          "doc_summary": "Subtracts a scaled dark or flash calibration image from a series of images.",
+          "kind": "function",
+          "name": "calcor",
+          "signature": "(in_, out, cal, expose, **kwargs)"
+        },
+        {
+          "doc_summary": "Aligns images graphically by interactive object selection.",
+          "kind": "function",
+          "name": "ccdalign",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Clears CCDPACK global parameters.",
+          "kind": "function",
+          "name": "ccdclear",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Edits CCDPACK image extensions.",
+          "kind": "function",
+          "name": "ccdedit",
+          "signature": "(mode, in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Accesses a list of images and writes their names to a file.",
+          "kind": "function",
+          "name": "ccdndfac",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Adds a note to the current CCDPACK log file.",
+          "kind": "function",
+          "name": "ccdnote",
+          "signature": "(note, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets the CCDPACK global parameters.",
+          "kind": "function",
+          "name": "ccdsetup",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays the value of the CCDPACK global parameters.",
+          "kind": "function",
+          "name": "ccdshow",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs the debiassing and initial preparation of CCD data.",
+          "kind": "function",
+          "name": "debias",
+          "signature": "(in_, out, bias, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws aligned images or outlines on a graphics display.",
+          "kind": "function",
+          "name": "drawndf",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Mosaics images using the drizzling algorithm.",
+          "kind": "function",
+          "name": "drizzle",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Centroids image features.",
+          "kind": "function",
+          "name": "findcent",
+          "signature": "(in_, outlist, **kwargs)"
+        },
+        {
+          "doc_summary": "Locates and centroids image features.",
+          "kind": "function",
+          "name": "findobj",
+          "signature": "(in_, minpix, outlist, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs pattern-matching between position lists related by simple offsets.",
+          "kind": "function",
+          "name": "findoff",
+          "signature": "(inlist, error, outlist, **kwargs)"
+        },
+        {
+          "doc_summary": "Divides a series of images by a flatfield",
+          "kind": "function",
+          "name": "flatcor",
+          "signature": "(in_, out, flat, **kwargs)"
+        },
+        {
+          "doc_summary": "Views and writes position lists interactively.",
+          "kind": "function",
+          "name": "idicurs",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Imports FITS information into images",
+          "kind": "function",
+          "name": "import_",
+          "signature": "(in_, table, **kwargs)"
+        },
+        {
+          "doc_summary": "Produces a master from a set of bias frames.",
+          "kind": "function",
+          "name": "makebias",
+          "signature": "(in_, out, rnoise, method, **kwargs)"
+        },
+        {
+          "doc_summary": "Produces a dark or pre-flash calibration image.",
+          "kind": "function",
+          "name": "makecal",
+          "signature": "(in_, expose, out, method, **kwargs)"
+        },
+        {
+          "doc_summary": "Produces a flatfield calibration image.",
+          "kind": "function",
+          "name": "makeflat",
+          "signature": "(in_, out, method, **kwargs)"
+        },
+        {
+          "doc_summary": "Make a mosaic by combining and (optionally) normalising a set of images.",
+          "kind": "function",
+          "name": "makemos",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Writes Set header information to images.",
+          "kind": "function",
+          "name": "makeset",
+          "signature": "(in_, mode, **kwargs)"
+        },
+        {
+          "doc_summary": "Aligns images graphically by drag and drop.",
+          "kind": "function",
+          "name": "pairndf",
+          "signature": "(in_, outlist, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws position markers on a graphics display.",
+          "kind": "function",
+          "name": "plotlist",
+          "signature": "(inlist, **kwargs)"
+        },
+        {
+          "doc_summary": "Presents a list of images to CCDPACK.",
+          "kind": "function",
+          "name": "present",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Automatic CCD data reduction facility (command-line version).",
+          "kind": "function",
+          "name": "reduce",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Determines transformations between lists of positions.",
+          "kind": "function",
+          "name": "register",
+          "signature": "(inlist, fittype, refpos, **kwargs)"
+        },
+        {
+          "doc_summary": "Schedules an automated CCDPACK reduction.",
+          "kind": "function",
+          "name": "schedule",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Outputs image Set header information.",
+          "kind": "function",
+          "name": "showset",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Transform lists of positions.",
+          "kind": "function",
+          "name": "tranlist",
+          "signature": "(inlist, outlist, trtype, **kwargs)"
+        },
+        {
+          "doc_summary": "Transforms a list of images by resampling.",
+          "kind": "function",
+          "name": "tranndf",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Modifies or examines WCS components of a set of images.",
+          "kind": "function",
+          "name": "wcsedit",
+          "signature": "(in_, mode, frame, **kwargs)"
+        },
+        {
+          "doc_summary": "Aligns images using multiple attached coordinate systems",
+          "kind": "function",
+          "name": "wcsreg",
+          "signature": "(in_, domains, **kwargs)"
+        },
+        {
+          "doc_summary": "Starts the automated CCD data reduction GUI.",
+          "kind": "function",
+          "name": "xreduce",
+          "signature": "(*args, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "84016ba61b20bbb510a697e869ffc6b6b06ada9ad1f3b96b0cb00ad9d733e4be"
+    },
+    "convert": {
+      "file": "convert.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Converts a text file to an NDF.",
+          "kind": "function",
+          "name": "ascii2ndf",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an Asterix data cube into a simple NDF.",
+          "kind": "function",
+          "name": "ast2ndf",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a direct-access unformatted file to an NDF.",
+          "kind": "function",
+          "name": "da2ndf",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a Figaro (Version 2) DST file to an NDF.",
+          "kind": "function",
+          "name": "dst2ndf",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts FITS files into NDFs.",
+          "kind": "function",
+          "name": "fits2ndf",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an IRCAM data file to a series of NDFs.",
+          "kind": "function",
+          "name": "ircam2ndf",
+          "signature": "(in_, prefix, obs, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an NDF to a text file.",
+          "kind": "function",
+          "name": "ndf2ascii",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an NDF to a direct-access unformatted file.",
+          "kind": "function",
+          "name": "ndf2da",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an NDF to a Figaro (Version 2) DST file.",
+          "kind": "function",
+          "name": "ndf2dst",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts NDFs into FITS files.",
+          "kind": "function",
+          "name": "ndf2fits",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a two-dimensional NDF into a GASP image.",
+          "kind": "function",
+          "name": "ndf2gasp",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an NDF into a PBMPLUS-style PGM-format file.",
+          "kind": "function",
+          "name": "ndf2pgm",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an NDF into an 8-bit TIFF-6.0-format file.",
+          "kind": "function",
+          "name": "ndf2tiff",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an NDF to a sequential unformatted file.",
+          "kind": "function",
+          "name": "ndf2unf",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a SPECX map into a simple data cube, or SPECX data files",
+          "kind": "function",
+          "name": "specx2ndf",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a sequential unformatted file to an NDF.",
+          "kind": "function",
+          "name": "unf2ndf",
+          "signature": "(in_, out, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "b9f2aaa51647ddc9e702c751cc2473fed470d96ee0384c868a2500c770ee0407"
+    },
+    "cupid": {
+      "file": "cupid.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Obtain information about one or more previously identified clumps.",
+          "kind": "function",
+          "name": "clumpinfo",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Display information about CUPID.",
+          "kind": "function",
+          "name": "cupidhelp",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Extract previously identified clumps of emission from an NDF.",
+          "kind": "function",
+          "name": "extractclumps",
+          "signature": "(mask, data, out, outcat, **kwargs)"
+        },
+        {
+          "doc_summary": "Estimate the background in an NDF by removing small scale structure.",
+          "kind": "function",
+          "name": "findback",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Identify clumps of emission within a 1, 2 or 3 dimensional NDF.",
+          "kind": "function",
+          "name": "findclumps",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Create simulated data containing clumps and noise.",
+          "kind": "function",
+          "name": "makeclumps",
+          "signature": "(out, outcat, **kwargs)"
+        },
+        {
+          "doc_summary": "Draw an outline around a 2-dimensional clump identified by CUPID.",
+          "kind": "function",
+          "name": "outlineclump",
+          "signature": "(*args, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "14b72a9cf13dc87ce7347c88687009f522fead893a201cef05dd3e6ef3267506"
+    },
+    "figaro": {
+      "file": "figaro.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/abconv .",
+          "kind": "function",
+          "name": "abconv",
+          "signature": "(spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/abline .",
+          "kind": "function",
+          "name": "abline",
+          "signature": "(spectrum, contin, sig, itn, deg, width, contout, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/adjoin .",
+          "kind": "function",
+          "name": "adjoin",
+          "signature": "(spectrum, spectrum1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/alasin .",
+          "kind": "function",
+          "name": "alasin",
+          "signature": "(alasfile, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/alasout .",
+          "kind": "function",
+          "name": "alasout",
+          "signature": "(spectrum, xstart, xend, alasfile, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/aperture .",
+          "kind": "function",
+          "name": "aperture",
+          "signature": "(output, image, opt, low, high, radius, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arc .",
+          "kind": "function",
+          "name": "arc",
+          "signature": "(spectrum, arctype, sigma, order, arfile, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arc2d .",
+          "kind": "function",
+          "name": "arc2d",
+          "signature": "(image, arc_opts, ystart, yend, yblock, iteration, order, maxlines, clfile, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arcdisp .",
+          "kind": "function",
+          "name": "arcdisp",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arcgendb .",
+          "kind": "function",
+          "name": "arcgendb",
+          "signature": "(in_, fdb, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arcident .",
+          "kind": "function",
+          "name": "arcident",
+          "signature": "(in_, out, fdb, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arclocat .",
+          "kind": "function",
+          "name": "arclocat",
+          "signature": "(in_, fwhm, thresh, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/arcsdi .",
+          "kind": "function",
+          "name": "arcsdi",
+          "signature": "(image, clfile, arc_opts, output, ystart, yend, yblock, iteration, order, maxlines, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ascin .",
+          "kind": "function",
+          "name": "ascin",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ascout .",
+          "kind": "function",
+          "name": "ascout",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/bbody .",
+          "kind": "function",
+          "name": "bbody",
+          "signature": "(temp, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/bclean .",
+          "kind": "function",
+          "name": "bclean",
+          "signature": "(image, nbrows, brows, crsig, crfact, crminv, crsharpness, brfact, brpass, degfix, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/bfft .",
+          "kind": "function",
+          "name": "bfft",
+          "signature": "(cdata, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/bsmult .",
+          "kind": "function",
+          "name": "bsmult",
+          "signature": "(spectrum, bstar, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cadd .",
+          "kind": "function",
+          "name": "cadd",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/caldiv .",
+          "kind": "function",
+          "name": "caldiv",
+          "signature": "(standard, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ccdlin .",
+          "kind": "function",
+          "name": "ccdlin",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ccur .",
+          "kind": "function",
+          "name": "ccur",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cdist .",
+          "kind": "function",
+          "name": "cdist",
+          "signature": "(image, ystart, yend, output, maxdegy, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/centers .",
+          "kind": "function",
+          "name": "centers",
+          "signature": "(image, aperture, xoff, yoff, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cfit .",
+          "kind": "function",
+          "name": "cfit",
+          "signature": "(output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/changed .",
+          "kind": "function",
+          "name": "changed",
+          "signature": "(image, image2, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/clean .",
+          "kind": "function",
+          "name": "clean",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/clip .",
+          "kind": "function",
+          "name": "clip",
+          "signature": "(image, lowclip, highclip, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplx2i .",
+          "kind": "function",
+          "name": "cmplx2i",
+          "signature": "(cdata, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplx2m .",
+          "kind": "function",
+          "name": "cmplx2m",
+          "signature": "(cdata, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplx2r .",
+          "kind": "function",
+          "name": "cmplx2r",
+          "signature": "(cdata, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplxadd .",
+          "kind": "function",
+          "name": "cmplxadd",
+          "signature": "(cdata, cdata1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplxconj .",
+          "kind": "function",
+          "name": "cmplxconj",
+          "signature": "(cdata, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplxdiv .",
+          "kind": "function",
+          "name": "cmplxdiv",
+          "signature": "(cdata, cdata1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplxfilt .",
+          "kind": "function",
+          "name": "cmplxfilt",
+          "signature": "(cdata, lowcut, hicut, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplxmult .",
+          "kind": "function",
+          "name": "cmplxmult",
+          "signature": "(cdata, cdata1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cmplxsub .",
+          "kind": "function",
+          "name": "cmplxsub",
+          "signature": "(cdata, cdata1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/coadd .",
+          "kind": "function",
+          "name": "coadd",
+          "signature": "(image, tstart, tend, ystart, yend, cutoff, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/colour .",
+          "kind": "function",
+          "name": "colour",
+          "signature": "(table, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/comb .",
+          "kind": "function",
+          "name": "comb",
+          "signature": "(image, maxlines, clfile, arc_opts, output, xstart, xend, xblock, iteration, level, order, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/combine .",
+          "kind": "function",
+          "name": "combine",
+          "signature": "(spectrum, spectrum1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/copobj .",
+          "kind": "function",
+          "name": "copobj",
+          "signature": "(source, object, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/correl .",
+          "kind": "function",
+          "name": "correl",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cosbell .",
+          "kind": "function",
+          "name": "cosbell",
+          "signature": "(spectrum, bellpc, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cosrej .",
+          "kind": "function",
+          "name": "cosrej",
+          "signature": "(image, xstart, xend, crsig, mspect, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/creobj .",
+          "kind": "function",
+          "name": "creobj",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/crigauss .",
+          "kind": "function",
+          "name": "crigauss",
+          "signature": "(image, centre2, height2, width3, centre3, height3, width4, centre4, height4, width5, centre5, ydim, height5, base, ncomp, xdim, xstart, xend, width1, centre1, height1, width2, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cscan .",
+          "kind": "function",
+          "name": "cscan",
+          "signature": "(cube, ystart, yend, tstart, tend, hardcopy, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cset .",
+          "kind": "function",
+          "name": "cset",
+          "signature": "(value, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cspike .",
+          "kind": "function",
+          "name": "cspike",
+          "signature": "(spiketrum, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/csub .",
+          "kind": "function",
+          "name": "csub",
+          "signature": "(image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/cube2long .",
+          "kind": "function",
+          "name": "cube2long",
+          "signature": "(cube, output, ypoint, xpoint, angle, pixlen, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/delobj .",
+          "kind": "function",
+          "name": "delobj",
+          "signature": "(object, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/dvdplot .",
+          "kind": "function",
+          "name": "dvdplot",
+          "signature": "(image, image2, xlow, xhigh, low, high, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/echarc .",
+          "kind": "function",
+          "name": "echarc",
+          "signature": "(image, arctype, interactive, orders, sigma, orderfit, arfile, waves, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/echfind .",
+          "kind": "function",
+          "name": "echfind",
+          "signature": "(image, ystart, yend, mstart, mdelta, outfile, thresh, minhw, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/echmask .",
+          "kind": "function",
+          "name": "echmask",
+          "signature": "(cofile, mask, objwidth, objoffset, s1width, s1offset, s2width, s2offset, mstart, mdelta, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/echmerge .",
+          "kind": "function",
+          "name": "echmerge",
+          "signature": "(image, image1, box, cutoff, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/echselect .",
+          "kind": "function",
+          "name": "echselect",
+          "signature": "(image, xstart, xend, mstart, mdelta, objout, skyout, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/editext .",
+          "kind": "function",
+          "name": "editext",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/elsplot .",
+          "kind": "function",
+          "name": "elsplot",
+          "signature": "(spectrum, xsize, ysize, xstart, xend, high, low, bias, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/emlt .",
+          "kind": "function",
+          "name": "emlt",
+          "signature": "(spectrum, xstart, xend, lines, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/errcon .",
+          "kind": "function",
+          "name": "errcon",
+          "signature": "(spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/esplot .",
+          "kind": "function",
+          "name": "esplot",
+          "signature": "(spectrum, xstart, xend, high, low, bias, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/evalfit .",
+          "kind": "function",
+          "name": "evalfit",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: echo 'The EXAM command has been removed.  Please use HDSTRACE instead.' .",
+          "kind": "function",
+          "name": "exam",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/extin .",
+          "kind": "function",
+          "name": "extin",
+          "signature": "(spectrum, coeff, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/extlist .",
+          "kind": "function",
+          "name": "extlist",
+          "signature": "(image, nrows, sections, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/extract .",
+          "kind": "function",
+          "name": "extract",
+          "signature": "(image, ystart, yend, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fet321 .",
+          "kind": "function",
+          "name": "fet321",
+          "signature": "(cube, detector, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ff .",
+          "kind": "function",
+          "name": "ff",
+          "signature": "(image, flat, order, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ffcross .",
+          "kind": "function",
+          "name": "ffcross",
+          "signature": "(image, flat, ystart, yend, xstart, xend, cross, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fft .",
+          "kind": "function",
+          "name": "fft",
+          "signature": "(cdata, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fib2cube .",
+          "kind": "function",
+          "name": "fib2cube",
+          "signature": "(image1, image2, image3, image4, image5, cube, file, maxgauss, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fibdisp .",
+          "kind": "function",
+          "name": "fibdisp",
+          "signature": "(cube, outable, ystart, yend, yblock, tstart, tend, tblock, device, iteration, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fibsep .",
+          "kind": "function",
+          "name": "fibsep",
+          "signature": "(image, device, nfib, log, old, output, file, ystart, yend, xstart, xend, low, high, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figinfo .",
+          "kind": "function",
+          "name": "figinfo",
+          "signature": "(input, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figs321 .",
+          "kind": "function",
+          "name": "figs321",
+          "signature": "(cube, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figs322 .",
+          "kind": "function",
+          "name": "figs322",
+          "signature": "(cube, image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figs422 .",
+          "kind": "function",
+          "name": "figs422",
+          "signature": "(hcube, xstart, xend, cystart, cyend, image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figs423 .",
+          "kind": "function",
+          "name": "figs423",
+          "signature": "(hcube, cystart, cyend, cube, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figs424 .",
+          "kind": "function",
+          "name": "figs424",
+          "signature": "(hcube, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figsee .",
+          "kind": "function",
+          "name": "figsee",
+          "signature": "(spectrum, ndet, detectors, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/figsflux .",
+          "kind": "function",
+          "name": "figsflux",
+          "signature": "(spectrum, standard, kmag, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fillcube .",
+          "kind": "function",
+          "name": "fillcube",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/findsp .",
+          "kind": "function",
+          "name": "findsp",
+          "signature": "(image, ysep, pfile, black, white, numfib, norder, npts, fwcent, cfw, yfirst, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fitbb .",
+          "kind": "function",
+          "name": "fitbb",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fitcont .",
+          "kind": "function",
+          "name": "fitcont",
+          "signature": "(image, xsect, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fitgauss .",
+          "kind": "function",
+          "name": "fitgauss",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fitpoly .",
+          "kind": "function",
+          "name": "fitpoly",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fitset .",
+          "kind": "function",
+          "name": "fitset",
+          "signature": "(file, keyword, value, comment, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fitskeys .",
+          "kind": "function",
+          "name": "fitskeys",
+          "signature": "(input, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fittri .",
+          "kind": "function",
+          "name": "fittri",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/flag2qual .",
+          "kind": "function",
+          "name": "flag2qual",
+          "signature": "(input, output, value, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/flaircomp .",
+          "kind": "function",
+          "name": "flaircomp",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/flairext .",
+          "kind": "function",
+          "name": "flairext",
+          "signature": "(in_, profile, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/flconv .",
+          "kind": "function",
+          "name": "flconv",
+          "signature": "(spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/foto .",
+          "kind": "function",
+          "name": "foto",
+          "signature": "(image, ra1, ra2, nradii, radii, bad, photons, readns, mzero, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fscrunch .",
+          "kind": "function",
+          "name": "fscrunch",
+          "signature": "(spectrum, wstart, wend, bins, inorder, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/fwconv .",
+          "kind": "function",
+          "name": "fwconv",
+          "signature": "(spectrum, flux_unit, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/gauss .",
+          "kind": "function",
+          "name": "gauss",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/goodvar .",
+          "kind": "function",
+          "name": "goodvar",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/grow .",
+          "kind": "function",
+          "name": "grow",
+          "signature": "(in_, expand, stapix, endpix, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/growx .",
+          "kind": "function",
+          "name": "growx",
+          "signature": "(spectrum, image, ystart, yend, ysize, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/growxt .",
+          "kind": "function",
+          "name": "growxt",
+          "signature": "(image, cube, ystart, yend, ysize, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/growxy .",
+          "kind": "function",
+          "name": "growxy",
+          "signature": "(image, cube, tstart, tend, tsize, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/growy .",
+          "kind": "function",
+          "name": "growy",
+          "signature": "(spectrum, image, xstart, xend, xsize, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/growyt .",
+          "kind": "function",
+          "name": "growyt",
+          "signature": "(image, cube, xstart, xend, xsize, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/gspike .",
+          "kind": "function",
+          "name": "gspike",
+          "signature": "(spectrum, table, spiketrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/hard .",
+          "kind": "function",
+          "name": "hard",
+          "signature": "(harddev, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/hcross .",
+          "kind": "function",
+          "name": "hcross",
+          "signature": "(spectrum, template, basered, baserr, xstart, xend, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/himage .",
+          "kind": "function",
+          "name": "himage",
+          "signature": "(image, shrink, log, key, ystart, yend, xstart, xend, low, high, plotdev, aspect, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/hist .",
+          "kind": "function",
+          "name": "hist",
+          "signature": "(image, minval, maxval, bins, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/hopt .",
+          "kind": "function",
+          "name": "hopt",
+          "signature": "(image, minval, maxval, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/i2cmplx .",
+          "kind": "function",
+          "name": "i2cmplx",
+          "signature": "(idata, cdata, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iadd .",
+          "kind": "function",
+          "name": "iadd",
+          "signature": "(image, image1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iarc .",
+          "kind": "function",
+          "name": "iarc",
+          "signature": "(image, rstart, rwidth, file, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icadd .",
+          "kind": "function",
+          "name": "icadd",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icdiv .",
+          "kind": "function",
+          "name": "icdiv",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icmult .",
+          "kind": "function",
+          "name": "icmult",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icont .",
+          "kind": "function",
+          "name": "icont",
+          "signature": "(image, ystart, yend, xstart, xend, low, high, contours, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iconv3 .",
+          "kind": "function",
+          "name": "iconv3",
+          "signature": "(image, center, edge, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icor16 .",
+          "kind": "function",
+          "name": "icor16",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icset .",
+          "kind": "function",
+          "name": "icset",
+          "signature": "(image, ystart, yend, xstart, xend, constant, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icsub .",
+          "kind": "function",
+          "name": "icsub",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/icur .",
+          "kind": "function",
+          "name": "icur",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/idev .",
+          "kind": "function",
+          "name": "idev",
+          "signature": "(imagdev, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/idiff .",
+          "kind": "function",
+          "name": "idiff",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/idiv .",
+          "kind": "function",
+          "name": "idiv",
+          "signature": "(image, image1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/igconv .",
+          "kind": "function",
+          "name": "igconv",
+          "signature": "(image, convol, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/igcur .",
+          "kind": "function",
+          "name": "igcur",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/igrey .",
+          "kind": "function",
+          "name": "igrey",
+          "signature": "(image, ystart, yend, xstart, xend, low, high, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ilist .",
+          "kind": "function",
+          "name": "ilist",
+          "signature": "(image, ystart, yend, xstart, xend, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ilog .",
+          "kind": "function",
+          "name": "ilog",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/image .",
+          "kind": "function",
+          "name": "image",
+          "signature": "(image, yplaces, atx, aty, xorigin, yorigin, xpixels, ypixels, ystart, yend, xstart, xend, low, high, optimize, xplaces, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/impos .",
+          "kind": "function",
+          "name": "impos",
+          "signature": "(inpfle, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/imult .",
+          "kind": "function",
+          "name": "imult",
+          "signature": "(image, image1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/interp .",
+          "kind": "function",
+          "name": "interp",
+          "signature": "(spiketrum, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iplots .",
+          "kind": "function",
+          "name": "iplots",
+          "signature": "(image, xstart, xend, ystart, yend, nspect, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ipower .",
+          "kind": "function",
+          "name": "ipower",
+          "signature": "(image, power, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/irconv .",
+          "kind": "function",
+          "name": "irconv",
+          "signature": "(spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/irevx .",
+          "kind": "function",
+          "name": "irevx",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/irevy .",
+          "kind": "function",
+          "name": "irevy",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/irflat .",
+          "kind": "function",
+          "name": "irflat",
+          "signature": "(spectrum, xstart, xend, period, more, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/irflux .",
+          "kind": "function",
+          "name": "irflux",
+          "signature": "(spectrum, standard, temp, caltype, mag, flux, wave, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/irot90 .",
+          "kind": "function",
+          "name": "irot90",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iscan .",
+          "kind": "function",
+          "name": "iscan",
+          "signature": "(image, xstart, xend, ystart, yend, yblock, scan, hardcopy, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iscrunch .",
+          "kind": "function",
+          "name": "iscrunch",
+          "signature": "(image, file, wstart, wend, bins, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/iscruni .",
+          "kind": "function",
+          "name": "iscruni",
+          "signature": "(image, file, file2, fraction, wstart, wend, bins, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isedit .",
+          "kind": "function",
+          "name": "isedit",
+          "signature": "(image, xstart, xend, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ishift .",
+          "kind": "function",
+          "name": "ishift",
+          "signature": "(image, xshift, yshift, xsplit, ysplit, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ismooth .",
+          "kind": "function",
+          "name": "ismooth",
+          "signature": "(image, fraction, repeat, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isplot .",
+          "kind": "function",
+          "name": "isplot",
+          "signature": "(image, ystart, yend, xstart, xend, high, low, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/istat .",
+          "kind": "function",
+          "name": "istat",
+          "signature": "(image, ystart, yend, xstart, xend, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/istretch .",
+          "kind": "function",
+          "name": "istretch",
+          "signature": "(image, xstretch, ystretch, xshift, yshift, xsplit, ysplit, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isub .",
+          "kind": "function",
+          "name": "isub",
+          "signature": "(image, image1, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isubset .",
+          "kind": "function",
+          "name": "isubset",
+          "signature": "(image, ystart, yend, xstart, xend, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isuper .",
+          "kind": "function",
+          "name": "isuper",
+          "signature": "(image, xsize, ysize, xpixel, ypixel, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isxadd .",
+          "kind": "function",
+          "name": "isxadd",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isxdiv .",
+          "kind": "function",
+          "name": "isxdiv",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isxmul .",
+          "kind": "function",
+          "name": "isxmul",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isxsub .",
+          "kind": "function",
+          "name": "isxsub",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isyadd .",
+          "kind": "function",
+          "name": "isyadd",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isydiv .",
+          "kind": "function",
+          "name": "isydiv",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isymul .",
+          "kind": "function",
+          "name": "isymul",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/isysub .",
+          "kind": "function",
+          "name": "isysub",
+          "signature": "(image, spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ixsmooth .",
+          "kind": "function",
+          "name": "ixsmooth",
+          "signature": "(image, sigma, width, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/linterp .",
+          "kind": "function",
+          "name": "linterp",
+          "signature": "(spiketrum, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/longslit .",
+          "kind": "function",
+          "name": "longslit",
+          "signature": "(image, arc_opts, ystart, yend, yblock, iteration, maxlines, clfile, outable, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/lsplot .",
+          "kind": "function",
+          "name": "lsplot",
+          "signature": "(spectrum, xsize, ysize, xstart, xend, high, low, bias, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/lxset .",
+          "kind": "function",
+          "name": "lxset",
+          "signature": "(image, wstart, wend, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/lyset .",
+          "kind": "function",
+          "name": "lyset",
+          "signature": "(image, vstart, vend, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/mask .",
+          "kind": "function",
+          "name": "mask",
+          "signature": "(spectrum, table, mask, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/maskext .",
+          "kind": "function",
+          "name": "maskext",
+          "signature": "(image, mask, mlow, mhigh, subord, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/mcfit .",
+          "kind": "function",
+          "name": "mcfit",
+          "signature": "(spectrum, mask, points, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/medfilt .",
+          "kind": "function",
+          "name": "medfilt",
+          "signature": "(image, box, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/medfiltr .",
+          "kind": "function",
+          "name": "medfiltr",
+          "signature": "(image, xbox, ybox, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/medsky .",
+          "kind": "function",
+          "name": "medsky",
+          "signature": "(files, output, imglog, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/moments .",
+          "kind": "function",
+          "name": "moments",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/movie .",
+          "kind": "function",
+          "name": "movie",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/msplot .",
+          "kind": "function",
+          "name": "msplot",
+          "signature": "(spectrum, xstart, xend, nspect, xrange, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ncset .",
+          "kind": "function",
+          "name": "ncset",
+          "signature": "(spectrum, xstart, xend, value, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/offdist .",
+          "kind": "function",
+          "name": "offdist",
+          "signature": "(infile, offset, outfile, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/optextract .",
+          "kind": "function",
+          "name": "optextract",
+          "signature": "(image, profile, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/overpf .",
+          "kind": "function",
+          "name": "overpf",
+          "signature": "(image, repeat, black, white, pfile, ystart, yend, xstart, xend, extwid, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/peak .",
+          "kind": "function",
+          "name": "peak",
+          "signature": "(spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/polext .",
+          "kind": "function",
+          "name": "polext",
+          "signature": "(image, pfile, dfile, extwidth, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/polysky .",
+          "kind": "function",
+          "name": "polysky",
+          "signature": "(image, ys1, ye1, ys2, ye2, degree, nreject, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/profile .",
+          "kind": "function",
+          "name": "profile",
+          "signature": "(image, ystart, yend, degree, nreject, profile, residual, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/q2bad .",
+          "kind": "function",
+          "name": "q2bad",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/qual2flag .",
+          "kind": "function",
+          "name": "qual2flag",
+          "signature": "(input, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/r2cmplx .",
+          "kind": "function",
+          "name": "r2cmplx",
+          "signature": "(rdata, cdata, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/rcgs2 .",
+          "kind": "function",
+          "name": "rcgs2",
+          "signature": "(file, obs, scan, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/rdfits .",
+          "kind": "function",
+          "name": "rdfits",
+          "signature": "(file, image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/rdipso .",
+          "kind": "function",
+          "name": "rdipso",
+          "signature": "(file, code, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/rembad .",
+          "kind": "function",
+          "name": "rembad",
+          "signature": "(spectrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/renobj .",
+          "kind": "function",
+          "name": "renobj",
+          "signature": "(source, destin, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/resamp .",
+          "kind": "function",
+          "name": "resamp",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/resample .",
+          "kind": "function",
+          "name": "resample",
+          "signature": "(image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/rescale .",
+          "kind": "function",
+          "name": "rescale",
+          "signature": "(image, lowfact, highfact, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/retype .",
+          "kind": "function",
+          "name": "retype",
+          "signature": "(input, type, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/rotx .",
+          "kind": "function",
+          "name": "rotx",
+          "signature": "(image, pixels, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/sclean .",
+          "kind": "function",
+          "name": "sclean",
+          "signature": "(image, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/scnsky .",
+          "kind": "function",
+          "name": "scnsky",
+          "signature": "(image, section, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/scross .",
+          "kind": "function",
+          "name": "scross",
+          "signature": "(spectrum, template, xstart, xend, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/scrunch .",
+          "kind": "function",
+          "name": "scrunch",
+          "signature": "(spectrum, wstart, wend, bins, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/sdist .",
+          "kind": "function",
+          "name": "sdist",
+          "signature": "(image, columns, trace, width, maxdeg, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/setobj .",
+          "kind": "function",
+          "name": "setobj",
+          "signature": "(value, object, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/sfit .",
+          "kind": "function",
+          "name": "sfit",
+          "signature": "(spectrum, order, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/skyliner .",
+          "kind": "function",
+          "name": "skyliner",
+          "signature": "(in_, sky, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/slice .",
+          "kind": "function",
+          "name": "slice",
+          "signature": "(image, ystart, yend, xstart, xend, elements, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/soft .",
+          "kind": "function",
+          "name": "soft",
+          "signature": "(softdev, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/speccont .",
+          "kind": "function",
+          "name": "speccont",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/specgrid .",
+          "kind": "function",
+          "name": "specgrid",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/specplot .",
+          "kind": "function",
+          "name": "specplot",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/spflux .",
+          "kind": "function",
+          "name": "spflux",
+          "signature": "(spectrum, calspect, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/spied .",
+          "kind": "function",
+          "name": "spied",
+          "signature": "(spiketrum, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/spifit .",
+          "kind": "function",
+          "name": "spifit",
+          "signature": "(spiketrum, order, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/splot .",
+          "kind": "function",
+          "name": "splot",
+          "signature": "(spectrum, xstart, xend, high, low, bias, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/sqrterr .",
+          "kind": "function",
+          "name": "sqrterr",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/subset .",
+          "kind": "function",
+          "name": "subset",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/table .",
+          "kind": "function",
+          "name": "table",
+          "signature": "(file, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/tippex .",
+          "kind": "function",
+          "name": "tippex",
+          "signature": "(output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/trimfile .",
+          "kind": "function",
+          "name": "trimfile",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/vachel .",
+          "kind": "function",
+          "name": "vachel",
+          "signature": "(image, output, vel, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/vig .",
+          "kind": "function",
+          "name": "vig",
+          "signature": "(image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/wdfits .",
+          "kind": "function",
+          "name": "wdfits",
+          "signature": "(image, file, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/wdipso .",
+          "kind": "function",
+          "name": "wdipso",
+          "signature": "(spectrum, code, file, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcadd .",
+          "kind": "function",
+          "name": "xcadd",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcdiv .",
+          "kind": "function",
+          "name": "xcdiv",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcmult .",
+          "kind": "function",
+          "name": "xcmult",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcopi .",
+          "kind": "function",
+          "name": "xcopi",
+          "signature": "(spectrum, arc, arc2, fraction, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcopy .",
+          "kind": "function",
+          "name": "xcopy",
+          "signature": "(spectrum, arc, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcsub .",
+          "kind": "function",
+          "name": "xcsub",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xcur .",
+          "kind": "function",
+          "name": "xcur",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xtplane .",
+          "kind": "function",
+          "name": "xtplane",
+          "signature": "(cube, ystart, yend, image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xtract .",
+          "kind": "function",
+          "name": "xtract",
+          "signature": "(in_, colaps, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/xyplane .",
+          "kind": "function",
+          "name": "xyplane",
+          "signature": "(cube, tstart, tend, image, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ycadd .",
+          "kind": "function",
+          "name": "ycadd",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ycdiv .",
+          "kind": "function",
+          "name": "ycdiv",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ycmult .",
+          "kind": "function",
+          "name": "ycmult",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ycsub .",
+          "kind": "function",
+          "name": "ycsub",
+          "signature": "(image, factor, output, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ystract .",
+          "kind": "function",
+          "name": "ystract",
+          "signature": "(image, xstart, xend, spectrum, **kwargs)"
+        },
+        {
+          "doc_summary": "Runs the command: $FIG_DIR/ytplane .",
+          "kind": "function",
+          "name": "ytplane",
+          "signature": "(cube, xstart, xend, image, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "cd6be156ebddf7adf56192ae2f165b576f19af71123a618928c949bf87c5dc84"
+    },
+    "fluxes": {
+      "file": "fluxes.py",
+      "generated_starlink": null,
+      "public_callables": [
+        {
+          "doc_summary": "Return the flux and Temp. for a planet, the sun or the moon.",
+          "kind": "function",
+          "name": "get_flux",
+          "signature": "(planet, date, filter_ = 850)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "70506f51da296a077e62b76f8d77025842e73e40dff656ef04946556b034483e"
+    },
+    "hdsutils": {
+      "file": "hdsutils.py",
+      "generated_starlink": null,
+      "public_callables": [
+        {
+          "doc_summary": "Return a namedtuple with all the values",
+          "kind": "function",
+          "name": "get_adam_hds_values",
+          "signature": "(comname, adamdir)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "04e1f99fb83811839a0c625f97fc9ba4c04c3421bf732a4b0c3b5b53330f8457"
+    },
+    "kappa": {
+      "file": "kappa.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Adds two NDF data structures.",
+          "kind": "function",
+          "name": "add",
+          "signature": "(in1, in2, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Aligns a pair of two-dimensional NDFs by minimising the residuals",
+          "kind": "function",
+          "name": "align2d",
+          "signature": "(in_, ref, **kwargs)"
+        },
+        {
+          "doc_summary": "Integrates pixel values within an aperture of an NDF.",
+          "kind": "function",
+          "name": "aperadd",
+          "signature": "(ndf, centre, diam, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a text file describing selected regions of an image.",
+          "kind": "function",
+          "name": "ardgen",
+          "signature": "(ardout, shape, option, **kwargs)"
+        },
+        {
+          "doc_summary": "Uses an ARD file to set some pixels of an NDF to be bad.",
+          "kind": "function",
+          "name": "ardmask",
+          "signature": "(in_, ardfile, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Plot regions described in an ARD file.",
+          "kind": "function",
+          "name": "ardplot",
+          "signature": "(ardfile, **kwargs)"
+        },
+        {
+          "doc_summary": "Expands spaced axes in an NDF into the primitive form.",
+          "kind": "function",
+          "name": "axconv",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new label value for an axis within an NDF data structure.",
+          "kind": "function",
+          "name": "axlabel",
+          "signature": "(ndf, label, dim, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new units value for an axis within an NDF data structure.",
+          "kind": "function",
+          "name": "axunits",
+          "signature": "(ndf, units, dim, **kwargs)"
+        },
+        {
+          "doc_summary": "Fits beam features in a two-dimensional NDF.",
+          "kind": "function",
+          "name": "beamfit",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Smooths an NDF using an n-dimensional rectangular box filter.",
+          "kind": "function",
+          "name": "block",
+          "signature": "(in_, out, box, **kwargs)"
+        },
+        {
+          "doc_summary": "Adds a scalar to an NDF data structure.",
+          "kind": "function",
+          "name": "cadd",
+          "signature": "(in_, scalar, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Evaluates a mathematical expression.",
+          "kind": "function",
+          "name": "calc",
+          "signature": "(exp, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculates polarisation parameters.",
+          "kind": "function",
+          "name": "calpol",
+          "signature": "(in1, in2, in3, in4, p, theta, i, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a cube representing a carpet plot of an image.",
+          "kind": "function",
+          "name": "carpet",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Divides an NDF by a scalar.",
+          "kind": "function",
+          "name": "cdiv",
+          "signature": "(in_, scalar, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Finds the centroids of star-like features in an NDF.",
+          "kind": "function",
+          "name": "centroid",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Concatenates a series of vectorized NDFs.",
+          "kind": "function",
+          "name": "chain",
+          "signature": "(in_, c1, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a channel map from a cube NDF by compressing slices along",
+          "kind": "function",
+          "name": "chanmap",
+          "signature": "(in_, out, axis, nchan, shape, **kwargs)"
+        },
+        {
+          "doc_summary": "Replaces the values of selected pixels in an NDF.",
+          "kind": "function",
+          "name": "chpix",
+          "signature": "(in_, out, section, newval, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws a spatial grid of line plots for an axis of a cube NDF.",
+          "kind": "function",
+          "name": "clinplot",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Multiplies an NDF by a scalar.",
+          "kind": "function",
+          "name": "cmult",
+          "signature": "(in_, scalar, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Produces a colour composite of up to three 2-dimensional NDFs.",
+          "kind": "function",
+          "name": "colcomp",
+          "signature": "(inr, ing, inb, out, lut, **kwargs)"
+        },
+        {
+          "doc_summary": "Reduce the number of axes in an N-dimensional NDF by compressing",
+          "kind": "function",
+          "name": "collapse",
+          "signature": "(in_, out, axis, **kwargs)"
+        },
+        {
+          "doc_summary": "Reduces the size of an NDF by adding values in rectangular boxes.",
+          "kind": "function",
+          "name": "compadd",
+          "signature": "(in_, out, compress, **kwargs)"
+        },
+        {
+          "doc_summary": "Reduces the size of an NDF by averaging values in rectangular",
+          "kind": "function",
+          "name": "compave",
+          "signature": "(in_, out, compress, **kwargs)"
+        },
+        {
+          "doc_summary": "Reduces the size of an NDF by picking equally spaced pixels.",
+          "kind": "function",
+          "name": "compick",
+          "signature": "(in_, out, compress, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays one or more configuration parameters.",
+          "kind": "function",
+          "name": "configecho",
+          "signature": "(name, config, **kwargs)"
+        },
+        {
+          "doc_summary": "Contours a 2-d NDF.",
+          "kind": "function",
+          "name": "contour",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Convolves a pair of NDFs where the smoothing NDF is one- or",
+          "kind": "function",
+          "name": "convolve",
+          "signature": "(in_, psf, out, xcentre, ycentre, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies bad pixels from one NDF file to another.",
+          "kind": "function",
+          "name": "copybad",
+          "signature": "(in_, ref, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Generates a test two-dimensional NDF with a selection of several",
+          "kind": "function",
+          "name": "creframe",
+          "signature": "(out, **kwargs)"
+        },
+        {
+          "doc_summary": "Subtracts a scalar from an NDF data structure.",
+          "kind": "function",
+          "name": "csub",
+          "signature": "(in_, scalar, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Sums the values cumulatively in a one-dimensional NDF.",
+          "kind": "function",
+          "name": "cumulvec",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Reports the co-ordinates of positions selected using the cursor.",
+          "kind": "function",
+          "name": "cursor",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays a one- or two-dimensional NDF.",
+          "kind": "function",
+          "name": "display",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Divides one NDF data structure by another.",
+          "kind": "function",
+          "name": "div",
+          "signature": "(in1, in2, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws arrows parallel to the axes.",
+          "kind": "function",
+          "name": "drawnorth",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws +/-n standard-deviation lines on a line plot.",
+          "kind": "function",
+          "name": "drawsig",
+          "signature": "(ndf, nsigma, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a radial or azimuthal profile of a 2-dimensional image.",
+          "kind": "function",
+          "name": "elprof",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Erases an HDS object.",
+          "kind": "function",
+          "name": "erase",
+          "signature": "(object, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes pixels with large errors from an NDF.",
+          "kind": "function",
+          "name": "errclip",
+          "signature": "(in_, out, limit, **kwargs)"
+        },
+        {
+          "doc_summary": "Excludes bad rows or columns from a two-dimensional NDF.",
+          "kind": "function",
+          "name": "excludebad",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Takes the exponential (specified base) of an NDF data structure.",
+          "kind": "function",
+          "name": "expon",
+          "signature": "(in_, out, base, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes defects from a substantially flat one-, two- or",
+          "kind": "function",
+          "name": "ffclean",
+          "signature": "(in_, out, clip, box, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes regions of bad values from an NDF.",
+          "kind": "function",
+          "name": "fillbad",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Reads a FITS disc file composed of simple, group or table objects.",
+          "kind": "function",
+          "name": "fitsdin",
+          "signature": "(files, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Edits the FITS extension of an NDF.",
+          "kind": "function",
+          "name": "fitsedit",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Inquires whether or not a keyword exists in a FITS extension.",
+          "kind": "function",
+          "name": "fitsexist",
+          "signature": "(ndf, keyword, **kwargs)"
+        },
+        {
+          "doc_summary": "Exports NDF-extension information into an NDF FITS extension.",
+          "kind": "function",
+          "name": "fitsexp",
+          "signature": "(ndf, table, **kwargs)"
+        },
+        {
+          "doc_summary": "Lists the headers of FITS files.",
+          "kind": "function",
+          "name": "fitshead",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Imports FITS information into an NDF extension.",
+          "kind": "function",
+          "name": "fitsimp",
+          "signature": "(ndf, table, xname, xtype, **kwargs)"
+        },
+        {
+          "doc_summary": "Lists the FITS extension of an NDF.",
+          "kind": "function",
+          "name": "fitslist",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Edits an NDF FITS extension via a text file or parameters.",
+          "kind": "function",
+          "name": "fitsmod",
+          "signature": "(ndf, keyword, edit, value, comment, position, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates an NDF FITS extension from a text file.",
+          "kind": "function",
+          "name": "fitstext",
+          "signature": "(ndf, file, **kwargs)"
+        },
+        {
+          "doc_summary": "Fits a polynomial surface to two-dimensional data array.",
+          "kind": "function",
+          "name": "fitsurface",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Reports the value of a keyword in the FITS airlock.",
+          "kind": "function",
+          "name": "fitsval",
+          "signature": "(ndf, keyword, **kwargs)"
+        },
+        {
+          "doc_summary": "Writes a new keyword to the FITS extension.",
+          "kind": "function",
+          "name": "fitswrite",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Reverses an NDF's pixels along a specified dimension.",
+          "kind": "function",
+          "name": "flip",
+          "signature": "(in_, out, dim, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs forward and inverse Fourier transforms of 1- or",
+          "kind": "function",
+          "name": "fourier",
+          "signature": "(in_, hermout, **kwargs)"
+        },
+        {
+          "doc_summary": "Smooths a one- to three-dimensional NDF using a Gaussian filter.",
+          "kind": "function",
+          "name": "gausmooth",
+          "signature": "(in_, out, fwhm, **kwargs)"
+        },
+        {
+          "doc_summary": "Clears a graphics device and purges its database entries.",
+          "kind": "function",
+          "name": "gdclear",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Shows which graphics devices are available.",
+          "kind": "function",
+          "name": "gdnames",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Selects a current graphics device.",
+          "kind": "function",
+          "name": "gdset",
+          "signature": "(device, **kwargs)"
+        },
+        {
+          "doc_summary": "Shows the current status of a graphics device.",
+          "kind": "function",
+          "name": "gdstate",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Replaces bad pixels in a 2-d NDF with the local median",
+          "kind": "function",
+          "name": "glitch",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays the values of the KAPPA global parameters.",
+          "kind": "function",
+          "name": "globals",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Adds commentary to the history of an NDF.",
+          "kind": "function",
+          "name": "hiscom",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Lists NDF history records.",
+          "kind": "function",
+          "name": "hislist",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets the NDF history update mode.",
+          "kind": "function",
+          "name": "hisset",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Computes ordered statistics for an NDF's pixels using an",
+          "kind": "function",
+          "name": "histat",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs an histogram equalisation on an NDF.",
+          "kind": "function",
+          "name": "histeq",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Computes an histogram of an NDF's values.",
+          "kind": "function",
+          "name": "histogram",
+          "signature": "(in_, numbin, range, **kwargs)"
+        },
+        {
+          "doc_summary": "Forms a higher-resolution NDF by interleaving a set of NDFs.",
+          "kind": "function",
+          "name": "interleave",
+          "signature": "(in_, out, expand, **kwargs)"
+        },
+        {
+          "doc_summary": "Checks the package version number.",
+          "kind": "function",
+          "name": "kapversion",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Compares data sets using the Kolmogorov-Smirnov test.",
+          "kind": "function",
+          "name": "kstest",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs a Laplacian convolution as an edge detector in a 2-d NDF",
+          "kind": "function",
+          "name": "laplace",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws a line plot of the data values in a one-dimensional NDF.",
+          "kind": "function",
+          "name": "linplot",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a catalogue holding a positions list.",
+          "kind": "function",
+          "name": "listmake",
+          "signature": "(outcat, **kwargs)"
+        },
+        {
+          "doc_summary": "Reports the positions stored in a positions list.",
+          "kind": "function",
+          "name": "listshow",
+          "signature": "(incat, **kwargs)"
+        },
+        {
+          "doc_summary": "Takes the logarithm (specified base) of an NDF data structure.",
+          "kind": "function",
+          "name": "logar",
+          "signature": "(in_, out, base, **kwargs)"
+        },
+        {
+          "doc_summary": "Lists pixel values in a one- or two-dimensional NDF.",
+          "kind": "function",
+          "name": "look",
+          "signature": "(ndf, centre, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs a Richardson-Lucy deconvolution of a 1- or 2-dimensional",
+          "kind": "function",
+          "name": "lucy",
+          "signature": "(in_, psf, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Manipulates an image-display colour table.",
+          "kind": "function",
+          "name": "lutable",
+          "signature": "(mapping, coltab, lut, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the BGYRW lookup table.",
+          "kind": "function",
+          "name": "lutbgyrw",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the standard colour lookup table.",
+          "kind": "function",
+          "name": "lutcol",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the cold lookup table.",
+          "kind": "function",
+          "name": "lutcold",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads a lookup table to give the display the appearance of a",
+          "kind": "function",
+          "name": "lutcont",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create or edit an image-display colour lookup table.",
+          "kind": "function",
+          "name": "lutedit",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the standard false-colour lookup table.",
+          "kind": "function",
+          "name": "lutfc",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the standard greyscale lookup table.",
+          "kind": "function",
+          "name": "lutgrey",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the heat lookup table.",
+          "kind": "function",
+          "name": "lutheat",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the default Ikon lookup table.",
+          "kind": "function",
+          "name": "lutikon",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the standard negative greyscale lookup table.",
+          "kind": "function",
+          "name": "lutneg",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the coloured-ramps lookup table.",
+          "kind": "function",
+          "name": "lutramps",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads an image-display lookup table from an NDF.",
+          "kind": "function",
+          "name": "lutread",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Saves the current colour table of an image-display device in an",
+          "kind": "function",
+          "name": "lutsave",
+          "signature": "(lut, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads a spectrum-like lookup table.",
+          "kind": "function",
+          "name": "lutspec",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws a colour-table key.",
+          "kind": "function",
+          "name": "lutview",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the warm lookup table.",
+          "kind": "function",
+          "name": "lutwarm",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads a pseudo-contour lookup table.",
+          "kind": "function",
+          "name": "lutzebra",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a signal-to-noise array from an NDF with defined variances.",
+          "kind": "function",
+          "name": "makesnr",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a two-dimensional NDF from the coefficients of a",
+          "kind": "function",
+          "name": "makesurface",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Change the dimensionality of all or part of an NDF.",
+          "kind": "function",
+          "name": "manic",
+          "signature": "(in_, out, axes, **kwargs)"
+        },
+        {
+          "doc_summary": "Evaluates mathematical expressions applied to NDF data structures.",
+          "kind": "function",
+          "name": "maths",
+          "signature": "(exp, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Smooths a 2-dimensional data array using a weighted median filter.",
+          "kind": "function",
+          "name": "median",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Fits independent trends to data lines that are parallel to an",
+          "kind": "function",
+          "name": "mfittrend",
+          "signature": "(in_, axis, ranges, out, order, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws a multi-line plot of the data values in a two-dimensional",
+          "kind": "function",
+          "name": "mlinplot",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate statistics over a group of data arrays or points.",
+          "kind": "function",
+          "name": "mstats",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Multiplies two NDF data structures.",
+          "kind": "function",
+          "name": "mult",
+          "signature": "(in1, in2, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts an HDS object to native machine data representation.",
+          "kind": "function",
+          "name": "native",
+          "signature": "(object, **kwargs)"
+        },
+        {
+          "doc_summary": "Compares a pair of NDFs for equivalence.",
+          "kind": "function",
+          "name": "ndfcompare",
+          "signature": "(in1, in2, **kwargs)"
+        },
+        {
+          "doc_summary": "Compresses an NDF so that it occupies less disk space.",
+          "kind": "function",
+          "name": "ndfcompress",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies an NDF (or NDF section) to a new location.",
+          "kind": "function",
+          "name": "ndfcopy",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays a group of NDF names.",
+          "kind": "function",
+          "name": "ndfecho",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays the attributes of an NDF data structure.",
+          "kind": "function",
+          "name": "ndftrace",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Resets the KAPPA global parameters.",
+          "kind": "function",
+          "name": "noglobals",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Replaces all occurrences of magic value pixels in an NDF array",
+          "kind": "function",
+          "name": "nomagic",
+          "signature": "(in_, out, repval, **kwargs)"
+        },
+        {
+          "doc_summary": "Normalises one NDF to a similar NDF by calculating a scale factor",
+          "kind": "function",
+          "name": "normalize",
+          "signature": "(in1, in2, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Counts the number of elements of an NDF with values or absolute",
+          "kind": "function",
+          "name": "numb",
+          "signature": "(in_, value, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes odd-even defects from a one-dimensional NDF.",
+          "kind": "function",
+          "name": "oddeven",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Draws an outline of a 2-d NDF.",
+          "kind": "function",
+          "name": "outline",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Mask pixels inside or outside a specified circle in a",
+          "kind": "function",
+          "name": "outset",
+          "signature": "(in_, out, centre, diam, **kwargs)"
+        },
+        {
+          "doc_summary": "Loads the default palette to a colour table.",
+          "kind": "function",
+          "name": "paldef",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Enters a colour into an image display's palette.",
+          "kind": "function",
+          "name": "palentry",
+          "signature": "(palnum, colour, **kwargs)"
+        },
+        {
+          "doc_summary": "Fills the palette of a colour table from an NDF.",
+          "kind": "function",
+          "name": "palread",
+          "signature": "(palette, **kwargs)"
+        },
+        {
+          "doc_summary": "Saves the current palette of a colour table to an NDF.",
+          "kind": "function",
+          "name": "palsave",
+          "signature": "(palette, **kwargs)"
+        },
+        {
+          "doc_summary": "Obtains the value or values of an application parameter.",
+          "kind": "function",
+          "name": "parget",
+          "signature": "(parname, applic, **kwargs)"
+        },
+        {
+          "doc_summary": "Pastes a series of NDFs upon each other.",
+          "kind": "function",
+          "name": "paste",
+          "signature": "(in_, p1, **kwargs)"
+        },
+        {
+          "doc_summary": "Permute an NDF's pixel axes.",
+          "kind": "function",
+          "name": "permaxes",
+          "signature": "(in_, out, perm, **kwargs)"
+        },
+        {
+          "doc_summary": "Selects the BASE picture from the graphics database.",
+          "kind": "function",
+          "name": "picbase",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Uses a graphics cursor to change the current picture.",
+          "kind": "function",
+          "name": "piccur",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Selects the last DATA picture from the graphics database.",
+          "kind": "function",
+          "name": "picdata",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Defines a new graphics-database FRAME picture or an array of",
+          "kind": "function",
+          "name": "picdef",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Finds the first empty FRAME picture in the graphics database.",
+          "kind": "function",
+          "name": "picempty",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Finds the first unobscured and unobscuring FRAME picture in the",
+          "kind": "function",
+          "name": "picentire",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Selects the last FRAME picture from the graphics database.",
+          "kind": "function",
+          "name": "picframe",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates an array of FRAME pictures",
+          "kind": "function",
+          "name": "picgrid",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Finds the attributes of a picture interior to the current picture.",
+          "kind": "function",
+          "name": "picin",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Labels the current graphics-database picture.",
+          "kind": "function",
+          "name": "piclabel",
+          "signature": "(label, **kwargs)"
+        },
+        {
+          "doc_summary": "Selects the last picture from the graphics datalast.",
+          "kind": "function",
+          "name": "piclast",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Lists the pictures in the graphics database for a device.",
+          "kind": "function",
+          "name": "piclist",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Selects a graphics-database picture by its label.",
+          "kind": "function",
+          "name": "picsel",
+          "signature": "(label, **kwargs)"
+        },
+        {
+          "doc_summary": "Transforms a graphics position from one picture co-ordinate Frame",
+          "kind": "function",
+          "name": "pictrans",
+          "signature": "(posin, **kwargs)"
+        },
+        {
+          "doc_summary": "Finds the first unobscured FRAME picture in the graphics database.",
+          "kind": "function",
+          "name": "picvis",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a new FRAME picture defined by co-ordinate bounds",
+          "kind": "function",
+          "name": "picxy",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Expands an NDF by pixel duplication.",
+          "kind": "function",
+          "name": "pixdupe",
+          "signature": "(in_, out, expand, **kwargs)"
+        },
+        {
+          "doc_summary": "Plucks slices from an NDF at arbitrary positions.",
+          "kind": "function",
+          "name": "pluck",
+          "signature": "(in_, axes, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a 1-dimensional profile through an N-dimensional NDF.",
+          "kind": "function",
+          "name": "profile",
+          "signature": "(in_, out, start, finish, **kwargs)"
+        },
+        {
+          "doc_summary": "Stores provenance information in an NDF.",
+          "kind": "function",
+          "name": "provadd",
+          "signature": "(ndf, parent, **kwargs)"
+        },
+        {
+          "doc_summary": "Modifies provenance information for an NDF.",
+          "kind": "function",
+          "name": "provmod",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes selected provenance information from an NDF.",
+          "kind": "function",
+          "name": "provrem",
+          "signature": "(ndf, pattern, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays provenance information for an NDF.",
+          "kind": "function",
+          "name": "provshow",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Determines the parameters of a model star profile by fitting star",
+          "kind": "function",
+          "name": "psf",
+          "signature": "(in_, incat, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets selected NDF pixels bad on the basis of Quality.",
+          "kind": "function",
+          "name": "qualtobad",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Applies a mask to a region of an NDF.",
+          "kind": "function",
+          "name": "regionmask",
+          "signature": "(in_, region, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Applies a geometrical transformation to an NDF.",
+          "kind": "function",
+          "name": "regrid",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Remove specified quality definitions from an NDF.",
+          "kind": "function",
+          "name": "remqual",
+          "signature": "(ndf, qnames, **kwargs)"
+        },
+        {
+          "doc_summary": "Reshapes an NDF, treating its arrays as vectors.",
+          "kind": "function",
+          "name": "reshape",
+          "signature": "(in_, out, shape, **kwargs)"
+        },
+        {
+          "doc_summary": "Adds a scalar to a section of an NDF data structure to correct",
+          "kind": "function",
+          "name": "rift",
+          "signature": "(in_, scalar, out, section, **kwargs)"
+        },
+        {
+          "doc_summary": "Rotates a two-dimensional NDF about its centre through any angle.",
+          "kind": "function",
+          "name": "rotate",
+          "signature": "(in_, out, angle, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays a scatter plot between data in two NDFs.",
+          "kind": "function",
+          "name": "scatter",
+          "signature": "(in1, in2, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies polygonal segments from one NDF into another.",
+          "kind": "function",
+          "name": "segment",
+          "signature": "(in1, in2, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets values for an axis array component within an NDF data",
+          "kind": "function",
+          "name": "setaxis",
+          "signature": "(ndf, dim, mode, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets new bad-pixel flag values for an NDF.",
+          "kind": "function",
+          "name": "setbad",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new value for the quality bad-bits mask of an NDF.",
+          "kind": "function",
+          "name": "setbb",
+          "signature": "(ndf, bb, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets new bounds for an NDF.",
+          "kind": "function",
+          "name": "setbound",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Manipulates the contents of a specified NDF extension.",
+          "kind": "function",
+          "name": "setext",
+          "signature": "(ndf, xname, option, cname, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new label for an NDF data structure.",
+          "kind": "function",
+          "name": "setlabel",
+          "signature": "(ndf, label, **kwargs)"
+        },
+        {
+          "doc_summary": "Replaces all occurrences of a given value in an NDF array with",
+          "kind": "function",
+          "name": "setmagic",
+          "signature": "(in_, out, repval, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new value for one or all of an NDF's axis-normalisation",
+          "kind": "function",
+          "name": "setnorm",
+          "signature": "(ndf, dim, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new pixel origin for an NDF.",
+          "kind": "function",
+          "name": "setorigin",
+          "signature": "(ndf, origin, **kwargs)"
+        },
+        {
+          "doc_summary": "Assign a specified quality to selected pixels within an NDF.",
+          "kind": "function",
+          "name": "setqual",
+          "signature": "(ndf, qname, comment, mask, **kwargs)"
+        },
+        {
+          "doc_summary": "Stores new  WCS information within an NDF.",
+          "kind": "function",
+          "name": "setsky",
+          "signature": "(ndf, positions, coords, epoch, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new title for an NDF data structure.",
+          "kind": "function",
+          "name": "settitle",
+          "signature": "(ndf, title, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new numeric type for the data and variance components of",
+          "kind": "function",
+          "name": "settype",
+          "signature": "(ndf, type, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets a new units value for an NDF data structure.",
+          "kind": "function",
+          "name": "setunits",
+          "signature": "(ndf, units, **kwargs)"
+        },
+        {
+          "doc_summary": "Set new values for the VARIANCE component of an NDF data",
+          "kind": "function",
+          "name": "setvar",
+          "signature": "(ndf, variance, **kwargs)"
+        },
+        {
+          "doc_summary": "Enhances edges in a 2-dimensional NDF using a shadow effect.",
+          "kind": "function",
+          "name": "shadow",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Displays the quality names defined in an NDF.",
+          "kind": "function",
+          "name": "showqual",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Realigns an NDF using a translation.",
+          "kind": "function",
+          "name": "slide",
+          "signature": "(in_, out, abs, **kwargs)"
+        },
+        {
+          "doc_summary": "Squashes or stretches an NDF.",
+          "kind": "function",
+          "name": "sqorst",
+          "signature": "(in_, out, factors, **kwargs)"
+        },
+        {
+          "doc_summary": "Computes simple statistics for an NDF's pixels.",
+          "kind": "function",
+          "name": "stats",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Subtracts one NDF data structure from another.",
+          "kind": "function",
+          "name": "sub",
+          "signature": "(in1, in2, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Replaces all occurrences of a given value in an NDF array with",
+          "kind": "function",
+          "name": "substitute",
+          "signature": "(in_, out, oldval, newval, **kwargs)"
+        },
+        {
+          "doc_summary": "Fits a polynomial or bi-cubic spline surface to two-dimensional",
+          "kind": "function",
+          "name": "surfit",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Edits an NDF to replace values between or outside given limits",
+          "kind": "function",
+          "name": "thresh",
+          "signature": "(in_, out, thrlo, thrhi, newlo, newhi, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts free-format text data into an NDF.",
+          "kind": "function",
+          "name": "trandat",
+          "signature": "(freename, ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Performs a trigonometric transformation on a NDF.",
+          "kind": "function",
+          "name": "trig",
+          "signature": "(in_, trigfunc, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Plots a two-dimensional vector map.",
+          "kind": "function",
+          "name": "vecplot",
+          "signature": "(ndf1, ndf2, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a Mapping and optionally adds a new co-ordinate Frame into",
+          "kind": "function",
+          "name": "wcsadd",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Aligns a group of NDFs using World Co-ordinate System information.",
+          "kind": "function",
+          "name": "wcsalign",
+          "signature": "(in_, out, lbnd, ubnd, **kwargs)"
+        },
+        {
+          "doc_summary": "Manages attribute values associated with the WCS component of an",
+          "kind": "function",
+          "name": "wcsattrib",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies WCS information from one NDF to another.",
+          "kind": "function",
+          "name": "wcscopy",
+          "signature": "(ndf, like, **kwargs)"
+        },
+        {
+          "doc_summary": "Change the current co-ordinate Frame in the WCS component of an NDF.",
+          "kind": "function",
+          "name": "wcsframe",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Tiles a group of NDFs using World Co-ordinate System information.",
+          "kind": "function",
+          "name": "wcsmosaic",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Remove co-ordinate Frames from the WCS component of an NDF.",
+          "kind": "function",
+          "name": "wcsremove",
+          "signature": "(ndf, frames, **kwargs)"
+        },
+        {
+          "doc_summary": "Examines the internal structure of an AST Object.",
+          "kind": "function",
+          "name": "wcsshow",
+          "signature": "(ndf, object, **kwargs)"
+        },
+        {
+          "doc_summary": "Applies a translational correction to the WCS in an NDF.",
+          "kind": "function",
+          "name": "wcsslide",
+          "signature": "(ndf, abs, **kwargs)"
+        },
+        {
+          "doc_summary": "Transform a position from one NDF co-ordinate Frame to another.",
+          "kind": "function",
+          "name": "wcstran",
+          "signature": "(ndf, posin, **kwargs)"
+        },
+        {
+          "doc_summary": "Applies a Wiener filter to a 1- or 2-dimensional array.",
+          "kind": "function",
+          "name": "wiener",
+          "signature": "(in_, psf, out, xcentre, ycentre, **kwargs)"
+        },
+        {
+          "doc_summary": "Replaces regions in a two-dimensional NDF by bad values or by",
+          "kind": "function",
+          "name": "zaplin",
+          "signature": "(in_, out, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "d690760c211789e9f04f5c11faca2edc998eca441f44bea87c6e42b31d1bf1bb"
+    },
+    "picard": {
+      "file": "picard.py",
+      "generated_starlink": null,
+      "public_callables": [
+        {
+          "doc_summary": "Run PICARD'S CALC_SCUBA2_AVPSPEC recipe.",
+          "kind": "function",
+          "name": "calc_scuba2_avpspec",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S CALC_SCUBA2_FCF recipe.",
+          "kind": "function",
+          "name": "calc_scuba2_fcf",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S CALC_SCUBA2_NEFD recipe.",
+          "kind": "function",
+          "name": "calc_scuba2_nefd",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S CALIBRATE_SCUBA2_DATA recipe.",
+          "kind": "function",
+          "name": "calibrate_scuba2_data",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S COADD_JSA_TILES recipe.",
+          "kind": "function",
+          "name": "coadd_jsa_tiles",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S CREATE_MOMENTS_MAP recipe.",
+          "kind": "function",
+          "name": "create_moments_map",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S CREATE_PNG recipe.",
+          "kind": "function",
+          "name": "create_png",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S CROP_SCUBA2_IMAGES recipe.",
+          "kind": "function",
+          "name": "crop_scuba2_images",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S ESTIMATE_IMAGE_ALIGNMENT recipe.",
+          "kind": "function",
+          "name": "estimate_image_alignment",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S JSA_CATALOGUE recipe.",
+          "kind": "function",
+          "name": "jsa_catalogue",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S MOSAIC_JCMT_IMAGES recipe.",
+          "kind": "function",
+          "name": "mosaic_jcmt_images",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S PICARD_DEMONSTRATOR recipe.",
+          "kind": "function",
+          "name": "picard_demonstrator",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_CHECK_CAL recipe.",
+          "kind": "function",
+          "name": "scuba2_check_cal",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_CHECK_RMS recipe.",
+          "kind": "function",
+          "name": "scuba2_check_rms",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_DISPLAY_PCA recipe.",
+          "kind": "function",
+          "name": "scuba2_display_pca",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_JACKKNIFE recipe.",
+          "kind": "function",
+          "name": "scuba2_jackknife",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_JACKKNIFE_PSF recipe.",
+          "kind": "function",
+          "name": "scuba2_jackknife_psf",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_MAP_PSPEC recipe.",
+          "kind": "function",
+          "name": "scuba2_map_pspec",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_MAPSTATS recipe.",
+          "kind": "function",
+          "name": "scuba2_mapstats",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_MATCHED_FILTER recipe.",
+          "kind": "function",
+          "name": "scuba2_matched_filter",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_PHOTOM recipe.",
+          "kind": "function",
+          "name": "scuba2_photom",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_REGISTER_IMAGES recipe.",
+          "kind": "function",
+          "name": "scuba2_register_images",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_REMOVE_BACKGROUND recipe.",
+          "kind": "function",
+          "name": "scuba2_remove_background",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S SCUBA2_SASSY recipe.",
+          "kind": "function",
+          "name": "scuba2_sassy",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S STACK_JCMT_FRAMES recipe.",
+          "kind": "function",
+          "name": "stack_jcmt_frames",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S UNCALIBRATE_SCUBA2_DATA recipe.",
+          "kind": "function",
+          "name": "uncalibrate_scuba2_data",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Run PICARD'S UNTRIM_JSA_TILES recipe.",
+          "kind": "function",
+          "name": "untrim_jsa_tiles",
+          "signature": "(*args, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "6bd8ff3e167e661d358dd00a608fa4bc03cc417827bcb2d0990b892dc96a8d7e"
+    },
+    "polpack": {
+      "file": "polpack.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Bins a catalogue containing Stokes parameters.",
+          "kind": "function",
+          "name": "polbin",
+          "signature": "(in_, out, box, method, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a set of analysed intensity images into a cube holding Stokes",
+          "kind": "function",
+          "name": "polcal",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Find the centroid of a set of positions in an image.",
+          "kind": "function",
+          "name": "polcent",
+          "signature": "(ndf, infile, outfile, **kwargs)"
+        },
+        {
+          "doc_summary": "Concatenate two or more vector catalogues.",
+          "kind": "function",
+          "name": "polconcat",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies information from the POLPACK extension to named FITS keywords.",
+          "kind": "function",
+          "name": "polexp",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies information from the POLPACK extension to named FITS keywords.",
+          "kind": "function",
+          "name": "polexpx",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Sets explicit values in the POLPACK extension.",
+          "kind": "function",
+          "name": "polext",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Converts a catalogue into an NDF.",
+          "kind": "function",
+          "name": "polimage",
+          "signature": "(in_, out, coldat, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies FITS keyword values into the POLPACK extension.",
+          "kind": "function",
+          "name": "polimp",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies FITS keyword values into the POLPACK extension.",
+          "kind": "function",
+          "name": "polimpx",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates Stokes vectors from a set of 2-dimensional intensity frames.",
+          "kind": "function",
+          "name": "polka",
+          "signature": "(in_, out_s, **kwargs)"
+        },
+        {
+          "doc_summary": "Plots a 2-dimensional vector map.",
+          "kind": "function",
+          "name": "polplot",
+          "signature": "(cat, **kwargs)"
+        },
+        {
+          "doc_summary": "Prepare an input image for use by Polka.",
+          "kind": "function",
+          "name": "polprep",
+          "signature": "(in_, out, ref, **kwargs)"
+        },
+        {
+          "doc_summary": "Reads a text file holding the contents of a specified catalogue in",
+          "kind": "function",
+          "name": "polrdtcl",
+          "signature": "(in_, ref, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Rotate the reference direction in a pair of Q and U images.",
+          "kind": "function",
+          "name": "polrotref",
+          "signature": "(qin, uin, qout, uout, **kwargs)"
+        },
+        {
+          "doc_summary": "Select vectors from a catalogue.",
+          "kind": "function",
+          "name": "polselect",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Produces intensity data corresponding to given Stokes vectors.",
+          "kind": "function",
+          "name": "polsim",
+          "signature": "(cube, in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Stack a set of intensity images.",
+          "kind": "function",
+          "name": "polstack",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculates polarization vectors from supplied Stokes parameters.",
+          "kind": "function",
+          "name": "polvec",
+          "signature": "(in_, cat, **kwargs)"
+        },
+        {
+          "doc_summary": "Checks the package version number.",
+          "kind": "function",
+          "name": "polversion",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Copies WCS from one catalogue to another.",
+          "kind": "function",
+          "name": "polwcscopy",
+          "signature": "(in_, out, ref, **kwargs)"
+        },
+        {
+          "doc_summary": "Creates a text file holding the contents of a specified catalogue in",
+          "kind": "function",
+          "name": "polwrtcl",
+          "signature": "(in_, out, system, **kwargs)"
+        },
+        {
+          "doc_summary": "Convert a Z axis value to a Z column value",
+          "kind": "function",
+          "name": "polzconv",
+          "signature": "(cat, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "dc14e0b75413e8a0f2ae2314e2fa2b1dabfcfd46ace67df65b7517ea36a5d17a"
+    },
+    "smurf": {
+      "file": "smurf.py",
+      "generated_starlink": {
+        "commit": "b6ca36bf8884802759017298539489d11795861e",
+        "generated_at": "2018-07-06 09:36:39",
+        "release": "2018A"
+      },
+      "public_callables": [
+        {
+          "doc_summary": "Generate a map of random dead bolometers and add it as an NDF",
+          "kind": "function",
+          "name": "badbolos",
+          "signature": "(in_, bad_columns, bad_rows, bad_bolos, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate the 2d dark frame from dark observation.",
+          "kind": "function",
+          "name": "calcdark",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate a flatfield solution from a flatfield observation.",
+          "kind": "function",
+          "name": "calcflat",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate noise image",
+          "kind": "function",
+          "name": "calcnoise",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate Q and U images from a set of time-series data files.",
+          "kind": "function",
+          "name": "calcqu",
+          "signature": "(in_, outq, outu, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate bolometer responsivity from stored flatfield solution.",
+          "kind": "function",
+          "name": "calcresp",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Check for discrepancies between AZEL and TRACKING coordinates.",
+          "kind": "function",
+          "name": "checkcoords",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Compare two MAKEMAP configs using a visual file comparison tool.",
+          "kind": "function",
+          "name": "configmeld",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Copy the flatfield information from a reference file",
+          "kind": "function",
+          "name": "copyflat",
+          "signature": "(ref, in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Solve DREAM observations and generate 2-D images.",
+          "kind": "function",
+          "name": "dreamsolve",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Generate DREAM weights matrix.",
+          "kind": "function",
+          "name": "dreamweights",
+          "signature": "(ndf, out, config, **kwargs)"
+        },
+        {
+          "doc_summary": "A collection of utilities for estimating focal plane distortion.",
+          "kind": "function",
+          "name": "dsutils",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Extinction correct SCUBA-2 data.",
+          "kind": "function",
+          "name": "extinction",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Find time slices that are centred close to a given sky position.",
+          "kind": "function",
+          "name": "findslices",
+          "signature": "(in_, xpos, ypos, **kwargs)"
+        },
+        {
+          "doc_summary": "Fit 1-D profiles to a data cube",
+          "kind": "function",
+          "name": "fit1d",
+          "signature": "(in_, out, rms, **kwargs)"
+        },
+        {
+          "doc_summary": "Merge FITS headers.",
+          "kind": "function",
+          "name": "fitsmerge",
+          "signature": "(in_, ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Fix DC steps in a supplied SCUBA-2 time series NDF.",
+          "kind": "function",
+          "name": "fixsteps",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Flatfield SCUBA-2 data",
+          "kind": "function",
+          "name": "flatfield",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes the glitches from the source.",
+          "kind": "function",
+          "name": "fts2deglitch",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Corrects for the pixel-to-pixel variation in spectral responsivity,",
+          "kind": "function",
+          "name": "fts2flatfield",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Off-Axis frequency correction.",
+          "kind": "function",
+          "name": "fts2freqcorr",
+          "signature": "(in_, out, theta, **kwargs)"
+        },
+        {
+          "doc_summary": "Display in-band FTS-2 spectrum in gaia",
+          "kind": "function",
+          "name": "fts2gaia",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Prepares the input to be processed by the FTS2 Data Reduction tasks",
+          "kind": "function",
+          "name": "fts2init",
+          "signature": "(in_, out, zpd, **kwargs)"
+        },
+        {
+          "doc_summary": "Mask time series data for a SCUBA-2 map with FTS-2 in the beam.",
+          "kind": "function",
+          "name": "fts2maskmap",
+          "signature": "(in_, out, ftsport, **kwargs)"
+        },
+        {
+          "doc_summary": "Compansates for the effect of the FTS-2 optics on image distortion and",
+          "kind": "function",
+          "name": "fts2opcorr",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Given a 3D data cube of single-sided interferograms, applies phase",
+          "kind": "function",
+          "name": "fts2phasecorr",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Given a 3D data cube of double-sided interferograms, applies phase",
+          "kind": "function",
+          "name": "fts2phasecorrds",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Corrects for atmospheric transmission across the spectral dimension.",
+          "kind": "function",
+          "name": "fts2portimbal",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Removes the Beam splitter Self Emission (BSE) from the source.",
+          "kind": "function",
+          "name": "fts2removebse",
+          "signature": "(in_, out, bse, **kwargs)"
+        },
+        {
+          "doc_summary": "Computes the spectrum of the interferograms.",
+          "kind": "function",
+          "name": "fts2spectrum",
+          "signature": "(in_, out, sfp, **kwargs)"
+        },
+        {
+          "doc_summary": "Convert multi scan NDFs for use in FTS-2 data reduction pipeline",
+          "kind": "function",
+          "name": "fts2split",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Corrects for atmospheric transmission across the spectral dimension.",
+          "kind": "function",
+          "name": "fts2transcorr",
+          "signature": "(in_, out, tau, **kwargs)"
+        },
+        {
+          "doc_summary": "Convert a GSD format DAS data file to an ACSIS format NDF.",
+          "kind": "function",
+          "name": "gsd2acsis",
+          "signature": "(in_, directory, **kwargs)"
+        },
+        {
+          "doc_summary": "Display the contents of headers and arrays for GSD files.",
+          "kind": "function",
+          "name": "gsdshow",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Import AzTEC NetCDF files and produce SCUBA-2 ICD-compliant files",
+          "kind": "function",
+          "name": "impaztec",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Dice an image or cube into JSA tiles",
+          "kind": "function",
+          "name": "jsadicer",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a single tangent-plane NDF from a set of JSA tiles.",
+          "kind": "function",
+          "name": "jsajoin",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Paste several JSA tiles into a single mosaic.",
+          "kind": "function",
+          "name": "jsapaster",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Split a single NDF up into a set of JSA tiles.",
+          "kind": "function",
+          "name": "jsasplit",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Return information about a specified sky tile.",
+          "kind": "function",
+          "name": "jsatileinfo",
+          "signature": "(itile, **kwargs)"
+        },
+        {
+          "doc_summary": "List the sky tiles that overlap a given set of data files or an",
+          "kind": "function",
+          "name": "jsatilelist",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Create an image MOC based on a JSA tile.",
+          "kind": "function",
+          "name": "jsatilemoc",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Regrid ACSIS spectra into a data cube.",
+          "kind": "function",
+          "name": "makecube",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Make a map from SCUBA-2 data",
+          "kind": "function",
+          "name": "makemap",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Convert NANTEN2 FITS format data files to an ACSIS format NDF.",
+          "kind": "function",
+          "name": "nanten2acsis",
+          "signature": "(in_, directory, **kwargs)"
+        },
+        {
+          "doc_summary": "Check if specified NDFs probably hold POL-2 data.",
+          "kind": "function",
+          "name": "pol2check",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Create an Instrumental Polarisation (IP) model from a set of POL2",
+          "kind": "function",
+          "name": "pol2ip",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create Q, U and I maps from a group of POL-2 \"spin&scan\" data files.",
+          "kind": "function",
+          "name": "pol2map",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create Q and U maps from a set of POL-2 \"spin&scan\" data",
+          "kind": "function",
+          "name": "pol2scan",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Combine multiple Q, U and I images and create a vector catalogue",
+          "kind": "function",
+          "name": "pol2stack",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Find co-variance of Q and U from a POL2 observation.",
+          "kind": "function",
+          "name": "qucovar",
+          "signature": "(qres, ures, qlut, ulut, ref, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Fix metadata associated with a raw data file.",
+          "kind": "function",
+          "name": "rawfixmeta",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Compress raw data",
+          "kind": "function",
+          "name": "rawpress",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Fix broken raw ACSIS files by enabling the spectral WCS to be reconstructed",
+          "kind": "function",
+          "name": "rawrecreatewcs",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Fix broken WCS in raw SCUBA-2 file by re-writing it",
+          "kind": "function",
+          "name": "rawrewrtsc2wcs",
+          "signature": "(ndf, **kwargs)"
+        },
+        {
+          "doc_summary": "Uncompress raw data",
+          "kind": "function",
+          "name": "rawunpress",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Remove sky background from SCUBA-2 data",
+          "kind": "function",
+          "name": "remsky",
+          "signature": "(in_, out, method, **kwargs)"
+        },
+        {
+          "doc_summary": "Clean SCUBA-2 time-series data.",
+          "kind": "function",
+          "name": "sc2clean",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Concatenate files into a larger file.",
+          "kind": "function",
+          "name": "sc2concat",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Expand a DIMM model component into a full time-series data cube",
+          "kind": "function",
+          "name": "sc2expandmodel",
+          "signature": "(in_, **kwargs)"
+        },
+        {
+          "doc_summary": "Fourier Transform SCUBA-2 time-series data",
+          "kind": "function",
+          "name": "sc2fft",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Filter a 2-d map",
+          "kind": "function",
+          "name": "sc2filtermap",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Fourier Transform 2D maps",
+          "kind": "function",
+          "name": "sc2mapfft",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Use principal component analysis to identify correlated SCUBA-2 signals",
+          "kind": "function",
+          "name": "sc2pca",
+          "signature": "(in_, outamp, outcomp, **kwargs)"
+        },
+        {
+          "doc_summary": "SCUBA-2 Simulator",
+          "kind": "function",
+          "name": "sc2sim",
+          "signature": "(obspar, simpar, **kwargs)"
+        },
+        {
+          "doc_summary": "Task for testing speeds of different threading schemes",
+          "kind": "function",
+          "name": "sc2threadtest",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Create a map using the \"inside-out\" algorithm.",
+          "kind": "function",
+          "name": "skyloop",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Generate a simulated sky background with spatial noise.",
+          "kind": "function",
+          "name": "skynoise",
+          "signature": "(obspar, simpar, **kwargs)"
+        },
+        {
+          "doc_summary": "Copy a 2d image out of a time series file.",
+          "kind": "function",
+          "name": "smurfcopy",
+          "signature": "(in_, out, slice, **kwargs)"
+        },
+        {
+          "doc_summary": "Gives help about SMURF.",
+          "kind": "function",
+          "name": "smurfhelp",
+          "signature": "(*args, **kwargs)"
+        },
+        {
+          "doc_summary": "Stack 2d processed frames into time series cube",
+          "kind": "function",
+          "name": "stackframes",
+          "signature": "(in_, out, sort, sortby, **kwargs)"
+        },
+        {
+          "doc_summary": "Calculate image for SCUBA-2 STARE observations",
+          "kind": "function",
+          "name": "starecalc",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Convert a Supercam SDFITS format data file to an ACSIS format NDF.",
+          "kind": "function",
+          "name": "supercam2acsis",
+          "signature": "(in_, directory, **kwargs)"
+        },
+        {
+          "doc_summary": "Re-order the time slices in a raw ACSIS data cube into increasing time.",
+          "kind": "function",
+          "name": "timesort",
+          "signature": "(in_, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Produce simulated time series data from a regrided ACSIS data cube.",
+          "kind": "function",
+          "name": "unmakecube",
+          "signature": "(in_, ref, out, **kwargs)"
+        },
+        {
+          "doc_summary": "Produce simulated time series data from a SCUBA-2 map.",
+          "kind": "function",
+          "name": "unmakemap",
+          "signature": "(in_, ref, out, **kwargs)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "dc47002916b9536e8b74b7ddb9cb8730b55dbb60b32050415c28d58fae0b5821"
+    },
+    "utilities": {
+      "file": "utilities.py",
+      "generated_starlink": null,
+      "public_callables": [
+        {
+          "doc_summary": "Return a summary of module functions",
+          "kind": "function",
+          "name": "get_module_function_summary",
+          "signature": "(module)"
+        },
+        {
+          "doc_summary": "Return a astropy.io.fits header object.",
+          "kind": "function",
+          "name": "get_ndf_fitshdr",
+          "signature": "(datafile)"
+        },
+        {
+          "doc_summary": "Get long help on a starlink module or command.",
+          "kind": "function",
+          "name": "starhelp",
+          "signature": "(myobj)"
+        }
+      ],
+      "public_result_types": [],
+      "sha256": "aac68b8e7a7e3a95fe48c088347352cf468867acf2190fbaddf6a1c4034f162e"
+    },
+    "wrapper": {
+      "file": "wrapper.py",
+      "generated_starlink": null,
+      "public_callables": [
+        {
+          "doc_summary": "",
+          "kind": "class",
+          "name": "StarError",
+          "signature": null
+        },
+        {
+          "doc_summary": "Change the $STARLINK_DIR used by this module.",
+          "kind": "function",
+          "name": "change_starpath",
+          "signature": "(starlinkdir)"
+        },
+        {
+          "doc_summary": "Run oracdr on a batch of files.",
+          "kind": "function",
+          "name": "oracdr",
+          "signature": "(instrument, loop = 'file', dataout = None, datain = None, recipe = None, recpars = None, onegroup = False, rawfiles = None, utdate = None, obslist = None, headeroverride = None, calib = None, verbose = False, debug = False, warn = False)"
+        },
+        {
+          "doc_summary": "Setup the various ORAC-DR environmental variables.",
+          "kind": "function",
+          "name": "oracdr_envsetup",
+          "signature": "(instrument, utdate = None, ORAC_DIR = None, ORAC_DATA_IN = None, ORAC_DATA_OUT = None, ORAC_CAL_ROOT = None, ORAC_DATA_CAL = None, ORAC_PERL5LIB = None)"
+        },
+        {
+          "doc_summary": "Run a picard recipe on a group of files.",
+          "kind": "function",
+          "name": "picard",
+          "signature": "(recipe, files, dataout = None, recpars = None, oracdir = None, verbose = False, debug = False, warn = False)"
+        },
+        {
+          "doc_summary": "Use this to switch between HDS_VERSION=4 and HDS_VERSION=5.",
+          "kind": "function",
+          "name": "set_HDS_version",
+          "signature": "(version)"
+        },
+        {
+          "doc_summary": "Create a suitable ENV dict to pass to subprocess.Popen.",
+          "kind": "function",
+          "name": "setup_starlink_environ",
+          "signature": "(starpath, adamdir, noprompt = True)"
+        },
+        {
+          "doc_summary": "Execute a Starlink application",
+          "kind": "function",
+          "name": "starcomm",
+          "signature": "(command, commandname, *args, **kwargs)"
+        },
+        {
+          "doc_summary": "",
+          "kind": "function",
+          "name": "subprocess_setup",
+          "signature": "()"
+        }
+      ],
+      "public_result_types": [
+        {
+          "fields": [
+            "runlog",
+            "outdir",
+            "datafiles",
+            "imagefiles",
+            "logfiles",
+            "status",
+            "pid"
+          ],
+          "name": "oracoutput"
+        }
+      ],
+      "sha256": "b3d630acc5431defcfd1d86779638a37a73eebc3ba00056061c99c88483508e0"
+    }
+  },
+  "namespace_initialization": "pkgutil.extend_path",
+  "package": "starlink",
+  "schema_version": 1,
+  "source": {
+    "artifact": "starlink_pywrapper-0.3-py3-none-any.whl",
+    "artifact_sha256": "a7882049760bb46c5d8a8fc6f8624582f349f18725b45bacd6f4669fa73dd82e",
+    "label": "pypi-starlink-pywrapper-0.3-wheel",
+    "package_version": "0.3"
+  },
+  "wrapper_contract": {
+    "environment_entry_points": [
+      "STARLINK_DIR",
+      "starlink.wrapper.change_starpath",
+      "starlink.wrapper.set_HDS_version"
+    ],
+    "reserved_parameter_rule": "append '_' to Python reserved words",
+    "result_behavior": "Starlink application calls return namedtuple-like ADAM parameter results; returnstdout=True returns (result, stdout).",
+    "special_keywords": [
+      "returnstdout"
+    ]
+  }
+}
