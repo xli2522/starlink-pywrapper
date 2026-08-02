@@ -56,3 +56,6 @@ starlink = ["*_help/*.rst"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+  "starlink_smoke: requires a local Starlink installation",
+]
