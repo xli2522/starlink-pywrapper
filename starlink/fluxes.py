@@ -90,21 +90,27 @@ def get_flux(planet, date, filter_=850):
     documentation from the latest release).
     """
 
-    try:
+    if isinstance(date, (datetime.datetime, datetime.date)):
         fluxdate = date.strftime('"%d %m %y"')
         fluxtime = date.strftime('"%H %M %S"')
-    except AttributeError:
-        # Assume it is a string.
-        if 'T' in date:
-            fluxdatetime = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f')
-        else:
-            fluxdatetime = datetime.datetime.strptime(date, '%Y-%m-%d')
-
+    elif isinstance(date, str):
+        try:
+            if 'T' in date:
+                fluxdatetime = datetime.datetime.strptime(
+                    date, '%Y-%m-%dT%H:%M:%S.%f'
+                )
+            else:
+                fluxdatetime = datetime.datetime.strptime(date, '%Y-%m-%d')
+        except ValueError as exc:
+            raise ValueError(
+                f"Could not parse FLUXES date and time {date!r}"
+            ) from exc
         fluxdate = fluxdatetime.strftime('"%d %m %y"')
         fluxtime = fluxdatetime.strftime('"%H %M %S"')
-
-    except:
-        raise("Could not parse date and/or time string {}".format(date))
+    else:
+        raise TypeError(
+            "FLUXES date must be a date, datetime, or ISO-format string"
+        )
 
     # Run fluxes.
     fluxresult = wrapper.starcomm('$FLUXES_DIR/fluxes',
