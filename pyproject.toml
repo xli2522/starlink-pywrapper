@@ -60,3 +60,20 @@ markers = [
   "starlink_smoke: requires a local Starlink installation",
   "pol2_tutorial: validates a completed JCMT POL-2 Tutorial 1 reduction",
 ]
+
+[tool.coverage.run]
+branch = true
+source = [
+  "starlink._environment",
+  "starlink._runtime",
+  "starlink._results",
+  "starlink.wrapper",
+  "starlink.utilities",
+  "starlink.fluxes",
+]
+
+[tool.coverage.report]
+exclude_also = [
+  "if TYPE_CHECKING:",
+  "if __name__ == .__main__.:",
+]

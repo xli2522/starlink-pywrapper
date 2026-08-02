@@ -25,5 +25,27 @@ jobs:
       - name: Run fast tests
         run: python -m pytest -q
 
+      - name: Check hand-written runtime coverage
+        run: >-
+          python -m pytest -q tests/unit
+          --cov=starlink._environment
+          --cov=starlink._runtime
+          --cov=starlink._results
+          --cov=starlink.wrapper
+          --cov=starlink.utilities
+          --cov=starlink.fluxes
+          --cov-report=term-missing
+          --cov-fail-under=85
+
       - name: Build distributions
         run: python -m build
+
+      - name: Audit distribution payloads
+        run: python scripts/audit_distribution.py dist
+
+      - name: Test an isolated wheel installation
+        run: |
+          python -m venv /tmp/starlink-pywrapper-wheel
+          /tmp/starlink-pywrapper-wheel/bin/python -m pip install dist/*.whl
+          /tmp/starlink-pywrapper-wheel/bin/python -m pip check
+          /tmp/starlink-pywrapper-wheel/bin/python -c "import starlink, starlink.kappa, starlink.wrapper"
