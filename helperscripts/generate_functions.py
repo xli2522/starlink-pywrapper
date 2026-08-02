@@ -54,8 +54,8 @@ import subprocess
 
 from collections import namedtuple
 from keyword import iskeyword
+from pathlib import Path
 
-from docopt import docopt
 
 # Set up normal logging
 logging.basicConfig(level=logging.INFO)
@@ -109,17 +109,17 @@ def _get_python_type(startype):
 
     if startype.upper() == '_LOGICAL':
         return 'bool'
-    elif startype.upper() == '_INTEGER':
+    elif startype.upper() in ('_BYTE', '_UBYTE', '_WORD', '_UWORD',
+                              '_INTEGER', '_INT64'):
         return 'int'
-    elif startype.upper() == '_REAL' or startype.upper() == '_DOUBLE':
+    elif startype.upper() in ('_REAL', '_DOUBLE', 'DOUBLE', 'ERROR'):
         return 'float'
-    elif startype.upper() == 'NDF' or startype.upper() == 'FILENAME':
+    elif startype.upper() in ('NDF', 'FILENAME', 'TRN', 'DEVICE', 'GRAPHICS', 'HDSOBJECT', 'UNIV', 'UNIVERSAL', 'IRCAM'):
         return 'str,filename'
-    elif startype.upper() == '_CHAR' or startype.upper() == 'LITERAL':
+    elif startype.upper() in ('_CHAR', 'LITERAL'):
         return 'str'
     else:
-        logger.warning('Unknown startype (%s)' % (startype))
-        return startype
+        raise ValueError("Unknown Starlink parameter type: {!r}".format(startype))
 
 
 # Get information from an IFL file. (gets a one line prompt string,
@@ -139,13 +139,11 @@ def _ifl_parser(ifllines, parameter_info, comname='', prefer_hlp_prompt=False):
 
     """
 
-    if not parameter_info:
-        return {}
     ifl=''.join(ifllines)
 
     # Parse IFL file to find start and end of each parameter.
-    parindices = [m.start() for m in re.finditer('\n[\s]*parameter', ifl.lower())]
-    endindices = [m.start() for m in re.finditer('\n[\s]*endparameter', ifl.lower())]
+    parindices = [m.start() for m in re.finditer(r'\n[\s]*parameter', ifl.lower())]
+    endindices = [m.start() for m in re.finditer(r'\n[\s]*endparameter', ifl.lower())]
     pardict={}
 
     # Go through each parameter
@@ -165,6 +163,8 @@ def _ifl_parser(ifllines, parameter_info, comname='', prefer_hlp_prompt=False):
 
         for a in fields:
             val = _ifl_get_parameter_value(reslist, a)
+            if a == 'type' and val is None:
+                val = _ifl_get_parameter_value(reslist, 'ptype')
             if a == 'prompt' and isinstance(val, str):
                 val = val.strip("'")
             elif isinstance(val, str):
@@ -174,11 +174,11 @@ def _ifl_parser(ifllines, parameter_info, comname='', prefer_hlp_prompt=False):
         # If using hlp file prompts in preference to ifl prompts,
         # update the vals.
         if prefer_hlp_prompt:
-            if parname in parameter_info:
+            if parameter_info and parname in parameter_info:
                 prompt = parameter_info[parname].prompt
                 if prompt:
                     values[1] = prompt
-        if parname in parameter_info:
+        if parameter_info and parname in parameter_info:
             default = parameter_info[parname].default
             if default:
                 values[2] = default
@@ -189,9 +189,11 @@ def _ifl_parser(ifllines, parameter_info, comname='', prefer_hlp_prompt=False):
             values.append(pinfo.list_)
             values.append(pinfo.readwrite)
         else:
-            values.append(None)
-            values.append(None)
-            logger.warning('%s: parname %s found in ifl but was not in .hlp' % (comname, parname))
+            size = _ifl_get_parameter_value(reslist, 'size')
+            is_list = size is not None and size.strip("'\" ") not in ('', '1')
+            access = values[6] or 'READ'
+            values.append(is_list)
+            values.append(access.lower())
 
         pardict[parname] =  parinfo(parname, *values)
 
@@ -204,7 +206,7 @@ def _ifl_get_parameter_value(paramlist, value):
     Get the value of a parameter (as a string).
     """
     findvalues = [s for s in paramlist if s.strip().lower().startswith(value)]
-    regex = re.compile(r"\s*" + value+ "\s*", flags=re.I)
+    regex = re.compile(r"\s*" + value + r"\s*", flags=re.I)
     if findvalues:
         result = regex.split(findvalues[0])[1].strip()
     else:
@@ -609,11 +611,11 @@ def make_docstrings(moduledict, sunname=None, kstyle='numpy', uselongerdescripti
 
         if 'device' in [i.name for i in positional]:
             device = True
-            print('Found device! in positional argument {}'.format(name))
+            logger.debug('Found device in positional argument %s', name)
         else:
             device = False
         if name=='gdset':
-            print(positional)
+            logger.debug('Device positional metadata: %r', positional)
 
         # Return a dictionary for each command, with the docstrings
         # and the call signature, and if it needs 'device' mangling or not.
@@ -627,8 +629,8 @@ def indent_lists(text):
     is '-', and previous line is blank and following line is blank.
     """
     text = text.split('\n')
-    matchbullet = re.compile('^[\s]*-[\s]*')
-    matchblank = re.compile('^[\s]*$')
+    matchbullet = re.compile(r'^[\s]*-[\s]*')
+    matchblank = re.compile(r'^[\s]*$')
     inbullet = False
 
     # Go through each line
@@ -657,21 +659,37 @@ moduleline = "Runs commands from the Starlink {} package.\n\n"\
 
 docrunline = 'Runs the command: {} .'
 
-def create_module(module, names, docstrings, commanddict):
+def _escape_docstring_source(text):
+    """Escape backslashes so generated triple-quoted source compiles cleanly."""
+    return text.replace(chr(92), chr(92) * 2)
+
+
+def create_module(module, names, docstrings, commanddict, command_info, signature_overrides=None):
 
     modulecode = []
     moduleheader = '\n'.join(['"""', moduleline.format(module), '"""', '',
                               'from . import wrapper', '', ''])
 
+    parameter_metadata = {
+        name: tuple(
+            (parameter.name, parameter.type_, bool(parameter.list_),
+             (parameter.access or 'UPDATE').upper())
+            for parameter in (command_info[name].pardict or {}).values()
+        )
+        for name in names
+    }
+    moduleheader += '\n__starlink_parameters = {!r}\n'.format(parameter_metadata)
+
     for name in names:
+        application_name = name
         commandline = commanddict[name]
-        callsignature = docstrings[name][1]
-        docstring = docstrings[name][0]
+        callsignature = (signature_overrides or {}).get(name, docstrings[name][1])
+        docstring = _escape_docstring_source(docstrings[name][0])
         device = docstrings[name][2]
 
         # Add a line indicating which binary/script it is trying to run to docstring.
         docstring = docstring.split('\n')
-        docstring = [docstring[0], '', docrunline.format(commandline)] + docstring[1:]
+        docstring = [docstring[0], '', _escape_docstring_source(docrunline.format(commandline))] + docstring[1:]
 
         # Append _ to the end of reserved python keywords.
         if iskeyword(name):
@@ -687,35 +705,48 @@ def create_module(module, names, docstrings, commanddict):
             clist = newcall.split('**kwargs')
             callsignature_starcomm = clist[0] + ' device=device, **kwargs' + clist[1]
 
+        if commandline.startswith("__REMOVED__:"):
+            invocation = (
+                "raise wrapper.StarlinkApplicationUnavailableError({!r})"
+                .format(commandline.split(":", 1)[1])
+            )
+        else:
+            invocation = (
+                'return wrapper.starcomm({!r}, {!r}, {}, '
+                '_starlink_parameters=__starlink_parameters[{!r}])'
+                .format(commandline, application_name,
+                        callsignature_starcomm, application_name)
+            )
         methodcode = [
             ' '*0 + 'def {}({}):'.format(name, callsignature),
             ' '*4 + '"""',
             '\n'.join([i if not i else ' '*4 + i  for i in docstring]),
             ' '*4 + '"""',
-            ' '*4 + 'return wrapper.starcomm("{}", "{}", {})'.format(commandline,
-                                                                     name,
-                                                                     callsignature_starcomm),
+            ' '*4 + invocation,
             '\n',
         ]
 
         methodcode = ['\n' if i.isspace() else i for i in methodcode]
         modulecode += methodcode
 
-    f = open(module.lower() + '.py', 'w')
-    f.writelines('\n'.join([moduleheader] + modulecode))
-    f.close()
+    content = '\n'.join([moduleheader] + modulecode).rstrip() + '\n'
+    with open(module.lower() + '.py', 'w') as f:
+        f.write(content)
 
 
 def get_command_paths(shfile, comnames, modulename):
     commanddict = {}
     for c in comnames:
-        # find the line in the shfile
-        lines = [i for i in shfile if i.startswith(c)]
-        lines = [i for i in lines if i.split('()')[0].strip() == c]
+        # Current ifd2star output permits whitespace between the function
+        # name and ``()``; match the shell function header structurally.
+        function_header = re.compile(
+            r"^\s*{}\s*\(\)\s*\{{".format(re.escape(c))
+        )
+        lines = [line for line in shfile if function_header.match(line)]
         if lines:
             if len(lines) > 1:
                 logger.warning('Found multiple commandlines  for %s: , %s' %(c, str(lines)))
-            commandline = lines[0]
+            commandline = lines[-1]
 
             # Find everything before the argument passing (${1+"$@"}, and after the
             # initial curly brace. Strip off the trailing and leading white space.
@@ -723,15 +754,30 @@ def get_command_paths(shfile, comnames, modulename):
             command = '{'.join(command.split('{')[1:])
             command = command.strip()
 
-            # If command starts with 'python ', strip off 'python '
-            if command.startswith('python '):
-                command = command.lstrip('python ')
+            # Python scripts installed by Starlink have executable shebangs.
+            if command.startswith(("python ", "python3 ")):
+                command = command.split(None, 1)[1]
 
             # if command starts with 'starperl ', replace with $STARLINK_DIR/bin/starperl
             elif command.startswith('starperl '):
                 command = command.replace('starperl ', '${STARLINK_DIR}/bin/starperl ')
+            elif command and not command.startswith(('$', 'echo ', 'tcsh ')):
+                parts = command.split(None, 1)
+                environment_names = {
+                    'ATOOLS': 'ATOOLS_DIR',
+                    'CCDPACK': 'CCDPACK_DIR',
+                    'CONVERT': 'CONVERT_DIR',
+                    'CUPID': 'CUPID_DIR',
+                    'FIGARO': 'FIG_DIR',
+                    'KAPPA': 'KAPPA_DIR',
+                    'POLPACK': 'POLPACK_DIR',
+                    'SMURF': 'SMURF_DIR',
+                }
+                command = '${' + environment_names[modulename.upper()] + '}/' + parts[0]
+                if len(parts) == 2:
+                    command += ' ' + parts[1]
             elif not command.startswith('$'):
-                logger.warning("Com %s has an unknown command path %s" %(c, command))
+                logger.warning("Com %s has an unknown command path %s" % (c, command))
             commanddict[c] = command
     return commanddict
 
@@ -763,7 +809,6 @@ sunnames = {
     'convert': 'sun55',
     'smurf': 'sun258',
     'figaro': 'sun86',
-    'surf': 'sun216',
     'ccdpack': 'sun139',
     'polpack': 'sun223'
 }
@@ -781,6 +826,8 @@ DEFAULTPACKAGES = [
     'ATOOLS',
 ]
 if __name__ == '__main__':
+
+    from docopt import docopt
 
     # Parse command line options and set defaults.
     args = docopt(__doc__)
@@ -837,10 +884,34 @@ if __name__ == '__main__':
         tempdir = 'tempworkingdir'
         os.mkdir(tempdir)
         logger.info('Creating .rst help files from all .f and .c  and .py files in module')
-        subprocess.call("for i in `find {} -name '*.f'`; do bname=$(basename $i .f); {}/bin/sst/prohtml in=$i reformat=true inclusion=false out={}/$bname.html accept; done >>/dev/null".format(rootpath, starlink, tempdir), shell=True)
-        subprocess.call("for i in `find {} -name '*.c'`; do bname=$(basename $i .c); {}/bin/sst/prohtml in=$i reformat=true inclusion=false out={}/$bname.html accept; done >>/dev/null".format(rootpath, starlink, tempdir), shell=True)
-        subprocess.call("for i in `find {} -name '*.py'`; do bname=$(basename $i .py); {}/bin/sst/prohtml in=$i reformat=true inclusion=false out={}/$bname.html accept; done >>/dev/null".format(rootpath, starlink, tempdir), shell=True)
-        subprocess.call("for i in `find {} -name '*.html'`; do bname=$(basename $i .html) &&  html2rest $i > {}/$bname.rst; done".format(tempdir, tempdir), shell=True)
+        prohtml = Path(starlink, 'bin', 'sst', 'prohtml')
+        for suffix in ('.f', '.c', '.py'):
+            for source in sorted(Path(rootpath).rglob('*' + suffix)):
+                html = Path(tempdir, source.stem + '.html')
+                subprocess.run(
+                    [
+                        str(prohtml),
+                        'in=' + str(source),
+                        'reformat=true',
+                        'inclusion=false',
+                        'out=' + str(html),
+                        'accept',
+                    ],
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                    check=True,
+                )
+        for html in sorted(Path(tempdir).glob('*.html')):
+            converted = subprocess.run(
+                ['html2rest', str(html)],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=True,
+                text=True,
+            )
+            html.with_suffix('.rst').write_text(
+                converted.stdout, encoding='utf-8'
+            )
 
 
         helpfile = find_starlink_file(rootpath, modulename.lower() + '.hlp')
@@ -888,7 +959,7 @@ if __name__ == '__main__':
         commandnames.sort()
 
         # Create the <modulename>.py file.
-        create_module(modulename, commandnames, docstrings, commanddict)
+        create_module(modulename, commandnames, docstrings, commanddict, moduledict)
 
     # Now create oracdr and picard options.
     if oractree:
