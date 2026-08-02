@@ -13,99 +13,67 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-"""
-Convenience utilities when using Starlink in python.
+"""Convenience helpers for generated Starlink modules."""
 
-"""
+from __future__ import annotations
 
-import logging
+from inspect import getmembers, isfunction
 import os
 import pydoc
-from inspect import getmembers, isfunction
+from types import FunctionType, ModuleType
 
-try:
-    from itertools import imap
-except ImportError:
-    imap = map
-
-
-from starlink import hds
-
-logger = logging.getLogger(__name__)
-
+from ._fits import (
+    get_ndf_fitshdr as _get_ndf_fitshdr,
+    get_ndf_fitshdr_legacy,
+)
+from ._resources import resource_filename
 
 
 def get_ndf_fitshdr(datafile):
+    """Return an Astropy FITS header from an NDF through KAPPA ``fitslist``.
+
+    The selected Starlink installation reads the NDF, so both HDS-v4 and
+    HDS-v5 files supported by that installation can be handled without a
+    mandatory Python HDS binding. Astropy is imported only when this function
+    is called. Use :func:`get_ndf_fitshdr_legacy` to request the old direct
+    Python-HDS path explicitly.
     """
-    Return a astropy.io.fits header object.
 
-    If an NDF is provided, it will look up the .more.FITS component of the NDF file.
-    It will raise an error if that does not exist.
-
-
-    Requires a astropy.io.fits to be installed.
-    """
-
-    from astropy.io import fits
-
-    hdsobj = hds.open(datafile, 'READ')
-    fitscomp = hdsobj.find('MORE').find('FITS')
-    fitsheader = fitscomp.get()
-    fitsheader = '\n'.join([i.decode()
-                            if isinstance(i, bytes) and not isinstance(i, str)
-                            else i
-                            for i in fitsheader])
-    hdr = fits.Header.fromstring(fitsheader, sep='\n')
-
-    return hdr
+    return _get_ndf_fitshdr(datafile)
 
 
 def get_module_function_summary(module):
-    """
-    Return a summary of module functions
-    """
-    functionslist = getmembers(module, isfunction)
+    """Return a sorted one-line summary of documented module functions."""
+
     summaries = {}
-    for f in functionslist:
-        summaries[f[0]] = next(s for s in f[1].__doc__.split('\n') if s)
-    width = max(imap(len, summaries))
-    keys = list(summaries.keys())
-    keys.sort()
-    return '\n'.join( ['{:<{width}}: {}'.format(key, summaries[key], width=width+1) for key in keys])
+    for name, function in getmembers(module, isfunction):
+        lines = (function.__doc__ or "").strip().splitlines()
+        summaries[name] = lines[0] if lines else "(no summary available)"
+    if not summaries:
+        return ""
+    width = max(map(len, summaries))
+    return "\n".join(
+        f"{name:<{width + 1}}: {summaries[name]}" for name in sorted(summaries)
+    )
 
-
-import inspect
-from types import FunctionType, ModuleType
-from pkg_resources import resource_filename
 
 def starhelp(myobj):
-    """
-    Get long help on a starlink module or command.
-    """
-    # For modules, return the summary of the module.
+    """Display generated long help for a wrapper module or function."""
+
     if isinstance(myobj, ModuleType):
-        doc = get_module_function_summary(myobj)
-
+        document = get_module_function_summary(myobj)
     elif isinstance(myobj, FunctionType):
-        modulename = myobj.__module__.split('.')[1]
-        dirname = modulename + '_help'
-        functionname = myobj.__name__
-        filename = resource_filename(myobj.__module__,
-                                     os.path.join(dirname, functionname+'.rst')
-                                     )
-        if os.path.isfile(filename):
-            f = open(filename, 'r')
-            doc = f.readlines()
-            f.close()
-        else:
-            raise Exception('starhelp could not find file {} on disk.'.format(filename))
+        parts = myobj.__module__.split(".")
+        if len(parts) < 2:
+            raise ValueError(f"Cannot determine Starlink module for {myobj!r}")
+        relative = os.path.join(parts[1] + "_help", myobj.__name__ + ".rst")
+        filename = resource_filename(myobj.__module__, relative)
+        if not os.path.isfile(filename):
+            raise FileNotFoundError(f"starhelp resource does not exist: {filename}")
+        with open(filename, encoding="utf-8") as handle:
+            document = handle.read()
     else:
-        raise Exception('starhelp cannot evalute object {}.'.format(myobj))
-    pydoc.pager(''.join(doc))
-
-
-
-
-
-
-
+        raise TypeError(
+            f"starhelp requires a Starlink module or function, not {myobj!r}"
+        )
+    pydoc.pager(document)
