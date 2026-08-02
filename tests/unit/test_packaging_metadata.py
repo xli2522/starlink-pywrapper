@@ -22,7 +22,8 @@ def test_project_metadata_has_one_authoritative_source() -> None:
     assert project["name"] == "starlink-pywrapper"
     assert project["version"] == "0.4.0.dev1"
     assert project["requires-python"] == ">=3.12,<3.13"
-    assert project["dependencies"] == ["starlink-pyhds"]
+    assert project["dependencies"] == []
+    assert project["optional-dependencies"]["hds"] == ["starlink-pyhds"]
     assert not (PROJECT_ROOT / "requirements.txt").exists()
     assert "version=" not in setup_source
     assert "install_requires" not in setup_source
