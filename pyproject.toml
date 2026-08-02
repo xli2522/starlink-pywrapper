@@ -58,4 +58,5 @@ starlink = ["*_help/*.rst"]
 testpaths = ["tests"]
 markers = [
   "starlink_smoke: requires a local Starlink installation",
+  "pol2_tutorial: validates a completed JCMT POL-2 Tutorial 1 reduction",
 ]
