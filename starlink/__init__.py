@@ -18,5 +18,5 @@ from pkgutil import extend_path
 __path__ = extend_path(__path__, __name__)
 
 
-from ._version import __version__
+from ._version import __starlink_source_version__, __version__
 

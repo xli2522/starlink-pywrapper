@@ -34,6 +34,9 @@ def test_package_version_matches_project_metadata() -> None:
     version_namespace = runpy.run_path(PROJECT_ROOT / "starlink" / "_version.py")
 
     assert version_namespace["__version__"] == metadata()["project"]["version"]
+    assert version_namespace["__starlink_source_version__"] == (
+        "2025A-patch1+source-899c03fc4af3"
+    )
 
 
 def test_license_is_declared_and_included_in_source_archives() -> None:
