@@ -3,7 +3,6 @@ from collections import namedtuple
 from keyword import iskeyword
 import itertools
 
-from starlink import hds
 
 def get_adam_hds_values(comname, adamdir):
 
@@ -12,6 +11,7 @@ def get_adam_hds_values(comname, adamdir):
     from the ADAMDIR/commname.sdf hds file.
     """
 
+    from starlink import hds
     filename = os.path.join(adamdir, comname)
     try:
         hdsobj = hds.open(filename, 'READ')
@@ -128,10 +128,11 @@ def _hds_get_clean_name(name):
 
 
 def _hds_arrays_structures(hdscomp):
+    import numpy as np
     subcomps = []
     for idx in itertools.product(*[range(s) for s in hdscomp.shape]):
         cellloc = hdscomp.cell(idx)
-        subcomps.append(_old_hds_iterate_components(cellloc))
+        subcomps.append(_hds_iterate_components(cellloc))
     subcomps = np.asarray(subcomps).reshape(hdscomp.shape)
     return subcomps
 
@@ -159,4 +160,3 @@ def _hdstrace_print(results):
         return '\n'.join(output)
     else:
         return ''
-
