@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starlink-pywrapper"
+version = "0.4.0.dev1"
+description = "Python wrappers for applications in the external Starlink Software Collection"
+readme = "README.rst"
+requires-python = ">=3.12,<3.13"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [
+  {name = "SF Graves", email = "s.graves@eaobservatory.org"},
+  {name = "X Li", email = "xyli@phy.cuhk.edu.hk"},
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Astronomy",
+]
+dependencies = ["starlink-pyhds"]
+
+[project.optional-dependencies]
+fits = ["astropy>=5.3.4"]
+test = [
+  "numpy>=1.26",
+  "astropy>=5.3.4",
+  "build>=1.2",
+  "coverage[toml]>=7",
+  "pytest>=8",
+  "pytest-cov>=5",
+  "twine>=5",
+]
+docs = [
+  "sphinx>=7",
+  "sphinx-rtd-theme>=2",
+]
+
+[project.urls]
+Homepage = "https://github.com/xli2522/starlink-pywrapper"
+"Upstream Repository" = "https://github.com/Starlink/starlink-pywrapper"
+"Starlink Homepage" = "https://starlink.eao.hawaii.edu/starlink/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["starlink", "starlink.*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+starlink = ["*_help/*.rst"]

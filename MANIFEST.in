@@ -1,3 +1,12 @@
 include README.rst
+include LICENSE
 recursive-include starlink *.rst
-graft dir
+prune .agents
+prune benchmarks
+prune doc
+prune helperscripts
+prune scripts
+prune tests
+prune .venv
+global-exclude *.py[cod]
+global-exclude __pycache__
