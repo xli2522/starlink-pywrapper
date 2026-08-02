@@ -22,9 +22,10 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Topic :: Scientific/Engineering :: Astronomy",
 ]
-dependencies = ["starlink-pyhds"]
+dependencies = []
 
 [project.optional-dependencies]
+hds = ["starlink-pyhds"]
 fits = ["astropy>=5.3.4"]
 test = [
   "numpy>=1.26",
