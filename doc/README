@@ -9,4 +9,4 @@ Build the HTML documentation with::
 
     python -m sphinx -W --keep-going -b html doc doc/_build/html
 
-Generated output is written beneath `doc/_build`.
+Generated output is written beneath ``doc/_build``.

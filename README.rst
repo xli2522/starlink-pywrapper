@@ -1,12 +1,12 @@
 starlink-pywrapper
 ==================
 
-Python interfaces to applications in an external 'Starlink Software Collection'.
+Python interfaces to applications in an external Starlink Software Collection.
 
 Scope
 -----
 
-'starlink-pywrapper` launches Starlink applications and presents their parameters
+``starlink-pywrapper`` launches Starlink applications and presents their parameters
 and results through Python. It does not reimplement, modify, or patch Starlink
 algorithms. A working Starlink installation must be installed separately.
 
@@ -14,7 +14,7 @@ The generated modules cover the project's existing KAPPA, CONVERT, ATOOLS,
 CCDPACK, CUPID, FIGARO, POLPACK, and SMURF interfaces. The package also retains
 its FLUXES, ORAC-DR, Picard, and utility helpers.
 
-Version `0.4.0.dev1` is generated from pinned Starlink 2025A interface and
+Version ``0.4.0.dev1`` is generated from pinned Starlink 2025A interface and
 help metadata and targets **Starlink 2025A plus Errata Patch 1**.
 
 Supported configurations
@@ -45,19 +45,19 @@ header::
 
     python -m pip install ".[fits]"
 
-The default result reader uses Starlink's own `parget` application and does not
+The default result reader uses Starlink's own ``parget`` application and does not
 require a Python HDS binding. Existing applications that explicitly require the
 historical reader can request the optional legacy dependency::
 
     python -m pip install ".[hds]"
 
-The legacy 'starlink-pyhds` package has its own build and platform
+The legacy ``starlink-pyhds`` package has its own build and platform
 constraints; it is not required for normal wrapper calls.
 
 Selecting Starlink
 ------------------
 
-Set `STARLINK_DIR` before starting Python::
+Set ``STARLINK_DIR`` before starting Python::
 
     export STARLINK_DIR=/path/to/starlink
 
@@ -67,8 +67,8 @@ or select an installation explicitly::
 
     wrapper.change_starpath("/path/to/starlink")
 
-The supplied directory must contain a usable Starlink `etc/profile` and
-KAPPA `parget`. The profile is captured for child processes without modifying
+The supplied directory must contain a usable Starlink ``etc/profile`` and
+KAPPA ``parget``. The profile is captured for child processes without modifying
 the parent Python environment.
 
 Calling Starlink applications
@@ -84,15 +84,16 @@ arguments and keywords::
     print(result.mean)
 
 Generated functions return Starlink output parameters as namedtuple-like
-Python objects, so callers do not need to invoke parget themselves.
-**By default, the wrapper uses the selected Starlink installation's parget
-executable internally to retrieve these values. The historical direct-HDS
-reader remains available as an optional compatibility mode.** <-(major
-implementation change from previous versions; same user experience)
+Python objects, so callers do not need to invoke ``parget`` themselves.
+By default, the wrapper uses the selected Starlink installation's
+``parget`` executable internally to retrieve these values. This changes
+the internal result reader used by version 0.3 while preserving the same
+user-facing result objects. The historical direct-HDS reader remains
+available as an optional compatibility mode.
 Names that are Python keywords retain the historical trailing underscore, for
-example `in_`.
+example ``in_``.
 
-Use `returnstdout=True` when the application's terminal output is also
+Use ``returnstdout=True`` when the application's terminal output is also
 needed::
 
     result, stdout = kappa.stats(
@@ -114,7 +115,7 @@ Errors and timeouts
 -------------------
 
 Application start failures and unsuccessful exits raise
-`StarlinkCommandError`. Timeouts raise `StarlinkTimeoutError`. These
+``StarlinkCommandError``. Timeouts raise ``StarlinkTimeoutError``. These
 exceptions retain the argument vector, return code, stdout, stderr, working
 directory, and ADAM directory when available::
 
@@ -135,11 +136,13 @@ are terminated on timeout or interruption.
 Additional helpers
 ------------------
 
-'starlink.utilities.get_ndf_fitshdr` returns an Astropy FITS header by
-asking the selected Starlink installation to read the NDF. 'starlink.fluxes`
-accepts `date`, `datetime`, or supported ISO-format date strings.
+``starlink.utilities.get_ndf_fitshdr`` returns an Astropy FITS header by
+asking the selected Starlink installation to read the NDF.
+``starlink.fluxes`` accepts ``date``, ``datetime``, or
+supported ISO-format date strings.
 
-'starlink.wrapper.oracdr` and 'starlink.wrapper.picard` preserve their
+``starlink.wrapper.oracdr`` and ``starlink.wrapper.picard``
+preserve their
 existing result tuple and calling style. Input list files and Python path lists
 are validated and passed as literal subprocess arguments; no user-controlled
 shell expansion is used.
@@ -154,10 +157,9 @@ Starlink or download scientific data::
     python -m pytest -q
 
 Small live Starlink smoke tests and the opt-in full POL-2 Tutorial 1
-CLI-versus-wrapper reduction are documented in the
-`validation guide <doc/validation.rst>`_. The full runner obtains and
-verifies its frozen tutorial fixture automatically; ordinary pytest runs do
-not download it.
+CLI-versus-wrapper reduction are documented in
+``doc/validation.rst``. The full runner obtains and verifies its frozen
+tutorial fixture automatically; ordinary pytest runs do not download it.
 
 Limitations
 -----------
@@ -165,4 +167,4 @@ Limitations
 The package does not install Starlink, provide a Python NDF/HDS object model,
 or change Starlink scientific behavior.
 
-See `doc/details.rst` for the complete usage contract.
+See ``doc/details.rst`` for the complete usage contract.
