@@ -144,6 +144,21 @@ existing result tuple and calling style. Input list files and Python path lists
 are validated and passed as literal subprocess arguments; no user-controlled
 shell expansion is used.
 
+Validation
+----------
+
+The source checkout includes a fast pytest suite that does not require
+Starlink or download scientific data::
+
+    python -m pip install -e '.[test]'
+    python -m pytest -q
+
+Small live Starlink smoke tests and the opt-in full POL-2 Tutorial 1
+CLI-versus-wrapper reduction are documented in the
+`validation guide <doc/validation.rst>`_. The full runner obtains and
+verifies its frozen tutorial fixture automatically; ordinary pytest runs do
+not download it.
+
 Limitations
 -----------
 

@@ -11,6 +11,7 @@ User guide
 
    details
    known_issues
+   validation
 
 API reference
 -------------
