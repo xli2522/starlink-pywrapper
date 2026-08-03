@@ -1,3 +1,0 @@
-
-Requirements for using generate_functions to create the python modules.
-html2rest: required to be in PATH in order to generate the rst documentation used for star-longhelp.

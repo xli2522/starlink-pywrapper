@@ -1,12 +1,12 @@
-To build the documentation, please use the sphinx command:
+Documentation
+=============
 
-$ cd doc
-$ sphinx-apidoc -e -M -o .  ../starlink
+Install the documentation dependencies from the repository root::
 
-to generate the files, and the do:
+    python -m pip install -e ".[docs]"
 
-$ make html
+Build the HTML documentation with::
 
-To build the documents.
+    python -m sphinx -W --keep-going -b html doc doc/_build/html
 
-
+Generated output is written beneath `doc/_build`.
