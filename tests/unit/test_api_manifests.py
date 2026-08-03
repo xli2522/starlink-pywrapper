@@ -9,6 +9,9 @@ import sys
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+COMPARISON = (
+    PROJECT_ROOT / 'manifests' / 'api_manifest_comparison_2025a.json'
+)
 BASELINE = PROJECT_ROOT / "manifests" / "api_manifest_baseline.json"
 GENERATOR = PROJECT_ROOT / "scripts" / "generate_api_manifest.py"
 COMPARATOR = PROJECT_ROOT / "scripts" / "compare_api_manifests.py"
@@ -106,6 +109,33 @@ def test_current_source_preserves_the_baseline_api(tmp_path: Path) -> None:
     assert summary["signatures_changed"] == 0
     assert summary["result_types_removed"] == 0
     assert summary["result_types_changed"] == 0
+
+
+def test_frozen_comparison_matches_current_source(tmp_path: Path) -> None:
+    current = tmp_path / 'current.json'
+    comparison = tmp_path / 'comparison.json'
+    run_script(
+        GENERATOR,
+        '--source-root',
+        PROJECT_ROOT,
+        '--source-label',
+        'Starlink 2025A Patch 1 final review candidate',
+        '--package-version',
+        '0.4.0.dev1',
+        '--output',
+        current,
+    )
+    run_script(
+        COMPARATOR,
+        '--before',
+        BASELINE,
+        '--after',
+        current,
+        '--output',
+        comparison,
+    )
+
+    assert comparison.read_bytes() == COMPARISON.read_bytes()
 
 
 def test_comparator_detects_a_signature_change(tmp_path: Path) -> None:

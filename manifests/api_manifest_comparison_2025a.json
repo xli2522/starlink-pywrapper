@@ -1,0 +1,787 @@
+{
+  "baseline_source": {
+    "artifact": "starlink_pywrapper-0.3-py3-none-any.whl",
+    "artifact_sha256": "a7882049760bb46c5d8a8fc6f8624582f349f18725b45bacd6f4669fa73dd82e",
+    "label": "pypi-starlink-pywrapper-0.3-wheel",
+    "package_version": "0.3"
+  },
+  "candidate_source": {
+    "artifact": null,
+    "artifact_sha256": null,
+    "label": "Starlink 2025A Patch 1 final review candidate",
+    "package_version": "0.4.0.dev1"
+  },
+  "modules": {
+    "_environment": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Raised when a Starlink installation cannot provide a safe environment.",
+            "kind": "class",
+            "name": "StarlinkEnvironmentError",
+            "signature": null
+          },
+          {
+            "doc_summary": "Source the trusted Starlink profile and return its child environment.",
+            "kind": "function",
+            "name": "capture_starlink_environment",
+            "signature": "(starlink_dir: os.PathLike[str] | str, *, extra_profile_environment: Mapping[str, str] | None = None)"
+          },
+          {
+            "doc_summary": "Add isolated wrapper-session state to a captured Starlink environment.",
+            "kind": "function",
+            "name": "configure_session_environment",
+            "signature": "(captured: Mapping[str, str], adam_dir: os.PathLike[str] | str, temp_dir: os.PathLike[str] | str, *, noprompt: bool = True)"
+          },
+          {
+            "doc_summary": "Read a release label when the installation provides its manifest.",
+            "kind": "function",
+            "name": "read_starlink_release",
+            "signature": "(starlink_dir: os.PathLike[str] | str)"
+          },
+          {
+            "doc_summary": "Return a resolved root after checking the files needed by the wrapper.",
+            "kind": "function",
+            "name": "validate_starlink_installation",
+            "signature": "(starlink_dir: os.PathLike[str] | str)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "added"
+    },
+    "_fits": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Return an Astropy FITS header using Starlink KAPPA ``fitslist``.",
+            "kind": "function",
+            "name": "get_ndf_fitshdr",
+            "signature": "(datafile: os.PathLike[str] | str)"
+          },
+          {
+            "doc_summary": "Return an Astropy FITS header through an installed legacy HDS binding.",
+            "kind": "function",
+            "name": "get_ndf_fitshdr_legacy",
+            "signature": "(datafile: os.PathLike[str] | str)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "added"
+    },
+    "_resources": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Return the installed path for one package resource.",
+            "kind": "function",
+            "name": "resource_filename",
+            "signature": "(package: str, relative_name: str)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "added"
+    },
+    "_results": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Compatibility adapter for a separately installed legacy HDS reader.",
+            "kind": "class",
+            "name": "LegacyHdsBackend",
+            "signature": null
+          },
+          {
+            "doc_summary": "Generator-provided information needed to retrieve one ADAM parameter.",
+            "kind": "class",
+            "name": "ParameterSpec",
+            "signature": null
+          },
+          {
+            "doc_summary": "Read represented ADAM values through Starlink's own ``parget``.",
+            "kind": "class",
+            "name": "PargetBackend",
+            "signature": null
+          },
+          {
+            "doc_summary": "Raised when an application result cannot be retrieved safely.",
+            "kind": "class",
+            "name": "ResultBackendError",
+            "signature": null
+          },
+          {
+            "doc_summary": "Convert canonical ``parget`` text using generator metadata only.",
+            "kind": "function",
+            "name": "convert_parget_value",
+            "signature": "(value: str, starlink_type: str, is_vector: bool)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "added"
+    },
+    "_runtime": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "An upstream Starlink release removed a preserved wrapper entry point.",
+            "kind": "class",
+            "name": "StarlinkApplicationUnavailableError",
+            "signature": null
+          },
+          {
+            "doc_summary": "A failed Starlink child process with complete captured diagnostics.",
+            "kind": "class",
+            "name": "StarlinkCommandError",
+            "signature": null
+          },
+          {
+            "doc_summary": "A Starlink command exceeded its caller-supplied timeout.",
+            "kind": "class",
+            "name": "StarlinkTimeoutError",
+            "signature": null
+          },
+          {
+            "doc_summary": "Select and validate a Starlink installation for subsequent calls.",
+            "kind": "function",
+            "name": "change_starpath",
+            "signature": "(starlinkdir: os.PathLike[str] | str)"
+          },
+          {
+            "doc_summary": "Return the process-wide default result backend name.",
+            "kind": "function",
+            "name": "get_result_backend",
+            "signature": "()"
+          },
+          {
+            "doc_summary": "Install this execution path while leaving old helper APIs in place.",
+            "kind": "function",
+            "name": "initialize",
+            "signature": "(wrapper_globals: MutableMapping[str, object])"
+          },
+          {
+            "doc_summary": "Select ``parget`` (default) or the optional ``legacy_hds`` adapter.",
+            "kind": "function",
+            "name": "set_result_backend",
+            "signature": "(name: str)"
+          },
+          {
+            "doc_summary": "Capture a current Starlink profile and add isolated ADAM state.",
+            "kind": "function",
+            "name": "setup_starlink_environ",
+            "signature": "(starpath: os.PathLike[str] | str, adamdir: os.PathLike[str] | str, noprompt: bool = True)"
+          },
+          {
+            "doc_summary": "Execute one Starlink application while preserving the legacy call shape.",
+            "kind": "function",
+            "name": "starcomm",
+            "signature": "(command: str, commandname: str, *args: object, **kwargs: object)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "added"
+    },
+    "_version": {
+      "callables": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "added"
+    },
+    "atools": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Runs the Starlink ATOOLS astaddpixelmask application.",
+            "kind": "function",
+            "name": "astaddpixelmask",
+            "signature": "(this, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink ATOOLS astaddregion application.",
+            "kind": "function",
+            "name": "astaddregion",
+            "signature": "(this, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink ATOOLS astdecompose application.",
+            "kind": "function",
+            "name": "astdecompose",
+            "signature": "(this, map1, map2, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink ATOOLS astgetregdisc application.",
+            "kind": "function",
+            "name": "astgetregdisc",
+            "signature": "(this, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink ATOOLS astmoc application.",
+            "kind": "function",
+            "name": "astmoc",
+            "signature": "(*args, **kwargs)"
+          },
+          {
+            "doc_summary": "ASTVIEWER is a python script that allows you to visualise the contents of a",
+            "kind": "function",
+            "name": "astviewer",
+            "signature": "(*args, **kwargs)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "ccdpack": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Runs the Starlink CCDPACK ccdexp application.",
+            "kind": "function",
+            "name": "ccdexp",
+            "signature": "(in_, table, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink CCDPACK ccdgenerate application.",
+            "kind": "function",
+            "name": "ccdgenerate",
+            "signature": "(file, nseq, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink CCDPACK ccdhelp application.",
+            "kind": "function",
+            "name": "ccdhelp",
+            "signature": "(*args, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink CCDPACK ccdimp application.",
+            "kind": "function",
+            "name": "ccdimp",
+            "signature": "(in_, table, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink CCDPACK picinfo application.",
+            "kind": "function",
+            "name": "picinfo",
+            "signature": "(*args, **kwargs)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "convert": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Runs the Starlink CONVERT iraf2ndf application.",
+            "kind": "function",
+            "name": "iraf2ndf",
+            "signature": "(in_, out, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink CONVERT ndf2iraf application.",
+            "kind": "function",
+            "name": "ndf2iraf",
+            "signature": "(in_, out, **kwargs)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "cupid": {
+      "callables": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "unchanged"
+    },
+    "figaro": {
+      "callables": {
+        "added": [],
+        "changed": [
+          {
+            "after": {
+              "doc_summary": "Runs the command: __REMOVED__:Starlink 2025A removed FIGARO EXAM; use HDSTRACE instead. .",
+              "kind": "function",
+              "name": "exam",
+              "signature": "(*args, **kwargs)"
+            },
+            "before": {
+              "doc_summary": "Runs the command: echo 'The EXAM command has been removed.  Please use HDSTRACE instead.' .",
+              "kind": "function",
+              "name": "exam",
+              "signature": "(*args, **kwargs)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "exam"
+          }
+        ],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "fluxes": {
+      "callables": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "unchanged"
+    },
+    "hdsutils": {
+      "callables": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "unchanged"
+    },
+    "kappa": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Runs the Starlink KAPPA complex application.",
+            "kind": "function",
+            "name": "complex",
+            "signature": "(in1, in2, out1, out2, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink KAPPA kaphelp application.",
+            "kind": "function",
+            "name": "kaphelp",
+            "signature": "(*args, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink KAPPA mocgen application.",
+            "kind": "function",
+            "name": "mocgen",
+            "signature": "(in_, out, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink KAPPA pixbin application.",
+            "kind": "function",
+            "name": "pixbin",
+            "signature": "(in_, out, index, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink KAPPA pow application.",
+            "kind": "function",
+            "name": "pow",
+            "signature": "(in_, power, out, **kwargs)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "picard": {
+      "callables": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "unchanged"
+    },
+    "polpack": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Runs the Starlink POLPACK poledit application.",
+            "kind": "function",
+            "name": "poledit",
+            "signature": "(in_, out, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink POLPACK polhelp application.",
+            "kind": "function",
+            "name": "polhelp",
+            "signature": "(*args, **kwargs)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "smurf": {
+      "callables": {
+        "added": [
+          {
+            "doc_summary": "Runs the Starlink SMURF gau2fit application.",
+            "kind": "function",
+            "name": "gau2fit",
+            "signature": "(in_, out, **kwargs)"
+          },
+          {
+            "doc_summary": "Runs the Starlink SMURF pol2ipcor application.",
+            "kind": "function",
+            "name": "pol2ipcor",
+            "signature": "(*args, **kwargs)"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "utilities": {
+      "callables": {
+        "added": [],
+        "changed": [
+          {
+            "after": {
+              "doc_summary": "Return a sorted one-line summary of documented module functions.",
+              "kind": "function",
+              "name": "get_module_function_summary",
+              "signature": "(module)"
+            },
+            "before": {
+              "doc_summary": "Return a summary of module functions",
+              "kind": "function",
+              "name": "get_module_function_summary",
+              "signature": "(module)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "get_module_function_summary"
+          },
+          {
+            "after": {
+              "doc_summary": "Return an Astropy FITS header from an NDF through KAPPA ``fitslist``.",
+              "kind": "function",
+              "name": "get_ndf_fitshdr",
+              "signature": "(datafile)"
+            },
+            "before": {
+              "doc_summary": "Return a astropy.io.fits header object.",
+              "kind": "function",
+              "name": "get_ndf_fitshdr",
+              "signature": "(datafile)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "get_ndf_fitshdr"
+          },
+          {
+            "after": {
+              "doc_summary": "Display generated long help for a wrapper module or function.",
+              "kind": "function",
+              "name": "starhelp",
+              "signature": "(myobj)"
+            },
+            "before": {
+              "doc_summary": "Get long help on a starlink module or command.",
+              "kind": "function",
+              "name": "starhelp",
+              "signature": "(myobj)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "starhelp"
+          }
+        ],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    },
+    "wrapper": {
+      "callables": {
+        "added": [],
+        "changed": [
+          {
+            "after": {
+              "doc_summary": "Historical generic Starlink exception retained for compatibility.",
+              "kind": "class",
+              "name": "StarError",
+              "signature": null
+            },
+            "before": {
+              "doc_summary": "",
+              "kind": "class",
+              "name": "StarError",
+              "signature": null
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "StarError"
+          },
+          {
+            "after": {
+              "doc_summary": "Select the Starlink installation used by subsequent wrapper calls.",
+              "kind": "function",
+              "name": "change_starpath",
+              "signature": "(starlinkdir)"
+            },
+            "before": {
+              "doc_summary": "Change the $STARLINK_DIR used by this module.",
+              "kind": "function",
+              "name": "change_starpath",
+              "signature": "(starlinkdir)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "change_starpath"
+          },
+          {
+            "after": {
+              "doc_summary": "Run ORAC-DR on a batch of files.",
+              "kind": "function",
+              "name": "oracdr",
+              "signature": "(instrument, loop = 'file', dataout = None, datain = None, recipe = None, recpars = None, onegroup = False, rawfiles = None, utdate = None, obslist = None, headeroverride = None, calib = None, verbose = False, debug = False, warn = False)"
+            },
+            "before": {
+              "doc_summary": "Run oracdr on a batch of files.",
+              "kind": "function",
+              "name": "oracdr",
+              "signature": "(instrument, loop = 'file', dataout = None, datain = None, recipe = None, recpars = None, onegroup = False, rawfiles = None, utdate = None, obslist = None, headeroverride = None, calib = None, verbose = False, debug = False, warn = False)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "oracdr"
+          },
+          {
+            "after": {
+              "doc_summary": "Return an ORAC-DR environment based on the selected Starlink.",
+              "kind": "function",
+              "name": "oracdr_envsetup",
+              "signature": "(instrument, utdate = None, ORAC_DIR = None, ORAC_DATA_IN = None, ORAC_DATA_OUT = None, ORAC_CAL_ROOT = None, ORAC_DATA_CAL = None, ORAC_PERL5LIB = None)"
+            },
+            "before": {
+              "doc_summary": "Setup the various ORAC-DR environmental variables.",
+              "kind": "function",
+              "name": "oracdr_envsetup",
+              "signature": "(instrument, utdate = None, ORAC_DIR = None, ORAC_DATA_IN = None, ORAC_DATA_OUT = None, ORAC_CAL_ROOT = None, ORAC_DATA_CAL = None, ORAC_PERL5LIB = None)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "oracdr_envsetup"
+          },
+          {
+            "after": {
+              "doc_summary": "Run a Picard recipe on a group of files.",
+              "kind": "function",
+              "name": "picard",
+              "signature": "(recipe, files, dataout = None, recpars = None, oracdir = None, verbose = False, debug = False, warn = False)"
+            },
+            "before": {
+              "doc_summary": "Run a picard recipe on a group of files.",
+              "kind": "function",
+              "name": "picard",
+              "signature": "(recipe, files, dataout = None, recpars = None, oracdir = None, verbose = False, debug = False, warn = False)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "picard"
+          },
+          {
+            "after": {
+              "doc_summary": "Set ``HDS_VERSION`` in the environment used by child applications.",
+              "kind": "function",
+              "name": "set_HDS_version",
+              "signature": "(version)"
+            },
+            "before": {
+              "doc_summary": "Use this to switch between HDS_VERSION=4 and HDS_VERSION=5.",
+              "kind": "function",
+              "name": "set_HDS_version",
+              "signature": "(version)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "set_HDS_version"
+          },
+          {
+            "after": {
+              "doc_summary": "Create a child-process environment for a Starlink installation.",
+              "kind": "function",
+              "name": "setup_starlink_environ",
+              "signature": "(starpath, adamdir, noprompt = True)"
+            },
+            "before": {
+              "doc_summary": "Create a suitable ENV dict to pass to subprocess.Popen.",
+              "kind": "function",
+              "name": "setup_starlink_environ",
+              "signature": "(starpath, adamdir, noprompt = True)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "setup_starlink_environ"
+          },
+          {
+            "after": {
+              "doc_summary": "Execute a Starlink application using the preserved 0.3 call shape.",
+              "kind": "function",
+              "name": "starcomm",
+              "signature": "(command, commandname, *args, **kwargs)"
+            },
+            "before": {
+              "doc_summary": "Execute a Starlink application",
+              "kind": "function",
+              "name": "starcomm",
+              "signature": "(command, commandname, *args, **kwargs)"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "starcomm"
+          },
+          {
+            "after": {
+              "doc_summary": "Restore the signal defaults expected by non-Python child programs.",
+              "kind": "function",
+              "name": "subprocess_setup",
+              "signature": "()"
+            },
+            "before": {
+              "doc_summary": "",
+              "kind": "function",
+              "name": "subprocess_setup",
+              "signature": "()"
+            },
+            "changed_fields": [
+              "doc_summary"
+            ],
+            "name": "subprocess_setup"
+          }
+        ],
+        "removed": []
+      },
+      "result_types": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "status": "changed"
+    }
+  },
+  "schema_version": 1,
+  "summary": {
+    "callables_added": 44,
+    "callables_changed": 13,
+    "callables_removed": 0,
+    "modules_added": 6,
+    "modules_removed": 0,
+    "result_types_added": 0,
+    "result_types_changed": 0,
+    "result_types_removed": 0,
+    "signatures_changed": 0
+  }
+}

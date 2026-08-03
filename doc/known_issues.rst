@@ -33,6 +33,21 @@ default.
 non-interactive behavior, pass ``val='BAD'`` or another intended
 numeric value explicitly.
 
+WSL filesystem location
+-----------------------
+
+When using Starlink 2025A under WSL2, launch Starlink applications from a
+working directory on the WSL Linux filesystem, such as beneath
+``/home/user``. When the process working directory is on a mounted Windows
+filesystem such as ``/mnt/c``, KAPPA applications produce their expected
+results but could exit with a segmentation fault in Starlink's bundled HDF5
+shutdown code.
+
+Start Python from a Linux-filesystem directory or pass a suitable
+``_starlink_cwd`` to an individual generated call. The wrapper reports a
+non-zero Starlink exit as :class:`starlink.wrapper.StarlinkCommandError`; it
+does not suppress or reinterpret this external failure.
+
 Resolved stale output state
 ---------------------------
 
