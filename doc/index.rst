@@ -1,37 +1,26 @@
-starlink-pywrapper: Quick Start Guide
-=====================================
+starlink-pywrapper 0.4
+======================
 
 .. include:: ../README.rst
-  :start-after: inclusion-marker-do-not-remove
 
-Guide to this software
------------------------
-
-
-.. toctree::
-   :maxdepth: 3
-
-   details
-
-There are also some worked examples using this software.
+User guide
+----------
 
 .. toctree::
    :maxdepth: 2
 
-   examples-notebook-intro
-   examples-notebook-oracdr
-   examples-notebook-howtos
+   details
+   known_issues
+   validation
 
-(These examples are also available as Jupyter notebooks, viewable at XXXXX, XXXX and XXXX)
+API reference
+-------------
 
-Module references:
-------------------
 .. autosummary::
    :toctree: _autosummary
 
    starlink.wrapper
    starlink.utilities
-
    starlink.atools
    starlink.ccdpack
    starlink.convert
@@ -41,17 +30,10 @@ Module references:
    starlink.kappa
    starlink.polpack
    starlink.smurf
-
-
    starlink.picard
 
-
-
-
-
-
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

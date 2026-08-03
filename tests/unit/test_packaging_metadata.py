@@ -50,6 +50,7 @@ def test_license_is_declared_and_included_in_source_archives() -> None:
     assert "GNU GENERAL PUBLIC LICENSE" in license_text
     assert "Version 3, 29 June 2007" in license_text
     assert "include LICENSE" in manifest.splitlines()
+    assert "include CHANGELOG.rst" in manifest.splitlines()
 
 
 def test_project_urls_distinguish_the_fork_and_upstream_projects() -> None:
