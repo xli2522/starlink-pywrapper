@@ -1,0 +1,7 @@
+# Keep deterministic generator inputs and outputs byte-identical on all hosts.
+starlink/*_help/*.rst text eol=lf
+manifests/help_manifest_2025a.json text eol=lf
+helperscripts/generate_2025a.py text eol=lf
+helperscripts/help_resources.py text eol=lf
+helperscripts/html_to_rst.py text eol=lf
+tests/generator/test_help_resources.py text eol=lf

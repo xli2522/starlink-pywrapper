@@ -1,0 +1,4726 @@
+{
+  "resource_count": 674,
+  "resources": [
+    {
+      "command": "astaddframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astaddframe.rst",
+      "sha256": "b922604a784ff27e3c432275db2a054548509429662f225bacf7142823f071e5",
+      "source": "applications/atools/astaddframe.f"
+    },
+    {
+      "command": "astaddpixelmask",
+      "package": "atools",
+      "path": "starlink/atools_help/astaddpixelmask.rst",
+      "sha256": "e3796296a158680e18970c6297bb32c1c8503465f6fc42b87e0e3a6eba6e6056",
+      "source": "applications/atools/astaddpixelmask.f"
+    },
+    {
+      "command": "astaddregion",
+      "package": "atools",
+      "path": "starlink/atools_help/astaddregion.rst",
+      "sha256": "4ec79929b78b6bbbb7e8fee9d77a9d193a09e796268a516f91d7a2c8e87624b1",
+      "source": "applications/atools/astaddregion.f"
+    },
+    {
+      "command": "astaddvariant",
+      "package": "atools",
+      "path": "starlink/atools_help/astaddvariant.rst",
+      "sha256": "a86cf878c3f803890554d9f5ebf2e593752ef40d00afb2029953419e26a20c07",
+      "source": "applications/atools/astaddvariant.f"
+    },
+    {
+      "command": "astangle",
+      "package": "atools",
+      "path": "starlink/atools_help/astangle.rst",
+      "sha256": "e6e3e7eaa688ab476fe7739867338d8d8ec4f12ceb05c42c419ad2b21acf8981",
+      "source": "applications/atools/astangle.f"
+    },
+    {
+      "command": "astbox",
+      "package": "atools",
+      "path": "starlink/atools_help/astbox.rst",
+      "sha256": "410238939b20d054a040f50ee5282e386391f0a0fbfc6c764ed9b84f1f3b01d4",
+      "source": "applications/atools/astbox.f"
+    },
+    {
+      "command": "astchebydomain",
+      "package": "atools",
+      "path": "starlink/atools_help/astchebydomain.rst",
+      "sha256": "85933b4d259dcbf83205e265b65cb051649cf466837ef28a9eb814416621d632",
+      "source": "applications/atools/astchebydomain.f"
+    },
+    {
+      "command": "astchebymap",
+      "package": "atools",
+      "path": "starlink/atools_help/astchebymap.rst",
+      "sha256": "0195ad4ac4b97e7b69bca45bcd5d6228d90c0a138f22f464651106c6f5804517",
+      "source": "applications/atools/astchebymap.f"
+    },
+    {
+      "command": "astcircle",
+      "package": "atools",
+      "path": "starlink/atools_help/astcircle.rst",
+      "sha256": "df235fcb7d04ac540f89307bfbe7782ff167d3b7a208e5df6d7f7c9149242fff",
+      "source": "applications/atools/astcircle.f"
+    },
+    {
+      "command": "astclear",
+      "package": "atools",
+      "path": "starlink/atools_help/astclear.rst",
+      "sha256": "fefc936cd5fd2e4f25df3545766b1ea0d3c4a6c099854dc8fea800ad43df2c70",
+      "source": "applications/atools/astclear.f"
+    },
+    {
+      "command": "astcmpframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astcmpframe.rst",
+      "sha256": "79a09ab3b34ff7b05996a149801539c8568dea8ba1d4c972b664bfc241f68f08",
+      "source": "applications/atools/astcmpframe.f"
+    },
+    {
+      "command": "astcmpmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astcmpmap.rst",
+      "sha256": "071de27fd89fbc8435b520bcefbeff8468fed12b60cfbd9e5c440b27f8860709",
+      "source": "applications/atools/astcmpmap.f"
+    },
+    {
+      "command": "astcmpregion",
+      "package": "atools",
+      "path": "starlink/atools_help/astcmpregion.rst",
+      "sha256": "ec6074da877f66fcd9dfaf2cacc02df97b0c6400b16653934ab887d630f68f11",
+      "source": "applications/atools/astcmpregion.f"
+    },
+    {
+      "command": "astconvert",
+      "package": "atools",
+      "path": "starlink/atools_help/astconvert.rst",
+      "sha256": "02c3d1b7e7e0387460b5640c14e613a0947428d0bc1afbddf4e52d9633c48159",
+      "source": "applications/atools/astconvert.f"
+    },
+    {
+      "command": "astconvex",
+      "package": "atools",
+      "path": "starlink/atools_help/astconvex.rst",
+      "sha256": "eaefb2c3dd570da09ac8d57411980280061ca6d2e834e9456c1721ae35fce7d8",
+      "source": "applications/atools/astconvex.f"
+    },
+    {
+      "command": "astcopy",
+      "package": "atools",
+      "path": "starlink/atools_help/astcopy.rst",
+      "sha256": "a98c2f6656cc3c8bd348771dd59c1e3f9e6cc20adfdb9fffd67cc91a4495f7d9",
+      "source": "applications/atools/astcopy.f"
+    },
+    {
+      "command": "astdecompose",
+      "package": "atools",
+      "path": "starlink/atools_help/astdecompose.rst",
+      "sha256": "562737e766038b036d930586f6fb7f66ea93cc0f2e2054b9ff269f2abda7b963",
+      "source": "applications/atools/astdecompose.f"
+    },
+    {
+      "command": "astdistance",
+      "package": "atools",
+      "path": "starlink/atools_help/astdistance.rst",
+      "sha256": "446553f7dcda4b99afd53ea3b0dd0df5e2cc899a6848144d7bea4fa951cc2901",
+      "source": "applications/atools/astdistance.f"
+    },
+    {
+      "command": "astdownsize",
+      "package": "atools",
+      "path": "starlink/atools_help/astdownsize.rst",
+      "sha256": "e404f5e389e1336e966d29a86cb9289f4160d448736ba7c8f8531d4d7e6d0f76",
+      "source": "applications/atools/astdownsize.f"
+    },
+    {
+      "command": "astdsbframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astdsbframe.rst",
+      "sha256": "5f65c298d5558ab5e098a06a9bce714f8f0d4f9e7d551bced35735a9943e4c19",
+      "source": "applications/atools/astdsbframe.f"
+    },
+    {
+      "command": "astellipse",
+      "package": "atools",
+      "path": "starlink/atools_help/astellipse.rst",
+      "sha256": "72565b01a6aa2259a8eda6cc3facee47efdbeadab6671f50ec22cc7ece73a033",
+      "source": "applications/atools/astellipse.f"
+    },
+    {
+      "command": "astfindframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astfindframe.rst",
+      "sha256": "46478abd4594b8d518f74bea9a5bfc1e66f03f080257f52875ab17868ea9f99a",
+      "source": "applications/atools/astfindframe.f"
+    },
+    {
+      "command": "astfluxframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astfluxframe.rst",
+      "sha256": "d6ae1acb7ecbe99e224979d73738ce3fdfb3828b10b3c2b336030a8f3b734027",
+      "source": "applications/atools/astfluxframe.f"
+    },
+    {
+      "command": "astformat",
+      "package": "atools",
+      "path": "starlink/atools_help/astformat.rst",
+      "sha256": "7ff81ff22f95308ef8e2b279601cd65b35f3b011d0a4a05a3e9aab38ff0f2c0a",
+      "source": "applications/atools/astformat.f"
+    },
+    {
+      "command": "astframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astframe.rst",
+      "sha256": "745d65399900259e9cf3d85859a9aab4b43e6bf260413e4cbaa87f64b32993c1",
+      "source": "applications/atools/astframe.f"
+    },
+    {
+      "command": "astframeset",
+      "package": "atools",
+      "path": "starlink/atools_help/astframeset.rst",
+      "sha256": "8309e79e223012e6249c92fde78ea540c9edd7624dcadc8568749220a7448a45",
+      "source": "applications/atools/astframeset.f"
+    },
+    {
+      "command": "astfromhds",
+      "package": "atools",
+      "path": "starlink/atools_help/astfromhds.rst",
+      "sha256": "6469ddeb924313ea044d63c3c5b45f07dcbd8f62b3b9c4ed379fbd2810d2b15e",
+      "source": "applications/atools/astfromhds.f"
+    },
+    {
+      "command": "astget",
+      "package": "atools",
+      "path": "starlink/atools_help/astget.rst",
+      "sha256": "71a851b3b2280660ad72c41d46501147fe6fe44cba2167b5e3cefceedc4cbb41",
+      "source": "applications/atools/astget.f"
+    },
+    {
+      "command": "astgetactunit",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetactunit.rst",
+      "sha256": "99d544ce84037145ebfbb09bda198098dc9b5966b8a017650b97b74aec0f786f",
+      "source": "applications/atools/astgetactunit.f"
+    },
+    {
+      "command": "astgetframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetframe.rst",
+      "sha256": "5a468783275d2d6f8b72ac059a1642d58ccbca089405126c88d01887d92bb52a",
+      "source": "applications/atools/astgetframe.f"
+    },
+    {
+      "command": "astgetmapping",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetmapping.rst",
+      "sha256": "2edf10cbea9d182a5a971363188757d8d89cdce810620c9b9879a482161506b2",
+      "source": "applications/atools/astgetmapping.f"
+    },
+    {
+      "command": "astgetrefpos",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetrefpos.rst",
+      "sha256": "de7aaa9deb2906f47454a2cadd37dcaaf39a5054979013199b8b1217c1209524",
+      "source": "applications/atools/astgetrefpos.f"
+    },
+    {
+      "command": "astgetregbounds",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetregbounds.rst",
+      "sha256": "6fe7bc2bf0beca337186b207ca447a94d64190a69a64c327eca321517aa15324",
+      "source": "applications/atools/astgetregbounds.f"
+    },
+    {
+      "command": "astgetregdisc",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetregdisc.rst",
+      "sha256": "681b6ebe21555a5619da52f6aa4592dbbabac6ebb12971032e6a925f6ac4b218",
+      "source": "applications/atools/astgetregdisc.f"
+    },
+    {
+      "command": "astgetregframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetregframe.rst",
+      "sha256": "765945e965b0c3695ec852be69aaf7332ca8bf858c27f849743ae913e1dafeaa",
+      "source": "applications/atools/astgetregframe.f"
+    },
+    {
+      "command": "astgetunc",
+      "package": "atools",
+      "path": "starlink/atools_help/astgetunc.rst",
+      "sha256": "f080d01671e83670e0e8baf478e7f817901e31c51e7664d80fca32d6177da3fa",
+      "source": "applications/atools/astgetunc.f"
+    },
+    {
+      "command": "astinterval",
+      "package": "atools",
+      "path": "starlink/atools_help/astinterval.rst",
+      "sha256": "32ea2fed754c7393c8c70313d1609e8e74d4c2b07a7759f48c6b5db1d5e679fd",
+      "source": "applications/atools/astinterval.f"
+    },
+    {
+      "command": "astinvert",
+      "package": "atools",
+      "path": "starlink/atools_help/astinvert.rst",
+      "sha256": "a4d17d6de2cdfd26a49152cc4d97d442416f54b842c5f9ac4ac050317c910952",
+      "source": "applications/atools/astinvert.f"
+    },
+    {
+      "command": "astlinearapprox",
+      "package": "atools",
+      "path": "starlink/atools_help/astlinearapprox.rst",
+      "sha256": "75d57ec12cf025c58736f3abccf1d87af78a3b936192cabf499127328e7c7652",
+      "source": "applications/atools/astlinearapprox.f"
+    },
+    {
+      "command": "astlutmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astlutmap.rst",
+      "sha256": "f18ffa397f54aa4c11bc12f3d9428ff46cce24d87906f542e384d3a69026fc09",
+      "source": "applications/atools/astlutmap.f"
+    },
+    {
+      "command": "astmapbox",
+      "package": "atools",
+      "path": "starlink/atools_help/astmapbox.rst",
+      "sha256": "6af5e8f8b86cd272aa3282e3c75546a0f83d6bf8d1df46fc9ffb11c7f82aac4e",
+      "source": "applications/atools/astmapbox.f"
+    },
+    {
+      "command": "astmapregion",
+      "package": "atools",
+      "path": "starlink/atools_help/astmapregion.rst",
+      "sha256": "66497e52dd859fd4c063cc2a37c6f4b8d8432ff54aca8055d49449a8eb2cd8b2",
+      "source": "applications/atools/astmapregion.f"
+    },
+    {
+      "command": "astmapsplit",
+      "package": "atools",
+      "path": "starlink/atools_help/astmapsplit.rst",
+      "sha256": "86898e55d67105e67673f1d5524fb9a977592312999338a55c73642a3cc4b06e",
+      "source": "applications/atools/astmapsplit.f"
+    },
+    {
+      "command": "astmask",
+      "package": "atools",
+      "path": "starlink/atools_help/astmask.rst",
+      "sha256": "37e0b2e39df988b99a261a9c2ca629264de7d000ff2beb7ecf674814377a78e3",
+      "source": "applications/atools/astmask.f"
+    },
+    {
+      "command": "astmatchaxes",
+      "package": "atools",
+      "path": "starlink/atools_help/astmatchaxes.rst",
+      "sha256": "4af158b78c261111360d475bb1fe41fda63a5a5a7427698debad219626b1dee3",
+      "source": "applications/atools/astmatchaxes.f"
+    },
+    {
+      "command": "astmathmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astmathmap.rst",
+      "sha256": "b2e948ebfae2086a85ca597bcdf9cc41f07cd7756abdcdc7f4b10bd3f787eb38",
+      "source": "applications/atools/astmathmap.f"
+    },
+    {
+      "command": "astmatrixmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astmatrixmap.rst",
+      "sha256": "218be4e3b094c3c3c753b9c5f9cc182650930a3b5dd3df9b43587c1b12e5a8dd",
+      "source": "applications/atools/astmatrixmap.f"
+    },
+    {
+      "command": "astmirrorvars",
+      "package": "atools",
+      "path": "starlink/atools_help/astmirrorvars.rst",
+      "sha256": "d063bcf8b2e9204d7b6e9cc0e11c9adf11ce27f8f3111ce70d1268f590509eb6",
+      "source": "applications/atools/astmirrorvars.f"
+    },
+    {
+      "command": "astmoc",
+      "package": "atools",
+      "path": "starlink/atools_help/astmoc.rst",
+      "sha256": "b9da16f448ea0f2939735c6511543a1fafb29f481661acfc484967802aeaab5e",
+      "source": "applications/atools/astmoc.f"
+    },
+    {
+      "command": "astnegate",
+      "package": "atools",
+      "path": "starlink/atools_help/astnegate.rst",
+      "sha256": "079d7ec647858b27c9c0cdc02611deaa034b2c6e74e87aaca0b912b2c26de7c6",
+      "source": "applications/atools/astnegate.f"
+    },
+    {
+      "command": "astoutline",
+      "package": "atools",
+      "path": "starlink/atools_help/astoutline.rst",
+      "sha256": "e0ea634a478a75572bd78f4ba4e021fded632315fe3d4f3336d3a5d0adca4221",
+      "source": "applications/atools/astoutline.f"
+    },
+    {
+      "command": "astoverlap",
+      "package": "atools",
+      "path": "starlink/atools_help/astoverlap.rst",
+      "sha256": "3fa81cbbdf480b5343e4d8c142ea7aae3ea43b07e3eddf61d73c9e34f4bba7b7",
+      "source": "applications/atools/astoverlap.f"
+    },
+    {
+      "command": "astpcdmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astpcdmap.rst",
+      "sha256": "8dd709b925c711d6c60eca7a0156b8ce3b5d3c8b67131a71a5b068daefedee79",
+      "source": "applications/atools/astpcdmap.f"
+    },
+    {
+      "command": "astpermaxes",
+      "package": "atools",
+      "path": "starlink/atools_help/astpermaxes.rst",
+      "sha256": "8331e944175c3969ddeaa4ff0dc3fca69c11e5b6aa0c9cb79652933c3b033479",
+      "source": "applications/atools/astpermaxes.f"
+    },
+    {
+      "command": "astpermmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astpermmap.rst",
+      "sha256": "e3b6cf1adcd6b870e4ff78f2ba6de6593bef4e4b414669087c79a68adfad24c6",
+      "source": "applications/atools/astpermmap.f"
+    },
+    {
+      "command": "astpickaxes",
+      "package": "atools",
+      "path": "starlink/atools_help/astpickaxes.rst",
+      "sha256": "3804a193794122dbdcdcdd6c206c6f9fc98ac0895ef99afd2a657203dbf9a911",
+      "source": "applications/atools/astpickaxes.f"
+    },
+    {
+      "command": "astpolygon",
+      "package": "atools",
+      "path": "starlink/atools_help/astpolygon.rst",
+      "sha256": "d49b975a0f113c5896d6606b18a7504b30294881539602d681f39d6470b68544",
+      "source": "applications/atools/astpolygon.f"
+    },
+    {
+      "command": "astpolymap",
+      "package": "atools",
+      "path": "starlink/atools_help/astpolymap.rst",
+      "sha256": "c18190fb24bbbc7477bf598b3d190889ebe50166d6e98f7b8e882d276cda46d7",
+      "source": "applications/atools/astpolymap.f"
+    },
+    {
+      "command": "astpolytran",
+      "package": "atools",
+      "path": "starlink/atools_help/astpolytran.rst",
+      "sha256": "d6e9309080886136889a9724c6ea475351d31a1df0aea37f74b326dec50e80c9",
+      "source": "applications/atools/astpolytran.f"
+    },
+    {
+      "command": "astprism",
+      "package": "atools",
+      "path": "starlink/atools_help/astprism.rst",
+      "sha256": "fa1a3ec47136a0cd8bef8c3a13b3a12d32a46c6d7c765f92728bf4c788079e8a",
+      "source": "applications/atools/astprism.f"
+    },
+    {
+      "command": "astquadapprox",
+      "package": "atools",
+      "path": "starlink/atools_help/astquadapprox.rst",
+      "sha256": "4103851a848ecaf493d43ea731938053e2beb71e6e342a07ccb5a0b63075b4ca",
+      "source": "applications/atools/astquadapprox.f"
+    },
+    {
+      "command": "astrate",
+      "package": "atools",
+      "path": "starlink/atools_help/astrate.rst",
+      "sha256": "29223019cc13438e52943ead27e79d41d222a43f669c8f146b7ee673e8dc6f55",
+      "source": "applications/atools/astrate.f"
+    },
+    {
+      "command": "astratemap",
+      "package": "atools",
+      "path": "starlink/atools_help/astratemap.rst",
+      "sha256": "54877cfb7a39a68dcb65cc4fd57832e9314cc100c7419cbf41041af2d3f4d60f",
+      "source": "applications/atools/astratemap.f"
+    },
+    {
+      "command": "astremapframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astremapframe.rst",
+      "sha256": "ec4e7b201edc3c31668add03081c44b767eaea7255f65037c1b6064cd985f57f",
+      "source": "applications/atools/astremapframe.f"
+    },
+    {
+      "command": "astremoveframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astremoveframe.rst",
+      "sha256": "3040d671a7483167912159191cefc05bd6765eb3705590d2434a2b84be999a9a",
+      "source": "applications/atools/astremoveframe.f"
+    },
+    {
+      "command": "astremoveregion",
+      "package": "atools",
+      "path": "starlink/atools_help/astremoveregion.rst",
+      "sha256": "ac6637e4eb32a8fd19aa1c54797acbdd68a649c61ce5ecdfa7d7a8185e5e6761",
+      "source": "applications/atools/astremoveregion.f"
+    },
+    {
+      "command": "astselectormap",
+      "package": "atools",
+      "path": "starlink/atools_help/astselectormap.rst",
+      "sha256": "41aa75c2727ae2eff688401f546c34ea6c9a46104fd9b9c8456f09e4551ede68",
+      "source": "applications/atools/astselectormap.f"
+    },
+    {
+      "command": "astset",
+      "package": "atools",
+      "path": "starlink/atools_help/astset.rst",
+      "sha256": "b9c9583b61ef22787089256a9de2844dde29aea1465121066344335ac55bbf9c",
+      "source": "applications/atools/astset.f"
+    },
+    {
+      "command": "astsetactunit",
+      "package": "atools",
+      "path": "starlink/atools_help/astsetactunit.rst",
+      "sha256": "cfe90713cc79c75cca5d4e86008aa78bf280d770cc7b6c79cd2f64a40153b1ab",
+      "source": "applications/atools/astsetactunit.f"
+    },
+    {
+      "command": "astsetrefpos",
+      "package": "atools",
+      "path": "starlink/atools_help/astsetrefpos.rst",
+      "sha256": "70031f5d60b56b1bd016c294ab09181d9827fb1280ae7d3a588601cd007a3061",
+      "source": "applications/atools/astsetrefpos.f"
+    },
+    {
+      "command": "astsfluxframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astsfluxframe.rst",
+      "sha256": "e30ad0c0da1541ed4af3b5abc63d9b221cf7e94eb01c2a2b7a51a37ceb33d9de",
+      "source": "applications/atools/astsfluxframe.f"
+    },
+    {
+      "command": "astshiftmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astshiftmap.rst",
+      "sha256": "8d7b0f190b8c6a5e9798606e02677567a6efdd8ddf8795e95bc812805a683ee3",
+      "source": "applications/atools/astshiftmap.f"
+    },
+    {
+      "command": "astshow",
+      "package": "atools",
+      "path": "starlink/atools_help/astshow.rst",
+      "sha256": "9702d5427bd083080b3cbe76f0db65ef8a1cbd71583b460e12d1332915518f52",
+      "source": "applications/atools/atools.star-hlp"
+    },
+    {
+      "command": "astshowmesh",
+      "package": "atools",
+      "path": "starlink/atools_help/astshowmesh.rst",
+      "sha256": "e4ce433940eceeecb3023288a2a7616c4b8030bb5544409f49339ebfa310f547",
+      "source": "applications/atools/astshowmesh.f"
+    },
+    {
+      "command": "astsimplify",
+      "package": "atools",
+      "path": "starlink/atools_help/astsimplify.rst",
+      "sha256": "ede3bfa5852b16c863d0d1e405d74d2347ba0580db43cced49abe3997a1e2e44",
+      "source": "applications/atools/astsimplify.f"
+    },
+    {
+      "command": "astskyframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astskyframe.rst",
+      "sha256": "58a121b0d67464c90f2a9aa1496004b05986f727dba59a7dfd388a6ebefe5ada",
+      "source": "applications/atools/astskyframe.f"
+    },
+    {
+      "command": "astspecframe",
+      "package": "atools",
+      "path": "starlink/atools_help/astspecframe.rst",
+      "sha256": "7dbe471d66403e563bb008c2b0d13a32166458406502f516192e66d9d3b83bc0",
+      "source": "applications/atools/astspecframe.f"
+    },
+    {
+      "command": "astsphmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astsphmap.rst",
+      "sha256": "5104af716a10d9451091ce7e50fc19773182d4a33832df84e1c7b2d741ad0276",
+      "source": "applications/atools/astsphmap.f"
+    },
+    {
+      "command": "astswitchmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astswitchmap.rst",
+      "sha256": "094134de4672b274cfca2ae79d3b8eb0cdc04f7afd3db15e1081f9ec6906dce1",
+      "source": "applications/atools/astswitchmap.f"
+    },
+    {
+      "command": "asttest",
+      "package": "atools",
+      "path": "starlink/atools_help/asttest.rst",
+      "sha256": "b9f5fa09cf54fab414f3a19403b0e94f5a8eb2401f8ddd16c0c6e7f951ae42c4",
+      "source": "applications/atools/asttest.f"
+    },
+    {
+      "command": "asttimeframe",
+      "package": "atools",
+      "path": "starlink/atools_help/asttimeframe.rst",
+      "sha256": "fbacf01ee1db45ec2cf12f1e6e40e318b19bca24738ddb3343bf8e6cd26e3583",
+      "source": "applications/atools/asttimeframe.f"
+    },
+    {
+      "command": "asttohds",
+      "package": "atools",
+      "path": "starlink/atools_help/asttohds.rst",
+      "sha256": "e3e6f2d5cc91d3696ec6cd650dd6f226ed5bf8060f760c7b3343f1171c92fe2d",
+      "source": "applications/atools/asttohds.f"
+    },
+    {
+      "command": "asttran1",
+      "package": "atools",
+      "path": "starlink/atools_help/asttran1.rst",
+      "sha256": "be76683977cfe3b66410ebe90fd0afb3213c686d70754306470e8ab77343dd66",
+      "source": "applications/atools/asttran1.f"
+    },
+    {
+      "command": "asttran2",
+      "package": "atools",
+      "path": "starlink/atools_help/asttran2.rst",
+      "sha256": "dbd30d5ca8d5320f2d0dbaa6e5e0f3817f68af0419ed71f45cbf4b816f49b63d",
+      "source": "applications/atools/asttran2.f"
+    },
+    {
+      "command": "asttrangrid",
+      "package": "atools",
+      "path": "starlink/atools_help/asttrangrid.rst",
+      "sha256": "8c196b27502f64a102b080b43c54179aef4ded0f72e34136f15dd2a57fcfebb5",
+      "source": "applications/atools/asttrangrid.f"
+    },
+    {
+      "command": "asttranmap",
+      "package": "atools",
+      "path": "starlink/atools_help/asttranmap.rst",
+      "sha256": "042b6e32f85ecbb2202c6fadf00e99878a9e61ca8f2aa144102251ea146be095",
+      "source": "applications/atools/asttranmap.f"
+    },
+    {
+      "command": "asttrann",
+      "package": "atools",
+      "path": "starlink/atools_help/asttrann.rst",
+      "sha256": "f7adabbd531d8a02f9258954bd732614c5d28f308547ca4a9c70fafc5a9bb81a",
+      "source": "applications/atools/asttrann.f"
+    },
+    {
+      "command": "astunformat",
+      "package": "atools",
+      "path": "starlink/atools_help/astunformat.rst",
+      "sha256": "86e9ee3c7be0467247f0650c137d6b73316bfaef61378b153d675ce0ee773486",
+      "source": "applications/atools/astunformat.f"
+    },
+    {
+      "command": "astunitmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astunitmap.rst",
+      "sha256": "51ee835afbd3279dd5204751493b46c884ac30f7f55e21b6ecc1ed88d3c5b786",
+      "source": "applications/atools/astunitmap.f"
+    },
+    {
+      "command": "astviewer",
+      "package": "atools",
+      "path": "starlink/atools_help/astviewer.rst",
+      "sha256": "5658f42477b6a88f5ea1d4fba7193d8968615c33034462e3f4d46c39dd77a749",
+      "source": "applications/atools/atools.star-hlp"
+    },
+    {
+      "command": "astwcsmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astwcsmap.rst",
+      "sha256": "d8cdb42028ba83ad47dc59889294529039f76150efab5d93c9635556439800b0",
+      "source": "applications/atools/astwcsmap.f"
+    },
+    {
+      "command": "astwinmap",
+      "package": "atools",
+      "path": "starlink/atools_help/astwinmap.rst",
+      "sha256": "632c7daa9ea3b131be5845aa3921d745332fbc14187ffafd45ecb811b2e79c0e",
+      "source": "applications/atools/astwinmap.f"
+    },
+    {
+      "command": "astzoommap",
+      "package": "atools",
+      "path": "starlink/atools_help/astzoommap.rst",
+      "sha256": "ed63500bd7d97a7704e2b01f0ddceba49aa21587d0cb7a1e18c4d8579cc0a896",
+      "source": "applications/atools/astzoommap.f"
+    },
+    {
+      "command": "atlhelp",
+      "package": "atools",
+      "path": "starlink/atools_help/atlhelp.rst",
+      "sha256": "c0424988f03b9d92cb29d0f5facee517b33ef7fcb2e4dafb67dde48114fb24a8",
+      "source": "applications/atools/atlhelp.f"
+    },
+    {
+      "command": "astexp",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/astexp.rst",
+      "sha256": "a9a46de21056265d71390b8ce6c5f0452ffb8ab09ccb985f60aff2ffc323e88e",
+      "source": "applications/ccdpack/tasks/astexp.f"
+    },
+    {
+      "command": "astimp",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/astimp.rst",
+      "sha256": "e9c854d6eb9ba1f8235c77b93a3fe2990f85640674e6acbd126f276dd5f920d4",
+      "source": "applications/ccdpack/tasks/astimp.f"
+    },
+    {
+      "command": "calcor",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/calcor.rst",
+      "sha256": "f9a4dfd25cc7d5215bf94ba9d5912a061cfc5dbfad2e43e824fb8364609f550f",
+      "source": "applications/ccdpack/tasks/calcor.f"
+    },
+    {
+      "command": "ccdalign",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdalign.rst",
+      "sha256": "67737b7e7ce2230f8661a00bdf42bebd6f78e2fc2f98a9eae4e07d17129685b7",
+      "source": "applications/ccdpack/tasks/ccdalign.f"
+    },
+    {
+      "command": "ccdclear",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdclear.rst",
+      "sha256": "13c90259899dd7cb3720722b406a0a132d5ba7cb4efe8ea477ad9a677375bf68",
+      "source": "applications/ccdpack/tasks/ccdclear.f"
+    },
+    {
+      "command": "ccdedit",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdedit.rst",
+      "sha256": "cbe859df160f399524d49d4dfbdbc854fede2e84f21f7c545c3f299bb6346410",
+      "source": "applications/ccdpack/tasks/ccdedit.f"
+    },
+    {
+      "command": "ccdexp",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdexp.rst",
+      "sha256": "28b468aafc9f1075949cbd99b93dbf4b1b56e617e9502fff97092eb93ac6a045",
+      "source": "applications/ccdpack/tasks/ccdexp.f"
+    },
+    {
+      "command": "ccdgenerate",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdgenerate.rst",
+      "sha256": "d9cbe79a57c4fa506d0ecd2e1acdd00e9393efc92e41fd7fa0fb5d275748b2a5",
+      "source": "applications/ccdpack/tasks/ccdgenerate.f"
+    },
+    {
+      "command": "ccdhelp",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdhelp.rst",
+      "sha256": "ec091e599bc42e1a7fdf5ea43b041a4a8d51887e002b75288ecd96c41d85084a",
+      "source": "applications/ccdpack/ccdhelp.f"
+    },
+    {
+      "command": "ccdimp",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdimp.rst",
+      "sha256": "f1dbb08656e19583be71cf03c6d02e15678fac8d33924ca6acd1ad9789f7f3fc",
+      "source": "applications/ccdpack/tasks/ccdimp.f"
+    },
+    {
+      "command": "ccdndfac",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdndfac.rst",
+      "sha256": "6760368c04b0e474630bd185bc16162e96a90897fa8710746943de8011db389e",
+      "source": "applications/ccdpack/tasks/ccdndfac.f"
+    },
+    {
+      "command": "ccdnote",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdnote.rst",
+      "sha256": "1071865d02064aa9a85b3ca123f3bd6b9a3bd9474039c38d3acfe6c39cf31784",
+      "source": "applications/ccdpack/tasks/ccdnote.f"
+    },
+    {
+      "command": "ccdsetup",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdsetup.rst",
+      "sha256": "ddf1b5881679f3be281203125d30a82638bedf7377c3541f94110ffdc8113566",
+      "source": "applications/ccdpack/tasks/ccdsetup.f"
+    },
+    {
+      "command": "ccdshow",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/ccdshow.rst",
+      "sha256": "91348e95acadb8ba09aed7496742435e7b1997d0d8e1e57a5463f5dc1fed35b8",
+      "source": "applications/ccdpack/tasks/ccdshow.f"
+    },
+    {
+      "command": "debias",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/debias.rst",
+      "sha256": "ecec00100062ec10791f8a415c5a441fc9857acdcb0c2837f21fd5c6934c7ee7",
+      "source": "applications/ccdpack/tasks/debias.f"
+    },
+    {
+      "command": "drawndf",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/drawndf.rst",
+      "sha256": "2ee5c8664320092b23a65caca89dad48054e19bfa6e07e93959e2cc0187d85df",
+      "source": "applications/ccdpack/tasks/drawndf.f"
+    },
+    {
+      "command": "drizzle",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/drizzle.rst",
+      "sha256": "4b3a2b1cf66872fa5d14d0aac5a3463ed7015a6ef3b38ab3a0d69d725205c640",
+      "source": "applications/ccdpack/tasks/drizzle.f"
+    },
+    {
+      "command": "findcent",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/findcent.rst",
+      "sha256": "13b8e88d38e618af7612a4e35bd00f5e856a1f629cc9b715cea65732a875d1ff",
+      "source": "applications/ccdpack/tasks/findcent.f"
+    },
+    {
+      "command": "findobj",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/findobj.rst",
+      "sha256": "d78347bce9c64a277cb43ab73bde16735299e358f698823847aa191efe201e9f",
+      "source": "applications/ccdpack/tasks/findobj.f"
+    },
+    {
+      "command": "findoff",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/findoff.rst",
+      "sha256": "a78c07389940ed3b938d6a05f6b48f4c3d53b7c48a037bf701fb4b0d17eb15b7",
+      "source": "applications/ccdpack/tasks/findoff.f"
+    },
+    {
+      "command": "flatcor",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/flatcor.rst",
+      "sha256": "63380fc13f16aca655d50b1205d2978678245998b1b9b9340f1b01b3e6f7364f",
+      "source": "applications/ccdpack/tasks/flatcor.f"
+    },
+    {
+      "command": "idicurs",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/idicurs.rst",
+      "sha256": "e319b3ddb68052abe59d017fe134338309ef13cde9ae2f86117176e75f3ee9c0",
+      "source": "applications/ccdpack/tasks/idicurs.f"
+    },
+    {
+      "command": "import",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/import.rst",
+      "sha256": "5abeb98e9f5455825bf04118d670870f2c2642978d4089fe65cb420226830152",
+      "source": "applications/ccdpack/tasks/import.f"
+    },
+    {
+      "command": "makebias",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/makebias.rst",
+      "sha256": "574474c9082ef212bacfc000f0545feab7107902aaf76663924a43414934aa66",
+      "source": "applications/ccdpack/tasks/makebias.f"
+    },
+    {
+      "command": "makecal",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/makecal.rst",
+      "sha256": "40f13ce4e3c84ad32105610628a625cbaa2c4cf92b9c7140aecf56630cfd9313",
+      "source": "applications/ccdpack/tasks/makecal.f"
+    },
+    {
+      "command": "makeflat",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/makeflat.rst",
+      "sha256": "6f56418f8c5455fb0df64a8af4f32fc93a6d73279cd68553640810a6ee3f59cb",
+      "source": "applications/ccdpack/tasks/makeflat.f"
+    },
+    {
+      "command": "makemos",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/makemos.rst",
+      "sha256": "db8cc673a82b51be278c441373caa788177891eab41d37c28dc027821e66db4f",
+      "source": "applications/ccdpack/tasks/makemos.f"
+    },
+    {
+      "command": "makeset",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/makeset.rst",
+      "sha256": "73c64a2a464944f5611b5477a203faf46017a200976bb6e8a6bb219a1656d14c",
+      "source": "applications/ccdpack/tasks/makeset.f"
+    },
+    {
+      "command": "pairndf",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/pairndf.rst",
+      "sha256": "ec05028c4c0fb269eb0e79c5020600f32c1ee88a71f9426acd80847e36988a32",
+      "source": "applications/ccdpack/tasks/pairndf.f"
+    },
+    {
+      "command": "picinfo",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/picinfo.rst",
+      "sha256": "021bfeff4673479ee191588ba670a48769ca4c12c283826e3dc9fdcf582c07f9",
+      "source": "applications/ccdpack/tasks/picinfo.f"
+    },
+    {
+      "command": "plotlist",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/plotlist.rst",
+      "sha256": "ebc2a24a1cd3b5c9804517d845b00aea98cdfdc765a3e232bcfee364488e3f0b",
+      "source": "applications/ccdpack/tasks/plotlist.f"
+    },
+    {
+      "command": "present",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/present.rst",
+      "sha256": "758507e7533f1aeaf14b67df5cc46b727198668ac7aa7c6e87866d876e76cd0e",
+      "source": "applications/ccdpack/tasks/present.f"
+    },
+    {
+      "command": "reduce",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/reduce.rst",
+      "sha256": "ecd87f7cc4687a3f23390448d7d434b41763857710ddb3118ab4ca28950c099f",
+      "source": "applications/ccdpack/tasks/reduce.f"
+    },
+    {
+      "command": "register",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/register.rst",
+      "sha256": "6438312133f470988c370bb3c08dfdc53691986fabf61093230c941ed6bfb462",
+      "source": "applications/ccdpack/tasks/register.f"
+    },
+    {
+      "command": "schedule",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/schedule.rst",
+      "sha256": "f97d245f7b85050b47bc462b5c7e8737ae7e3517018b40a2ea07a39cbd47a9bf",
+      "source": "applications/ccdpack/tasks/schedule.f"
+    },
+    {
+      "command": "showset",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/showset.rst",
+      "sha256": "6f5235d53b10406011089ca9e91d485fa74e34f7a5d0517b8fee253a0c9a7527",
+      "source": "applications/ccdpack/tasks/showset.f"
+    },
+    {
+      "command": "tranlist",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/tranlist.rst",
+      "sha256": "f7a3c1410fc5209a06b0ec7268063a387c348d5b97377cdc0f58396179a44640",
+      "source": "applications/ccdpack/tasks/tranlist.f"
+    },
+    {
+      "command": "tranndf",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/tranndf.rst",
+      "sha256": "fd61c0e35d268d0f8b72440633c4639aa833441697dbfd886482a63ec3273689",
+      "source": "applications/ccdpack/tasks/tranndf.f"
+    },
+    {
+      "command": "wcsedit",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/wcsedit.rst",
+      "sha256": "1fccdc928b45dea1b16e9779545d5a6794752c07d524ba6deef757b3d9c72cae",
+      "source": "applications/ccdpack/tasks/wcsedit.f"
+    },
+    {
+      "command": "wcsreg",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/wcsreg.rst",
+      "sha256": "e3170db1ae8093265947ab7401b4078d7b7baaf9630c335b1c95af8cb0a00046",
+      "source": "applications/ccdpack/tasks/wcsreg.f"
+    },
+    {
+      "command": "xreduce",
+      "package": "ccdpack",
+      "path": "starlink/ccdpack_help/xreduce.rst",
+      "sha256": "fcf6759335c3e8f470c3bf06801f88dbe253378d6e911103af13787888dc1604",
+      "source": "applications/ccdpack/tasks/xreduce.f"
+    },
+    {
+      "command": "ascii2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/ascii2ndf.rst",
+      "sha256": "8394916778d3e6a377ba2d7e5c28eb73001d0008bb06fb382d006ca793d4a674",
+      "source": "applications/convert/ascii2ndf.f"
+    },
+    {
+      "command": "ast2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/ast2ndf.rst",
+      "sha256": "c3e2c5567efb7b68d19cb3983c49f2ab9d9cb643fc75fd7229addfe16c256599",
+      "source": "applications/convert/ast2ndf.f"
+    },
+    {
+      "command": "da2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/da2ndf.rst",
+      "sha256": "1d67a684f3bf4457b73c4956d78e161fd6e4505fcb47ec1e0380fce397518d14",
+      "source": "applications/convert/da2ndf.f"
+    },
+    {
+      "command": "dst2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/dst2ndf.rst",
+      "sha256": "4cd8ae9b396b9db93dae70c0d56a7b846b6614c5e59f213b34763d1557b7f32e",
+      "source": "applications/convert/dst2ndf.f"
+    },
+    {
+      "command": "fits2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/fits2ndf.rst",
+      "sha256": "441fb1ff069afa661d66737aeace845d56bd2aca4c9c06840d723fe022511ddc",
+      "source": "applications/convert/fits2ndf.f"
+    },
+    {
+      "command": "iraf2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/iraf2ndf.rst",
+      "sha256": "a702cbd7da7aadf4348cc56df48cb466dbe75bbbfc9bcc36706891b28154ee87",
+      "source": "applications/convert/iraf2ndf.F"
+    },
+    {
+      "command": "ircam2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/ircam2ndf.rst",
+      "sha256": "c2c27a28879aa6e0248294e0e563219cdf22f0e2d6a830885e32ffa287784ca9",
+      "source": "applications/convert/ircam2ndf.f"
+    },
+    {
+      "command": "ndf2ascii",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2ascii.rst",
+      "sha256": "f6ebd49b149e668a8a0cb8b4c52b515c62d2b7ad9c6c1ff6516033ff0dc7d97c",
+      "source": "applications/convert/ndf2ascii.f"
+    },
+    {
+      "command": "ndf2da",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2da.rst",
+      "sha256": "09ba395222398523092c12f294ace48bdcda8c80352074c8f525e43af1305bd2",
+      "source": "applications/convert/ndf2da.f"
+    },
+    {
+      "command": "ndf2dst",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2dst.rst",
+      "sha256": "498611d366687e93d000d854c4063cb7e4e66c170acbe722da93c57e361981a5",
+      "source": "applications/convert/ndf2dst.f"
+    },
+    {
+      "command": "ndf2fits",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2fits.rst",
+      "sha256": "99e57654ac07afd04b4e375e22867cfeb6f50b5da1ce97898dd35976bfe59b85",
+      "source": "applications/convert/ndf2fits.f"
+    },
+    {
+      "command": "ndf2gasp",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2gasp.rst",
+      "sha256": "a82406427be07285e45db0bf4b37e04cedf39925555f2297c2bcd7a18e68e583",
+      "source": "applications/convert/ndf2gasp.f"
+    },
+    {
+      "command": "ndf2iraf",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2iraf.rst",
+      "sha256": "e7a9828b53d00d95d8edce83680e02a6b895a86d5b70a8a21591f8b346408a40",
+      "source": "applications/convert/ndf2iraf.F"
+    },
+    {
+      "command": "ndf2pgm",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2pgm.rst",
+      "sha256": "6107fe7e9c4421ed89eab9e1746f767e83cb3ae6a50e5c4910f8b4e407a0668c",
+      "source": "applications/convert/ndf2pgm.f"
+    },
+    {
+      "command": "ndf2tiff",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2tiff.rst",
+      "sha256": "801611194cea7e447e6ca02456748a8a0036a5acbe16434927fdca502bdeaa15",
+      "source": "applications/convert/ndf2tiff.f"
+    },
+    {
+      "command": "ndf2unf",
+      "package": "convert",
+      "path": "starlink/convert_help/ndf2unf.rst",
+      "sha256": "c9437331c8a651db632ad232ff8edc6591f3bd9d3c93b2dc9cce97c4cd0ffeba",
+      "source": "applications/convert/ndf2unf.f"
+    },
+    {
+      "command": "specx2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/specx2ndf.rst",
+      "sha256": "9999664b4e01516132aeb51b5fcc61df3c5e074184ba6d5e03563f9803aaca16",
+      "source": "applications/convert/specx2ndf.f"
+    },
+    {
+      "command": "unf2ndf",
+      "package": "convert",
+      "path": "starlink/convert_help/unf2ndf.rst",
+      "sha256": "9fbbbffd22809bccc06061dc78eced812123c484ba111dcbaa7cca16dcd20efe",
+      "source": "applications/convert/unf2ndf.f"
+    },
+    {
+      "command": "clumpinfo",
+      "package": "cupid",
+      "path": "starlink/cupid_help/clumpinfo.rst",
+      "sha256": "6d8b194546cbe36c3c64dd4aac2e79be1f6e66265b0b84a7eef63cfe191889bb",
+      "source": "applications/cupid/clumpinfo.c"
+    },
+    {
+      "command": "cupidhelp",
+      "package": "cupid",
+      "path": "starlink/cupid_help/cupidhelp.rst",
+      "sha256": "a86135cb95130cdaa8af5b75479a35ef070dbf7587f366a43adb8084e4224661",
+      "source": "applications/cupid/cupidhelp.c"
+    },
+    {
+      "command": "extractclumps",
+      "package": "cupid",
+      "path": "starlink/cupid_help/extractclumps.rst",
+      "sha256": "c69d0c4a75038f6b91bbee8bcf7c74f7519d884dee4c1bba2c68febc95114c12",
+      "source": "applications/cupid/extractclumps.c"
+    },
+    {
+      "command": "findback",
+      "package": "cupid",
+      "path": "starlink/cupid_help/findback.rst",
+      "sha256": "fe97ddc8fac4ccd8f1af00a7ff932f991f56fdc8b5689b219066b344916bdab5",
+      "source": "applications/cupid/findback.c"
+    },
+    {
+      "command": "findclumps",
+      "package": "cupid",
+      "path": "starlink/cupid_help/findclumps.rst",
+      "sha256": "f4ea106d1a9714fc0023ecfe0face1f2a12a547fb1318bda6135dd71b1844403",
+      "source": "applications/cupid/findclumps.c"
+    },
+    {
+      "command": "makeclumps",
+      "package": "cupid",
+      "path": "starlink/cupid_help/makeclumps.rst",
+      "sha256": "06824a61bca8099fb9a3155a82dd2a9bebce6cbdc98a34465a20698ebbae9f54",
+      "source": "applications/cupid/makeclumps.c"
+    },
+    {
+      "command": "abconv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/abconv.rst",
+      "sha256": "3ba9ca8c60834ffa961cc068b9d68c30285c975c7e9db898a23e25f833cb019e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "abline",
+      "package": "figaro",
+      "path": "starlink/figaro_help/abline.rst",
+      "sha256": "8473acb36059ff885071c467ae7e3841ac4bf3bd2f22ff9bd32a1e39b0f367b2",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "adjoin",
+      "package": "figaro",
+      "path": "starlink/figaro_help/adjoin.rst",
+      "sha256": "8bf909da5cc355a9b17f46fbc70148475970c5c5f08e96cd1836615a716afbd8",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "alasin",
+      "package": "figaro",
+      "path": "starlink/figaro_help/alasin.rst",
+      "sha256": "61e794bad8ef09bc85b82c5e5f11d774f3e502701f9ecdb9f46b2332a5fcf1a6",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "alasout",
+      "package": "figaro",
+      "path": "starlink/figaro_help/alasout.rst",
+      "sha256": "b754a0c50ebb61f84a528158a790d2e403b00f84900b01e50562908f14cbc654",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "aperture",
+      "package": "figaro",
+      "path": "starlink/figaro_help/aperture.rst",
+      "sha256": "38d1d08a5dd8b68dabf2739dd3d48a0fa2527aa24b99ecadd893a28a6fc23145",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "arc",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arc.rst",
+      "sha256": "057b0bfe8aeb47898f5bf97f591d7acd52f1bcb65e59540faa329daab958b7f2",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "arc2d",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arc2d.rst",
+      "sha256": "fbd557a1766b6da9c2f8ddb7c7a48cca363e1578b1f771c0f21ffdd02786ed95",
+      "source": "applications/figaro/figaro5/arc2d.f"
+    },
+    {
+      "command": "arcdisp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arcdisp.rst",
+      "sha256": "cc0c100b4c4cff8957a3cc5c69a65306b11d1b3562aa1bd6188a125eb81f0b58",
+      "source": "applications/figaro/figaro4/arcdisp.f"
+    },
+    {
+      "command": "arcgendb",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arcgendb.rst",
+      "sha256": "fa59326f95c0cc1f186ca2db6593014c3cc593137735b02736440c6c94e0b602",
+      "source": "applications/figaro/figaro4/arcgendb.f"
+    },
+    {
+      "command": "arcident",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arcident.rst",
+      "sha256": "b5c753db89feab24a82f34533cf31ba760785dee949b5208e5627a75608f4ae7",
+      "source": "applications/figaro/figaro4/arcident.f"
+    },
+    {
+      "command": "arclocat",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arclocat.rst",
+      "sha256": "0f9f242955afd7c256f890e92b371cb61c3dde631981aeac132fbc6693b2f7d2",
+      "source": "applications/figaro/figaro4/arclocat.f"
+    },
+    {
+      "command": "arcsdi",
+      "package": "figaro",
+      "path": "starlink/figaro_help/arcsdi.rst",
+      "sha256": "d5e3cdd88953d515df7e678228a66e243fa90e995212586fdf4b59e0fab2aeb2",
+      "source": "applications/figaro/figaro5/arcsdi.f"
+    },
+    {
+      "command": "ascin",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ascin.rst",
+      "sha256": "5fd6fc25d044800c47bce606243c1d6e4c682ba400546374d55a14e259a58ef5",
+      "source": "applications/figaro/figaro4/ascin.f"
+    },
+    {
+      "command": "ascout",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ascout.rst",
+      "sha256": "c6527a35fb4f3f5a8a7e78e9e28209657cf53162381c99985b15bf434d144834",
+      "source": "applications/figaro/figaro4/ascout.f"
+    },
+    {
+      "command": "bbody",
+      "package": "figaro",
+      "path": "starlink/figaro_help/bbody.rst",
+      "sha256": "0e49ab731714b7340293c786c5cb5225a8504719f447c07879cb66b41b9e72bf",
+      "source": "applications/figaro/figaro4/bbody.f"
+    },
+    {
+      "command": "bclean",
+      "package": "figaro",
+      "path": "starlink/figaro_help/bclean.rst",
+      "sha256": "34d7ce16870e29ab402ce77403583c2347c846aaa42e3159bf130376cb6db699",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "bfft",
+      "package": "figaro",
+      "path": "starlink/figaro_help/bfft.rst",
+      "sha256": "2d860b01d12a79b5ac7c7515889b2f38f8d7d61c85d2afdc782f2a21544ac2d1",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "bsmult",
+      "package": "figaro",
+      "path": "starlink/figaro_help/bsmult.rst",
+      "sha256": "a92f8a4f5c9f59234cc4f4b97898e34e53f837b69550a6bf721e6b1a884905ae",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cadd.rst",
+      "sha256": "edd5c753062fe41232a8e9f7c1e07eb6d51fba5c166702861c1eebc1c6449ff5",
+      "source": "applications/figaro/figaro5/cadd.f"
+    },
+    {
+      "command": "caldiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/caldiv.rst",
+      "sha256": "f1e9ffa9f30ee6cb37b1c8e5935c3a6753c619cf7d3789bcfbb32a8be5876320",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ccdlin",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ccdlin.rst",
+      "sha256": "9dee48c4152c61ee4d9900ab9c0c1447de8107ea4e26df8546bc2e172ba78927",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ccur",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ccur.rst",
+      "sha256": "d64b1069fe949d0f91b7af491068337adbae9d57c58a88ee210877d19fc0ded8",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cdist",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cdist.rst",
+      "sha256": "ae5561a669f7ac94cf44fb500f91cf9af8e00d6012b10c13fc178caba66f32d0",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "centers",
+      "package": "figaro",
+      "path": "starlink/figaro_help/centers.rst",
+      "sha256": "d693556c7eb7d7ff1704f43d93b2363d9b2040944579c549047bc22ee4b81540",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cfit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cfit.rst",
+      "sha256": "67cd6b7a3befd6bf383a23685e1aa84a31ecab709a28d7665119c0414bb13d00",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "changed",
+      "package": "figaro",
+      "path": "starlink/figaro_help/changed.rst",
+      "sha256": "c26ccf47718f4d52e9217dfd97ffa22e233df36b1685a88d3eca2b7066767234",
+      "source": "applications/figaro/figaro5/changed.f"
+    },
+    {
+      "command": "clean",
+      "package": "figaro",
+      "path": "starlink/figaro_help/clean.rst",
+      "sha256": "93d47706902f7d910cfdceff88bb224735be63abac6e3753d90ba55a8b4db741",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "clip",
+      "package": "figaro",
+      "path": "starlink/figaro_help/clip.rst",
+      "sha256": "4beccd99071f284aa3de2ddf1210f6048874f5081a9ff85543a9ce7f0268037e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplx2i",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplx2i.rst",
+      "sha256": "ef75959b21edffab34e727be0164fc588f968f9495f16c8a1d43312efa4e17e5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplx2m",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplx2m.rst",
+      "sha256": "e45177b31c18e1decf282e7e8f2c1462531ed6645cd9a1ded16ee80b5a4e97f2",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplx2r",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplx2r.rst",
+      "sha256": "af03a26fa46981afc4c0141887e1b8c5d13e500c3354befbe6923dfbead00a36",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplxadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplxadd.rst",
+      "sha256": "c6c8131b072818e7fe196426a8b9b798da8ff27a59356278668065e2dff552c5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplxconj",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplxconj.rst",
+      "sha256": "8980417102d1e565056452c575b4e3beea58d251ff0d9b1d0d4a0559de62cab0",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplxdiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplxdiv.rst",
+      "sha256": "98432d7e0400ba785e16ac5315625d1a4af1a862a6e10f450c2fe743cfead4b6",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplxfilt",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplxfilt.rst",
+      "sha256": "40dff384a409c05513bb65a5fef6519eaaad3f0d7faca2efa540519e449d4d99",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplxmult",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplxmult.rst",
+      "sha256": "4d6ff33eb9419562e9d64ce1d413e0085543fae156875553491832c9c93b0b11",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cmplxsub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cmplxsub.rst",
+      "sha256": "fd722e36768d49f27d7095b69abc57b82b230ff3e6d70b82d3d90017f1c4fc9b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "coadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/coadd.rst",
+      "sha256": "5d8fd19b882d6ea73b8c84a1ab57e1df16dc2b434311a0e0760950e8bab257af",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "colour",
+      "package": "figaro",
+      "path": "starlink/figaro_help/colour.rst",
+      "sha256": "66f27ef1ae192fed48109b9e92a76b3cf150c9e96f934bb332bdb734e3e4fd53",
+      "source": "applications/figaro/figaro1/colour.f"
+    },
+    {
+      "command": "comb",
+      "package": "figaro",
+      "path": "starlink/figaro_help/comb.rst",
+      "sha256": "1ae53d79cd2004f06e34d7db051fb36f8022fb75ce30615166d8a27d08400d70",
+      "source": "applications/figaro/figaro5/comb.f"
+    },
+    {
+      "command": "combine",
+      "package": "figaro",
+      "path": "starlink/figaro_help/combine.rst",
+      "sha256": "1402192cc40205336774ac949337300159e481a9d89d7eb4ae99b67e4371dba3",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "copobj",
+      "package": "figaro",
+      "path": "starlink/figaro_help/copobj.rst",
+      "sha256": "e659c76a9203df18a091cf60bb39c3a84ff01de25d2a250e58209c4f811cf036",
+      "source": "applications/figaro/figaro1/copobj.f"
+    },
+    {
+      "command": "correl",
+      "package": "figaro",
+      "path": "starlink/figaro_help/correl.rst",
+      "sha256": "8cc05020e1428cebeb4cc3fa12b0636de6b3efcf0f9176222902aaf1eca07be8",
+      "source": "applications/figaro/figaro4/correl.f"
+    },
+    {
+      "command": "cosbell",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cosbell.rst",
+      "sha256": "5bea619d0a4bb85529f4f59618e4936dcad55d61cd94bc23bfc7baa09c2fe8f4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cosrej",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cosrej.rst",
+      "sha256": "8335c66206522dccc25e17f6d4471e8744c4a37deb4971e052dd16e50a4501dc",
+      "source": "applications/figaro/figaro1/cosrej.f"
+    },
+    {
+      "command": "creobj",
+      "package": "figaro",
+      "path": "starlink/figaro_help/creobj.rst",
+      "sha256": "8b313d4ab25a8c24b88142361f9aac137277340304825ac799b98e4e4c41f8e8",
+      "source": "applications/figaro/figaro1/creobj.f"
+    },
+    {
+      "command": "crigauss",
+      "package": "figaro",
+      "path": "starlink/figaro_help/crigauss.rst",
+      "sha256": "c610886ec7756e0fbe10e82573aa47d9843d447d77433136665a1b61cfbcaa98",
+      "source": "applications/figaro/figaro5/crigauss.f"
+    },
+    {
+      "command": "cscan",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cscan.rst",
+      "sha256": "3b502e6437a4ed61896bf8bb0fbb534849793379e2b60cbddb612789163e5317",
+      "source": "applications/figaro/figaro5/cscan.f"
+    },
+    {
+      "command": "cset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cset.rst",
+      "sha256": "127ac77087d8448bd595ac4d5f610a3d5acd3f70b21f4cf77b0fcf91698a2574",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "cspike",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cspike.rst",
+      "sha256": "ff6558a265e5fb90e17df7085c0a781fa50aacc5bce07e2276d98f6ad0ea5eab",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "csub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/csub.rst",
+      "sha256": "71032e7e4ccbd49f0671eb44cd12a8b0140fd171cf8a0281639cf090f8eaedfc",
+      "source": "applications/figaro/figaro5/csub.f"
+    },
+    {
+      "command": "cube2long",
+      "package": "figaro",
+      "path": "starlink/figaro_help/cube2long.rst",
+      "sha256": "1f6212ab9aa57cca93bb24df13bb689f375c16c0788b9ad97f30df3e22641a4b",
+      "source": "applications/figaro/figaro5/cube2long.f"
+    },
+    {
+      "command": "delobj",
+      "package": "figaro",
+      "path": "starlink/figaro_help/delobj.rst",
+      "sha256": "881301a1f180ad5d1867ac2de58ece9e9e11207ba0ac9b21c5c91956d344fbca",
+      "source": "applications/figaro/figaro1/delobj.f"
+    },
+    {
+      "command": "dvdplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/dvdplot.rst",
+      "sha256": "7f9dfc4288fefa8ed672b04cedaa490cc80860e91630ccbf15e2b2674a9455e1",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "echarc",
+      "package": "figaro",
+      "path": "starlink/figaro_help/echarc.rst",
+      "sha256": "6ff004d4975d020e73135f50e24677bc886388e879ee28423a00235dcea8ebd4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "echfind",
+      "package": "figaro",
+      "path": "starlink/figaro_help/echfind.rst",
+      "sha256": "50d4cc19b9809a6760fc2a482bf6cae8b809f3eecdd516c062206c4d10046983",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "echmask",
+      "package": "figaro",
+      "path": "starlink/figaro_help/echmask.rst",
+      "sha256": "917c15359d5a6f86caa21233a1c52c4a091da48701a701b01587ba82d118fd9f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "echmerge",
+      "package": "figaro",
+      "path": "starlink/figaro_help/echmerge.rst",
+      "sha256": "a8d2197f7961425b8a6a09363aa9293bb174bb3891f4a228310ac706dd2c96ae",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "echselect",
+      "package": "figaro",
+      "path": "starlink/figaro_help/echselect.rst",
+      "sha256": "e3aafa388ca68ce063669924a4c4e8fdb3b97ba80f22b4b6d0494e38627f3a7b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "editext",
+      "package": "figaro",
+      "path": "starlink/figaro_help/editext.rst",
+      "sha256": "0dcb38e8dece635d63b9d1efad4440b5c85ac13a51120c6726b149b5369828b9",
+      "source": "applications/figaro/figaro4/editext.f"
+    },
+    {
+      "command": "elsplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/elsplot.rst",
+      "sha256": "e803b745652b4a387966bb6748c546b89306f22ebd5d7f7bbcc7deb4f5732274",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "emlt",
+      "package": "figaro",
+      "path": "starlink/figaro_help/emlt.rst",
+      "sha256": "57e45643351b8e1a59d92dbd303d97f0123860ccfa67e4999cb5ed7e64b20112",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "errcon",
+      "package": "figaro",
+      "path": "starlink/figaro_help/errcon.rst",
+      "sha256": "399fda2c4fa3210a190bd557c17e4be604d116441ff07f8db9c7cde0b28e7945",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "esplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/esplot.rst",
+      "sha256": "c3de10ba461b9a7e2a6cd4d0f03066a8794566109bc55401d9c03354d208ce62",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "evalfit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/evalfit.rst",
+      "sha256": "908514b9a42df8545570cd4f40c739455407757e2fc17336177a682f03bf8c30",
+      "source": "applications/figaro/figaro4/evalfit.f"
+    },
+    {
+      "command": "extin",
+      "package": "figaro",
+      "path": "starlink/figaro_help/extin.rst",
+      "sha256": "34298774441923d7414339c8e13903a6f9114d404ab174b03dfbd7b8d3c71a50",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "extlist",
+      "package": "figaro",
+      "path": "starlink/figaro_help/extlist.rst",
+      "sha256": "aef927f25634c81d02ee7153bdda51452d4576542dbedefa6b8503a7f19f37b9",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "extract",
+      "package": "figaro",
+      "path": "starlink/figaro_help/extract.rst",
+      "sha256": "ddfaa26b38e7dee79816f721edf2b80208b53beb58a3bc3f65e3dbd1e098c91c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fet321",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fet321.rst",
+      "sha256": "1a2d017547f32c9211360b0bf1182f5c4a29308c87950d3ee5fe915c3231b61a",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ff",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ff.rst",
+      "sha256": "744c32c3d3f8573451bd746f838d8cadf9f21115d7409f8a8ad4317ed41b3bd2",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ffcross",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ffcross.rst",
+      "sha256": "947ca8e9b39cdd3a0c82fdfd7d53cbd785b3e0f8a43c321a152f6847dcebf6c5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fft",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fft.rst",
+      "sha256": "021924c33aa31955ca8e12ec81459425f6993a5a20adfba0cd3c76ea66de1b41",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fib2cube",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fib2cube.rst",
+      "sha256": "8cf3b58d42604d19c04e8584272aa947172e0cecc969575c885b11d2884ef25d",
+      "source": "applications/figaro/figaro5/fib2cube.f"
+    },
+    {
+      "command": "fibdisp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fibdisp.rst",
+      "sha256": "a088ced4bb0ecaacee64712453ab2ee368f6a5c03f3e447c7ec6e547f878397f",
+      "source": "applications/figaro/figaro5/fibdisp.f"
+    },
+    {
+      "command": "fibsep",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fibsep.rst",
+      "sha256": "eaff5f8d85a78ea9212a86aa7643425ba323ecc0fb5ef7d5e3dcfffdbda0a901",
+      "source": "applications/figaro/figaro5/fibsep.f"
+    },
+    {
+      "command": "figinfo",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figinfo.rst",
+      "sha256": "3cc898a883f4c60b47f352ea8f8b32e2948b33b3144842ffd3a2abbd07ac85fd",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figs321",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figs321.rst",
+      "sha256": "c65b7e194b75f0aed3d706ba963edc3ccfa0d7f5518888ac1201ea88d82ca5af",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figs322",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figs322.rst",
+      "sha256": "ba7e4311545f7a5accc5459f562efbc87969d640a9d712fc1b2fe62e8c3d56ae",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figs422",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figs422.rst",
+      "sha256": "7f13b0417ec795a64577fd6f8c0d163ca83ae51af9a2447928c410a086aa61ef",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figs423",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figs423.rst",
+      "sha256": "4d18ccb26e48b54f740f97101ef11b51d0565068cfe1e558e5c1c9d4a83e856e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figs424",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figs424.rst",
+      "sha256": "381fbb0951dce4acb1537d16c65d122257a284719c24e9553a62896bf674f768",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figsee",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figsee.rst",
+      "sha256": "7b15b7f58548c69ff04eef763277acca8c79789dbd8dc1579b4e84fa58a0da22",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "figsflux",
+      "package": "figaro",
+      "path": "starlink/figaro_help/figsflux.rst",
+      "sha256": "3b02259446169680c23ee562ac7e7405084e514d4b77c0c1452df51d6ab6c9d4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fillcube",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fillcube.rst",
+      "sha256": "4cc90f9b6d9e0a55861d73df673efcc168fc74df90833eb5c7e53f054dfb7a0c",
+      "source": "applications/figaro/figaro4/fillcube.f"
+    },
+    {
+      "command": "findsp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/findsp.rst",
+      "sha256": "12dbd10a2abbc55bbbbab8c92495f6417916a16218d2654d518b3827ac566fac",
+      "source": "applications/figaro/figaro3/findsp.f"
+    },
+    {
+      "command": "fitbb",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fitbb.rst",
+      "sha256": "98db99f8c91e6797a1b5c32ec30923b79b7e8e61cda5ef10b8900d6920780a1a",
+      "source": "applications/figaro/figaro4/fitbb.f"
+    },
+    {
+      "command": "fitcont",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fitcont.rst",
+      "sha256": "a26101bba8f012eb0ed7f3586afcdad47e5a173fa452413e01f5c708b1dfbd4a",
+      "source": "applications/figaro/figaro5/fitcont.f"
+    },
+    {
+      "command": "fitgauss",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fitgauss.rst",
+      "sha256": "7fd31596d55c525e28e0d6f9e3531f18939bdddea0c6842e04d340953be569b6",
+      "source": "applications/figaro/figaro4/fitgauss.f"
+    },
+    {
+      "command": "fitpoly",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fitpoly.rst",
+      "sha256": "17f1576ac382f425e8f2bc74a53153017c0d62d04ab4c3303769aea2c1a388d0",
+      "source": "applications/figaro/figaro4/fitpoly.f"
+    },
+    {
+      "command": "fitset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fitset.rst",
+      "sha256": "ed7ebc61e17269cacab00cd1ebe3516b90766a7f602967f85ace4ddcce15f836",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fitskeys",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fitskeys.rst",
+      "sha256": "8f28a64c5c55d30ed43738b85bd1cfc75dc4583979fc5a305394d8006d0a3e87",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fittri",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fittri.rst",
+      "sha256": "920d4da8438ae264f100ca8efa4d08c4b1a2ae07c3a7d52caec736dbf4e1790c",
+      "source": "applications/figaro/figaro4/fittri.f"
+    },
+    {
+      "command": "flag2qual",
+      "package": "figaro",
+      "path": "starlink/figaro_help/flag2qual.rst",
+      "sha256": "4f38524dfc35880f86b59660ca888bf29d604e37149701bed7597a04629f69d6",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "flaircomp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/flaircomp.rst",
+      "sha256": "16db6856217efa069e6022ba760182c794ce066eb83f5e5ce69f6239197d589e",
+      "source": "applications/figaro/figaro3/flaircomp.f"
+    },
+    {
+      "command": "flairext",
+      "package": "figaro",
+      "path": "starlink/figaro_help/flairext.rst",
+      "sha256": "c2669fede706d899b0676457808ca593cba25b6e0f10d56ac54eafc64611128b",
+      "source": "applications/figaro/figaro3/flairext.f"
+    },
+    {
+      "command": "flconv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/flconv.rst",
+      "sha256": "55bcf7052063c91f5a151ea6c85fd65a6b13364cbb512e9efda332717f4f0fce",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "foto",
+      "package": "figaro",
+      "path": "starlink/figaro_help/foto.rst",
+      "sha256": "f92dab0f5f41660631cc030cd5ad6b6aabb6906c8e71e991432a023d5ea6d781",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fscrunch",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fscrunch.rst",
+      "sha256": "add2130dec216f29b9e2f4640d185843a854ca1c5f0a7fb6f7fddb2ca8c27db9",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "fwconv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/fwconv.rst",
+      "sha256": "228cc71b008d62a61818c543cc54683aed00a6e697c3aa7c5a2eddb6b397c61d",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "gauss",
+      "package": "figaro",
+      "path": "starlink/figaro_help/gauss.rst",
+      "sha256": "324d99d2e59542b5f23b5fb61ac55cce873d47dc87be57b4c14f8204ad217e2e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "goodvar",
+      "package": "figaro",
+      "path": "starlink/figaro_help/goodvar.rst",
+      "sha256": "e084e8edc3e4e5ca3bc6f7a30c400fb33fa2f656136eaa6e3543c502efc02299",
+      "source": "applications/figaro/figaro1/goodvar.f"
+    },
+    {
+      "command": "grow",
+      "package": "figaro",
+      "path": "starlink/figaro_help/grow.rst",
+      "sha256": "94e17af8e0351b3901ed8bd1c9f9161d27e0be98924e500555841870e15bfc18",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "growx",
+      "package": "figaro",
+      "path": "starlink/figaro_help/growx.rst",
+      "sha256": "d3e62c695a3627165f59f2b28a38d00e4eb3a765862df4768e1c5d7505585484",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "growxt",
+      "package": "figaro",
+      "path": "starlink/figaro_help/growxt.rst",
+      "sha256": "e51356c2786ae20aba9579f993c5cd4ff5dbddb3d235c6b057c064b75805d501",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "growxy",
+      "package": "figaro",
+      "path": "starlink/figaro_help/growxy.rst",
+      "sha256": "baa2a83601d6dc1f95518468ccb0dca66f9583a1aee470c5209f38a2a781fc40",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "growy",
+      "package": "figaro",
+      "path": "starlink/figaro_help/growy.rst",
+      "sha256": "c5a77d86199f273afb4b5b9a32c6d0f69794a5543f39231982ab654bfc7d3f49",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "growyt",
+      "package": "figaro",
+      "path": "starlink/figaro_help/growyt.rst",
+      "sha256": "061db3f4421a66359e52e2d7da4b6b566de8fcb2c1f715c577303b4f676abb08",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "gspike",
+      "package": "figaro",
+      "path": "starlink/figaro_help/gspike.rst",
+      "sha256": "ef33bf1970e7860c2a66540b832c0220a636c6a0667de482fb8a6054f96e09a5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "hard",
+      "package": "figaro",
+      "path": "starlink/figaro_help/hard.rst",
+      "sha256": "f88de59eaa67619aef7ee356f425115d3166028e02e3df6701e54231772e0c5b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "hcross",
+      "package": "figaro",
+      "path": "starlink/figaro_help/hcross.rst",
+      "sha256": "ba05144f14d5013983fd72606ac5844426b4bb4340ede3aa5cd719e6cfa8f9c0",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "himage",
+      "package": "figaro",
+      "path": "starlink/figaro_help/himage.rst",
+      "sha256": "ba1cb5f9b56ce22ef6b012a13f1866b0eec8962815aed836163c00d1a66a392c",
+      "source": "applications/figaro/figaro5/himage.f"
+    },
+    {
+      "command": "hist",
+      "package": "figaro",
+      "path": "starlink/figaro_help/hist.rst",
+      "sha256": "a2a04a36ad8a62b7c20886768e74fa15eb2abde7ff89c4f562f74559d1f8c00c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "hopt",
+      "package": "figaro",
+      "path": "starlink/figaro_help/hopt.rst",
+      "sha256": "92962fa914816e844dc0b85cc2097f8051e3cabaeaadb8698ac616cb0c94b25f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "i2cmplx",
+      "package": "figaro",
+      "path": "starlink/figaro_help/i2cmplx.rst",
+      "sha256": "76eb848f2d6217fce5f8d3a91bfb46cf5b1b0f81389da209061b1788f52e3afd",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "iadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iadd.rst",
+      "sha256": "49f5adee80899a9503bdc2346b8ecb0c0cd700f9bf02004e71ce13da6eae9be7",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "iarc",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iarc.rst",
+      "sha256": "6f7c2fb952bad94a3ab6f4b7cb087c99df8493df63ebee093649e62e5e691607",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icadd.rst",
+      "sha256": "742f3c9bae551c7079e527a664e5e38872ad4fdceb3e05107778744cb7086f1c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icdiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icdiv.rst",
+      "sha256": "1a100a39ce786ca091a6ba3367d1fd6714ccf87141528ada74441f530e689a05",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icmult",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icmult.rst",
+      "sha256": "c70d7134fd3f174bab5e1a0ef55828f37c203bab673235d5972506f8ee58a5b4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icont",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icont.rst",
+      "sha256": "63c6a7ac0b04485855d441ec92ac2b2f712efae671c4cc6839f17362525caa13",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "iconv3",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iconv3.rst",
+      "sha256": "4f87acba9fdc0eac1f0acfcd40baa8245434358a0abef1249c4093b163d5f77c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icor16",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icor16.rst",
+      "sha256": "7aff9b0debbc13e12ac665a32bad9b21c13dcf1ceb00d018b5e340e7a4ea3c77",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icset.rst",
+      "sha256": "5a89de8438e33e13d718e57626b007fd597aace28316b3cf456f011bde9faff6",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icsub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icsub.rst",
+      "sha256": "cee9c86de945b38ca117c00412c3777f1b185a6c6c348dd25aace8d8baf9ee96",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "icur",
+      "package": "figaro",
+      "path": "starlink/figaro_help/icur.rst",
+      "sha256": "daa7e399b66db1dada2ead02a29134d92bd3c581fe2c2cef9e03838073dc22bb",
+      "source": "applications/figaro/figaro1/icur.f"
+    },
+    {
+      "command": "idev",
+      "package": "figaro",
+      "path": "starlink/figaro_help/idev.rst",
+      "sha256": "b67414876b0b737c13633d3b07c22700d98468fc723f6c5e249ab935e375aecb",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "idiff",
+      "package": "figaro",
+      "path": "starlink/figaro_help/idiff.rst",
+      "sha256": "2f37f541fe7ae8b143e6e6d054fcf42a81e0b5cf8a057d1023fa6fe4dd423952",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "idiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/idiv.rst",
+      "sha256": "fb5a0f5d6ccb658640910eae434dcadb4377e80a3f22bf46ea923bbbf503b465",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "igconv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/igconv.rst",
+      "sha256": "22a383da4a7014a42c90b99c366fa05701137be8ea1129e8f040c977a974b602",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "igcur",
+      "package": "figaro",
+      "path": "starlink/figaro_help/igcur.rst",
+      "sha256": "0ea543bb74108f4285c7c89983ccab1f6ee862323909d514b128c68b58165bd7",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "igrey",
+      "package": "figaro",
+      "path": "starlink/figaro_help/igrey.rst",
+      "sha256": "c54695dc5a6b40942f0367ba4dbf72e4231f673e6cfe785b52570b248f4ade46",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ilist",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ilist.rst",
+      "sha256": "f536d93b919db8828d6de9276ef74785ae081bb21df6cfd3f5ffd209e8127954",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ilog",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ilog.rst",
+      "sha256": "d86f2af72b1ba3b9cc94c224cb9941ac514a967e9741a59c9c3306fa3127d4a0",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "image",
+      "package": "figaro",
+      "path": "starlink/figaro_help/image.rst",
+      "sha256": "9b193bf54b2447b1aa03b1ee22245ee776964a006d80ae8f57db2f2ecc451af7",
+      "source": "applications/figaro/figaro1/image.f"
+    },
+    {
+      "command": "impos",
+      "package": "figaro",
+      "path": "starlink/figaro_help/impos.rst",
+      "sha256": "a29d830ce340d252525cdf9848a05517e977556b5937f161948e56f311640e27",
+      "source": "applications/figaro/figaro2/impos.f"
+    },
+    {
+      "command": "imult",
+      "package": "figaro",
+      "path": "starlink/figaro_help/imult.rst",
+      "sha256": "a6bca9795263e19b97ede0ef16c296abf170dbe62224503e511e74ceafbc86bd",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "interp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/interp.rst",
+      "sha256": "d6f1910a9fc4dc9cb259d9d4f9de8dd8b6ea32661790d4f33ccf3b69af678bfc",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "iplots",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iplots.rst",
+      "sha256": "72a7c5a12ff8c132d4676d4a9108f40751843e8349501b5be2b96b3534307a61",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ipower",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ipower.rst",
+      "sha256": "e55e7c804aaeae6aed5d397c6b078695858e79b62c023bada46d64d027aa6f0a",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "irconv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/irconv.rst",
+      "sha256": "ee7d7d1431da2ae741ae262446208b867b33d8b565e2e58cce6098ae84f78692",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "irevx",
+      "package": "figaro",
+      "path": "starlink/figaro_help/irevx.rst",
+      "sha256": "f9bf4742fc62b2942b7533e84723b12ff70dca43a6d2cacad7605ad18d9b5527",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "irevy",
+      "package": "figaro",
+      "path": "starlink/figaro_help/irevy.rst",
+      "sha256": "83a819b0b249c78db5d3ec122f070bef9c254eae741d0e5823a76c6c1fd531f4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "irflat",
+      "package": "figaro",
+      "path": "starlink/figaro_help/irflat.rst",
+      "sha256": "6f58750f790d2ead8c67991f95359d5dccfebf23695bd28753ec1eb93dc22de8",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "irflux",
+      "package": "figaro",
+      "path": "starlink/figaro_help/irflux.rst",
+      "sha256": "a47216a2e644e7daf537a53576b0f763a4e9ad48283eeb188b8e28d111b0f4b4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "irot90",
+      "package": "figaro",
+      "path": "starlink/figaro_help/irot90.rst",
+      "sha256": "5495d26853a928d8560ca31922f4036f39eb785e6c3aed5be9d5e5da98afbbae",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "iscan",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iscan.rst",
+      "sha256": "cc05e1d697d9932b40115e314c36dc1930c40f8f95b5c89f9ba41bcc55734f1a",
+      "source": "applications/figaro/figaro5/iscan.f"
+    },
+    {
+      "command": "iscrunch",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iscrunch.rst",
+      "sha256": "0c2dc4cc5e3f12915a32ce3b23b45fff698962e47a221136bb1a6a85eafb9be3",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "iscruni",
+      "package": "figaro",
+      "path": "starlink/figaro_help/iscruni.rst",
+      "sha256": "89e6a508068d43ecf1ea6ae9c312fb4e6a60b64488b9cc582f3a21741a7c130e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isedit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isedit.rst",
+      "sha256": "8556db8b5bd5482895c1eb2fc8007ca309b6efa21f54e3fcb90471fceadba8cf",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ishift",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ishift.rst",
+      "sha256": "f8c43db428ada4fafbe8f8cf09589c7396f212480040f25cc88ab160565c4e4b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ismooth",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ismooth.rst",
+      "sha256": "b8062da8d8360ed0a594ccf9d790c917cfa94a56e37cfe354f3bd14796eba49a",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isplot.rst",
+      "sha256": "22b2060872c7b2af87f6ad4afa632b19536ebf7c62097ef0e76a1c538f124e6c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "istat",
+      "package": "figaro",
+      "path": "starlink/figaro_help/istat.rst",
+      "sha256": "caebd068417e9bb5e3ebb30ce7e2d9bfcd94dc0cb6365e3661e5c76a90fa8309",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "istretch",
+      "package": "figaro",
+      "path": "starlink/figaro_help/istretch.rst",
+      "sha256": "8acd58cdfc55a9951d05d2944e0a1a9a77b75e5ae19da252723154921f48efa9",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isub.rst",
+      "sha256": "6e918d51562812b52ee0efe4cbf96acc788ef63537531a9cb552eea65f2775d6",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isubset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isubset.rst",
+      "sha256": "985df6dacf43afaa6cb7ba97043ce2198a5835c98ae0cb5c56d7293f08ccd57f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isuper",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isuper.rst",
+      "sha256": "87109b80121a1e6bc9b435a66b5cce862c59cf66f042c6890f0278af2f4d819c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isxadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isxadd.rst",
+      "sha256": "e6ee38762197ebc9522ecec32d8f5ff60fa9a31ea404ebf8cfb8f6f027b9e3a7",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isxdiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isxdiv.rst",
+      "sha256": "be23e229a1f4f1f3c36d7e0f64c21034dea7fe84cac5ede8ef8053b2a2bb7897",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isxmul",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isxmul.rst",
+      "sha256": "a2c6ac338bbc28a6275a8050232acd81e58ac0ebad2ed2e1f8135f093fe9798a",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isxsub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isxsub.rst",
+      "sha256": "0928d13408b508614a6649fbfa6e23a732a2b64c1817d59056ce32addd3d4803",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isyadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isyadd.rst",
+      "sha256": "a4d2c1a09b3bde133e761d28e1709c16909a5c8b944c971b06af2d650b5ba28f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isydiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isydiv.rst",
+      "sha256": "31cf28ad35aa62a5fd899c1adf98a947402f3b33876b3d2ba47e607b5a13ef33",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isymul",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isymul.rst",
+      "sha256": "422263772785d42cd4b2a4c8af767d7297de522c14e97f90ac0960771108667b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "isysub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/isysub.rst",
+      "sha256": "5dca258bb9171e4dd105c65a55b6865f00b4b93172dce03f472b9981e4c3e709",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ixsmooth",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ixsmooth.rst",
+      "sha256": "a55d57d3899a0d35b7c95c85f0d57d36ced8249674b54f5be261bb24f4ad3b29",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "linterp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/linterp.rst",
+      "sha256": "3b27e442e15268cab51992266f40ea7267df92e297737b7127e15001ffe1677b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "longslit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/longslit.rst",
+      "sha256": "1059e444f9849edc08a35b8c6255ea6663286b8732e43c1a33e6f7af8e4975d6",
+      "source": "applications/figaro/figaro5/longslit.f"
+    },
+    {
+      "command": "lsplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/lsplot.rst",
+      "sha256": "b22a57dce0506cd1816e085f832f9cfa6f3b50a2b3cdd7efad26729b92a2599a",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "lxset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/lxset.rst",
+      "sha256": "371276e89c892f921679599c30694cd673985cfc0efdf42bab34a44be0454b39",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "lyset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/lyset.rst",
+      "sha256": "f35e57c65eb534371717b2016bfa2ce341803e30ef26a3d257a25afac2c740bc",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "mask",
+      "package": "figaro",
+      "path": "starlink/figaro_help/mask.rst",
+      "sha256": "68f0b410d383ca9888241dfc10d76301de1e9a61f0c4bc37b6690e9662107778",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "maskext",
+      "package": "figaro",
+      "path": "starlink/figaro_help/maskext.rst",
+      "sha256": "9135eee17d203d983e4093703fd71c0955d73b09f700dd5d1e93437e62adbd23",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "mcfit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/mcfit.rst",
+      "sha256": "832a00ba9d28d4b666c900c08caad3368713e46453c17153899a1d9cc995336c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "medfilt",
+      "package": "figaro",
+      "path": "starlink/figaro_help/medfilt.rst",
+      "sha256": "c7ba9032fab2daa018b31670e38d50f7d81315123ccf87e62014e95c3031f979",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "medfiltr",
+      "package": "figaro",
+      "path": "starlink/figaro_help/medfiltr.rst",
+      "sha256": "66d90f966dd9657e1cb5d88dda311feba454a4ddd3a76ef4e0c87e97697e2fef",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "medsky",
+      "package": "figaro",
+      "path": "starlink/figaro_help/medsky.rst",
+      "sha256": "1ae051b7157feb0fca85a981bba3d8f553bc5858be9945c5e84d5205f7f55ca5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "moments",
+      "package": "figaro",
+      "path": "starlink/figaro_help/moments.rst",
+      "sha256": "9330032dc23b9fee988275d49030931b81859eb441e9c2a706491b9cc0359b50",
+      "source": "applications/figaro/figaro4/moments.f"
+    },
+    {
+      "command": "movie",
+      "package": "figaro",
+      "path": "starlink/figaro_help/movie.rst",
+      "sha256": "9cc6d8103a43f35d99eb03f11c4edc144a1006f9161ea6556e51bfc4db27cec3",
+      "source": "applications/figaro/figaro4/movie.f"
+    },
+    {
+      "command": "msplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/msplot.rst",
+      "sha256": "1739c2eab6b7cf80353a4380d70ea1e7a79af04cf42d6093c0b77d40943eb464",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ncset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ncset.rst",
+      "sha256": "41767b06e813b3baacd4a7546ca0707490699a36a15701d2cd245b81374ae365",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "offdist",
+      "package": "figaro",
+      "path": "starlink/figaro_help/offdist.rst",
+      "sha256": "78878c0b38096ce280af3a9f84246f4c74ebc9c18dc727f86a8cde960b2afdf4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "optextract",
+      "package": "figaro",
+      "path": "starlink/figaro_help/optextract.rst",
+      "sha256": "c61961e3f1f7fa5b0f43adac7715fda3baf13d8af81118da7548fc4fffb64c64",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "overpf",
+      "package": "figaro",
+      "path": "starlink/figaro_help/overpf.rst",
+      "sha256": "6cdc4d3b95e06f2b66bfdd5514a68798543cdc5f07aa61cb48c983a25538387e",
+      "source": "applications/figaro/figaro3/overpf.f"
+    },
+    {
+      "command": "peak",
+      "package": "figaro",
+      "path": "starlink/figaro_help/peak.rst",
+      "sha256": "b727b70f813ef8c5d07fcaa0755d96698c561db20240ec40dee74c2af10fd26d",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "polext",
+      "package": "figaro",
+      "path": "starlink/figaro_help/polext.rst",
+      "sha256": "a1f9f7840dbd3334d1cef413a9a385c70bbaf1c036708fa1a89a9cabf877ac0f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "polysky",
+      "package": "figaro",
+      "path": "starlink/figaro_help/polysky.rst",
+      "sha256": "7a24aad186f5c32b0c7475573df96db7b8e497a9ad13c546580d5e1f435abdb5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "profile",
+      "package": "figaro",
+      "path": "starlink/figaro_help/profile.rst",
+      "sha256": "0e6cc31d5e42c30da3aa635719efe1d8db7e06f2134ea0b269c8916b0686172f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "q2bad",
+      "package": "figaro",
+      "path": "starlink/figaro_help/q2bad.rst",
+      "sha256": "784e67db5cf7510a0a4a26c5ff42ad7e9a1ac8d684ed36e36c4b226151064755",
+      "source": "applications/figaro/figaro1/q2bad.f"
+    },
+    {
+      "command": "qual2flag",
+      "package": "figaro",
+      "path": "starlink/figaro_help/qual2flag.rst",
+      "sha256": "106a88abe306f704e873f726273a9a8eb2e174df180a1ba5e3b88a7632d05fd1",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "r2cmplx",
+      "package": "figaro",
+      "path": "starlink/figaro_help/r2cmplx.rst",
+      "sha256": "1adc9dc009dbd875e49bb4900042fa00e969c54074d0df6086095557e391d1c8",
+      "source": "applications/figaro/figaro2/r2cmplx.f"
+    },
+    {
+      "command": "rcgs2",
+      "package": "figaro",
+      "path": "starlink/figaro_help/rcgs2.rst",
+      "sha256": "f77f4e558e75059b1ffd641b871942c4acf75cbfa6987983862f4cf3ee882d8c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "rdfits",
+      "package": "figaro",
+      "path": "starlink/figaro_help/rdfits.rst",
+      "sha256": "48f921752d3c3a6f5a1247c637eb00e0f141d415c95378e475603d5cc7540540",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "rdipso",
+      "package": "figaro",
+      "path": "starlink/figaro_help/rdipso.rst",
+      "sha256": "35eba69f06a6e19a4c26fc471b3e1caaf80ca7de3122c3598a7fa772c0126f42",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "rembad",
+      "package": "figaro",
+      "path": "starlink/figaro_help/rembad.rst",
+      "sha256": "f828f4d9dd791017cee539cff41f8122347ae8f524464f0bdb7895c37adc50b4",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "renobj",
+      "package": "figaro",
+      "path": "starlink/figaro_help/renobj.rst",
+      "sha256": "a531cd4e69bb330e9935545fd22794d5603d9367a97410f67451960b4481444b",
+      "source": "applications/figaro/figaro1/renobj.f"
+    },
+    {
+      "command": "resamp",
+      "package": "figaro",
+      "path": "starlink/figaro_help/resamp.rst",
+      "sha256": "c966251cc8345133af688b2eb35b5a387a4f5dc7fa79728654f27d4ebd2cba73",
+      "source": "applications/figaro/figaro4/resamp.f"
+    },
+    {
+      "command": "resample",
+      "package": "figaro",
+      "path": "starlink/figaro_help/resample.rst",
+      "sha256": "a74d8243ff9f5187d8c924a6932e256a4bae9544d878a64402fa7f59e4d8000c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "rescale",
+      "package": "figaro",
+      "path": "starlink/figaro_help/rescale.rst",
+      "sha256": "e23572a8f0f00922d194dc76f8b3a3bd8199f753107998c338ce67b7001082cb",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "retype",
+      "package": "figaro",
+      "path": "starlink/figaro_help/retype.rst",
+      "sha256": "2891d24649fad68f4f83ec95541712f7e355086a79fbbb825c65adf097779ff1",
+      "source": "applications/figaro/figaro1/retype.f"
+    },
+    {
+      "command": "rotx",
+      "package": "figaro",
+      "path": "starlink/figaro_help/rotx.rst",
+      "sha256": "383e79b91ad740b7cad07e55d57220aa7c0841454a8c64343943b1800f9e13bf",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "sclean",
+      "package": "figaro",
+      "path": "starlink/figaro_help/sclean.rst",
+      "sha256": "3541ef4698e82b6ced22bd150a4a8230871abd66d87e8b40003f92bcc34c0022",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "scnsky",
+      "package": "figaro",
+      "path": "starlink/figaro_help/scnsky.rst",
+      "sha256": "e4b46f3a16578caf2305c3c02b49be594a28502e1cd4187f9e0bfea3454cdf42",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "scross",
+      "package": "figaro",
+      "path": "starlink/figaro_help/scross.rst",
+      "sha256": "406e09b49f871ec07205e5ce0735e0dff7e2c2238aa3493a65104dff437f324b",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "scrunch",
+      "package": "figaro",
+      "path": "starlink/figaro_help/scrunch.rst",
+      "sha256": "3dcebfa1372582067ba089d199f9fababd8ebf1e01a374a8d0ec6310e65b9cf3",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "sdist",
+      "package": "figaro",
+      "path": "starlink/figaro_help/sdist.rst",
+      "sha256": "dddd5e29fb359fe55c3be8a29e5543d3ed31b16895bb6f3d8f65b900ac334f62",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "setobj",
+      "package": "figaro",
+      "path": "starlink/figaro_help/setobj.rst",
+      "sha256": "63dcae279ca30c81913a25e58c2cf90e53185f3fda679be61022008451fda82b",
+      "source": "applications/figaro/figaro1/setobj.f"
+    },
+    {
+      "command": "sfit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/sfit.rst",
+      "sha256": "47d45ce766b2f669c6b323069c0af63b1e2cd33228f9a8959293e09f6e5d819e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "skyliner",
+      "package": "figaro",
+      "path": "starlink/figaro_help/skyliner.rst",
+      "sha256": "303f7ac22cd6a2a29c855e9c0db52d972e7449e2c018d93bb3c29e10c7dede9f",
+      "source": "applications/figaro/figaro3/skyliner.f"
+    },
+    {
+      "command": "slice",
+      "package": "figaro",
+      "path": "starlink/figaro_help/slice.rst",
+      "sha256": "7ee09401b17c7f44d51acfc9333781c39b8c0827cb65fd318863b12a8858a730",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "soft",
+      "package": "figaro",
+      "path": "starlink/figaro_help/soft.rst",
+      "sha256": "93462a56649386694a812c8a2cc272617c47d280db2ba6c4432a6881132fe693",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "speccont",
+      "package": "figaro",
+      "path": "starlink/figaro_help/speccont.rst",
+      "sha256": "2add8a0c734c7ce05391cfd76bb4d07a18b41a5ad62c3486895ddea94f6d40b0",
+      "source": "applications/figaro/figaro4/speccont.f"
+    },
+    {
+      "command": "specgrid",
+      "package": "figaro",
+      "path": "starlink/figaro_help/specgrid.rst",
+      "sha256": "f0939a5bb34471abf4a5ad0c404dafd37a09cd8dfb4d32cf0106ee85d7f87fbc",
+      "source": "applications/figaro/figaro4/specgrid.f"
+    },
+    {
+      "command": "specplot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/specplot.rst",
+      "sha256": "0767fa113d1b90f4f7e45718940f163d26be2bf6cd7249db59efd7075543759c",
+      "source": "applications/figaro/figaro4/specplot.f"
+    },
+    {
+      "command": "spflux",
+      "package": "figaro",
+      "path": "starlink/figaro_help/spflux.rst",
+      "sha256": "dfe693443fb36b2df006348c322b03424a1a87e02989aec5cf25dc0333ff83ca",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "spied",
+      "package": "figaro",
+      "path": "starlink/figaro_help/spied.rst",
+      "sha256": "e3a6990fa095ac6396b61df1e0088828b69ccbf8d586e06bf803a4e15533bd3d",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "spifit",
+      "package": "figaro",
+      "path": "starlink/figaro_help/spifit.rst",
+      "sha256": "008d141ad6af09e19169809ebcc480780a2d134f2cd42dee2a90343ab407ac6c",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "splot",
+      "package": "figaro",
+      "path": "starlink/figaro_help/splot.rst",
+      "sha256": "e652c1cb2c7a039b8633bd11d1b04ef75f15489a043abe386436c009527b3cd7",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "sqrterr",
+      "package": "figaro",
+      "path": "starlink/figaro_help/sqrterr.rst",
+      "sha256": "027a68ac80d1d6a1db4c985f9d74c6d2672048a41129e5bc2568f6189dbe2212",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "subset",
+      "package": "figaro",
+      "path": "starlink/figaro_help/subset.rst",
+      "sha256": "49fda8a8123250901f1dd7e19f7d39373f4b42e9aa8f29742c8eacd260ebea17",
+      "source": "applications/figaro/figaro4/subset.f"
+    },
+    {
+      "command": "table",
+      "package": "figaro",
+      "path": "starlink/figaro_help/table.rst",
+      "sha256": "9b8a90f6e801922eadfc55bf5f32e206ad30bf6e6cbba3b4cac89a09f65c8910",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "tippex",
+      "package": "figaro",
+      "path": "starlink/figaro_help/tippex.rst",
+      "sha256": "13ab913dc84ac3f32d85965b31cea57722eda60c66719f8b34025ccae4edf34d",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "trimfile",
+      "package": "figaro",
+      "path": "starlink/figaro_help/trimfile.rst",
+      "sha256": "893ba05d8db82374de9f6630ed6219edb58f9eb7798e861c0ae72d91a7bbf062",
+      "source": "applications/figaro/figaro1/trimfile.f"
+    },
+    {
+      "command": "vachel",
+      "package": "figaro",
+      "path": "starlink/figaro_help/vachel.rst",
+      "sha256": "9228d0398ccb680dd573982b0c12cb073e2b89a63cbe7bc5421c11b5092c6fd5",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "vig",
+      "package": "figaro",
+      "path": "starlink/figaro_help/vig.rst",
+      "sha256": "c7e67f4bfbca99313a8408dc1fe0dd6305d66cf179a43310487189fa7e22cf56",
+      "source": "applications/figaro/figaro5/vig.f"
+    },
+    {
+      "command": "wdfits",
+      "package": "figaro",
+      "path": "starlink/figaro_help/wdfits.rst",
+      "sha256": "52f2c3e26fc711ce071528cf3587cd30b9fb832968a11d4e2ffb49d58a977cc3",
+      "source": "applications/figaro/figaro2/wdfits.f"
+    },
+    {
+      "command": "wdipso",
+      "package": "figaro",
+      "path": "starlink/figaro_help/wdipso.rst",
+      "sha256": "8c6222685f6953990a99f678b326230e6915fac77217d4ea939464aa2e7f24bb",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcadd.rst",
+      "sha256": "7a7f08cbba7dd8b1acd97fd81821d90fe73bf335e82bcc8e4aefd70d4ea839db",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcdiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcdiv.rst",
+      "sha256": "ba55a9796c0c202f7c28516809d370b3e1c80b3d256560e9a59a7eec4e953b48",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcmult",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcmult.rst",
+      "sha256": "f1f5df77a54ee51f6ee6bd6ca59c684337a0f6b649ca89a431b1ce17f052990e",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcopi",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcopi.rst",
+      "sha256": "2f779c16a22baa5a9bef4f758bbfb2388c80d32e18d785865eefe0400676f328",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcopy",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcopy.rst",
+      "sha256": "d8d07f237030aafb1398a036a5d37206842ec27e13ee60538b9072c8bb229697",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcsub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcsub.rst",
+      "sha256": "e25062cd7ec841e357005ad9bea7e6b886ae21b174dc70de1174ce44a497635f",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xcur",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xcur.rst",
+      "sha256": "bc5fba695780d2d6701d76eb9af72041ed09d52d1fbf60014220d3cf9e942640",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xtplane",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xtplane.rst",
+      "sha256": "926c63f9dc59d5dd6af67e4206c8867a8d03a50ce317e8b832a0f03ec75ff4ca",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "xtract",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xtract.rst",
+      "sha256": "c8ec4b0e4a1b0998df4488891b65ebeb1e623ec7436d2702a400616b5659a2b0",
+      "source": "applications/figaro/figaro4/xtract.f"
+    },
+    {
+      "command": "xyplane",
+      "package": "figaro",
+      "path": "starlink/figaro_help/xyplane.rst",
+      "sha256": "99f0d9e5d604fe392fd4f94bb5f8b707556cdbe4e893f0cf9d134a1f4ff1065d",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ycadd",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ycadd.rst",
+      "sha256": "56679858e1bcb9ad82fe959855a8e0d9a494c8eb96f199165801148b0dbe1cc6",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ycdiv",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ycdiv.rst",
+      "sha256": "6b9c8e4e4c251fa332c5bd40e5b34c58bc20c4482d2adfa65f31705ae6115afa",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ycmult",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ycmult.rst",
+      "sha256": "8a624c017c4063baf3d56fceed8d30bb73418bce4ae87a859edcfa8ac9ea3e99",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ycsub",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ycsub.rst",
+      "sha256": "803fabd3c74beff7a81b99cd4ff7fe286aaa4d6c796c10bfc9e19f356ea4a047",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ystract",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ystract.rst",
+      "sha256": "eb266ca4bd4ef9340fb581f94799a9b752169460af117e49c1e2f34da6e7bf8a",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "ytplane",
+      "package": "figaro",
+      "path": "starlink/figaro_help/ytplane.rst",
+      "sha256": "ce3e969fb0a659e5654af17390e816991b6cab86a1bba7d3e58ec2cd27d253fc",
+      "source": "applications/figaro/figaro.hlp"
+    },
+    {
+      "command": "add",
+      "package": "kappa",
+      "path": "starlink/kappa_help/add.rst",
+      "sha256": "0fae9b40afdca3335d536d527cbd6031dcc1ca39e0c80f0e52f6c2996da51768",
+      "source": "applications/kappa/libkappa/add.c"
+    },
+    {
+      "command": "align2d",
+      "package": "kappa",
+      "path": "starlink/kappa_help/align2d.rst",
+      "sha256": "2058c5298d5c8a2c4110cd75cd4672affbc4a794685644af61b913c18345c56a",
+      "source": "applications/kappa/libkappa/align2d.f"
+    },
+    {
+      "command": "aperadd",
+      "package": "kappa",
+      "path": "starlink/kappa_help/aperadd.rst",
+      "sha256": "5f53500283fe0564a0fb21825fdb91dfcf843804f1e831a9e4121ae94b82f624",
+      "source": "applications/kappa/libkappa/aperadd.f"
+    },
+    {
+      "command": "ardgen",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ardgen.rst",
+      "sha256": "a43f9739da40cba0b153c1b44305f38be688c599b74215964dabc24de9a29120",
+      "source": "applications/kappa/libkappa/ardgen.f"
+    },
+    {
+      "command": "ardmask",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ardmask.rst",
+      "sha256": "cfdd3ed15e22129c2c95b120cb2285cbb4d05296c14e6128ff519780d8c65e23",
+      "source": "applications/kappa/libkappa/ardmask.f"
+    },
+    {
+      "command": "ardplot",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ardplot.rst",
+      "sha256": "55d23fb33d053bddb9db1e6e9ac275d8566d3cb7201fbd02e3b699f4f23943b3",
+      "source": "applications/kappa/libkapview/ardplot.f"
+    },
+    {
+      "command": "axconv",
+      "package": "kappa",
+      "path": "starlink/kappa_help/axconv.rst",
+      "sha256": "5ee2179431c4a2195a8e06e3fe96bc90f384b29a855a9269d6afe999fdad44b1",
+      "source": "applications/kappa/libndfpack/axconv.f"
+    },
+    {
+      "command": "axlabel",
+      "package": "kappa",
+      "path": "starlink/kappa_help/axlabel.rst",
+      "sha256": "751c543f29785ce2732662b1eb4e83fbb684a9a5ac3f3cb9111d93e357f25916",
+      "source": "applications/kappa/libndfpack/axlabel.f"
+    },
+    {
+      "command": "axunits",
+      "package": "kappa",
+      "path": "starlink/kappa_help/axunits.rst",
+      "sha256": "6239fdfe171d798cfcaa6fe52322793a8fceae7fdb28261522dd53b3913cbb35",
+      "source": "applications/kappa/libndfpack/axunits.f"
+    },
+    {
+      "command": "beamfit",
+      "package": "kappa",
+      "path": "starlink/kappa_help/beamfit.rst",
+      "sha256": "2763a907c9ac2dad28898f474e4eb7216991435e45b2471d43ab4a2185c64b00",
+      "source": "applications/kappa/libkappa/beamfit.f"
+    },
+    {
+      "command": "block",
+      "package": "kappa",
+      "path": "starlink/kappa_help/block.rst",
+      "sha256": "aee01e4985423dd3d7db1a863097a4be31933537f289def70e24444988947655",
+      "source": "applications/kappa/libkappa/block.c"
+    },
+    {
+      "command": "cadd",
+      "package": "kappa",
+      "path": "starlink/kappa_help/cadd.rst",
+      "sha256": "00d11d3c05c53b63bad1e94b11309f757c14525e019416ce418f47e6c7b05159",
+      "source": "applications/kappa/libkappa/cadd.c"
+    },
+    {
+      "command": "calc",
+      "package": "kappa",
+      "path": "starlink/kappa_help/calc.rst",
+      "sha256": "39ac8b5ff4642631917cc002569e7b4c937abd7a48bf5e487c552e65ac7a67dd",
+      "source": "applications/kappa/libkappa/calc.f"
+    },
+    {
+      "command": "calpol",
+      "package": "kappa",
+      "path": "starlink/kappa_help/calpol.rst",
+      "sha256": "5d38aba8958fd768c5a4006cac0b0114737ba21d9b5666687870515250c04108",
+      "source": "applications/kappa/libkappa/calpol.f"
+    },
+    {
+      "command": "carpet",
+      "package": "kappa",
+      "path": "starlink/kappa_help/carpet.rst",
+      "sha256": "4907af523665a2d5cc1fc450a10f8d4b7b5230edf81de2ed904e826f9191dba7",
+      "source": "applications/kappa/libkappa/carpet.c"
+    },
+    {
+      "command": "cdiv",
+      "package": "kappa",
+      "path": "starlink/kappa_help/cdiv.rst",
+      "sha256": "d743a8545c87ac47b8b1187f0c2a9c07c9591cc6f9ee2a970f15fc220b87b554",
+      "source": "applications/kappa/libkappa/cdiv.c"
+    },
+    {
+      "command": "centroid",
+      "package": "kappa",
+      "path": "starlink/kappa_help/centroid.rst",
+      "sha256": "78e9fe36d3598752b56a0cbd9bde58d7cc2bec7ab1380072bf62439dd8108af8",
+      "source": "applications/kappa/libkappa/centroid.f"
+    },
+    {
+      "command": "chain",
+      "package": "kappa",
+      "path": "starlink/kappa_help/chain.rst",
+      "sha256": "c7516416c9e091cc25848df21486bd61826824d8e87a149f37b42a4ebaae548d",
+      "source": "applications/kappa/libndfpack/chain.f"
+    },
+    {
+      "command": "chanmap",
+      "package": "kappa",
+      "path": "starlink/kappa_help/chanmap.rst",
+      "sha256": "4f047d429fb8719a7f3ddfb09183497d8b16cfb5569b15d84f8300d7bf197822",
+      "source": "applications/kappa/libkappa/chanmap.f"
+    },
+    {
+      "command": "chpix",
+      "package": "kappa",
+      "path": "starlink/kappa_help/chpix.rst",
+      "sha256": "4d5001125654975e273cc2a3b05a7a8534c588ffdedef6292530fff2928dbc22",
+      "source": "applications/kappa/libkappa/chpix.f"
+    },
+    {
+      "command": "clinplot",
+      "package": "kappa",
+      "path": "starlink/kappa_help/clinplot.rst",
+      "sha256": "de7c49bc43644c988d745881e78d7eeb8a828babfff55047927af2d315df09a2",
+      "source": "applications/kappa/libkapview/clinplot.f"
+    },
+    {
+      "command": "cmult",
+      "package": "kappa",
+      "path": "starlink/kappa_help/cmult.rst",
+      "sha256": "23a7fc0161b1d59e33f4d0f0b7e7bdb42c187678b339d8d5dcb1af1fadb42ddc",
+      "source": "applications/kappa/libkappa/cmult.c"
+    },
+    {
+      "command": "colcomp",
+      "package": "kappa",
+      "path": "starlink/kappa_help/colcomp.rst",
+      "sha256": "48be6b050eaabd4e7396448a5d199d9bd03d8707677179dd9aeca0ae21f38ab8",
+      "source": "applications/kappa/libkapview/colcomp.f"
+    },
+    {
+      "command": "collapse",
+      "package": "kappa",
+      "path": "starlink/kappa_help/collapse.rst",
+      "sha256": "fa779b9eb42de2bf298151d040f01fe3a8842dbba0dd205ffb791927ee89e118",
+      "source": "applications/kappa/libkappa/collapse.f"
+    },
+    {
+      "command": "compadd",
+      "package": "kappa",
+      "path": "starlink/kappa_help/compadd.rst",
+      "sha256": "b7f146742e4711b7664c2e68871457c9ad6dbe9c47218ea675a24e1cdc3e6c3b",
+      "source": "applications/kappa/libkappa/compadd.f"
+    },
+    {
+      "command": "compave",
+      "package": "kappa",
+      "path": "starlink/kappa_help/compave.rst",
+      "sha256": "df6e4c971942037ed288ca4042919655745daa3c3b41708cb812a1d7bc2d6e78",
+      "source": "applications/kappa/libkappa/compave.f"
+    },
+    {
+      "command": "compick",
+      "package": "kappa",
+      "path": "starlink/kappa_help/compick.rst",
+      "sha256": "688d84f568bc4caf3338aea320367532c00a0e2b4d900e36bc9a59b8b47da8ab",
+      "source": "applications/kappa/libkappa/compick.f"
+    },
+    {
+      "command": "complex",
+      "package": "kappa",
+      "path": "starlink/kappa_help/complex.rst",
+      "sha256": "384e402679c7855add002fd0699f847733160143bde340897c84c15e1308cec7",
+      "source": "applications/kappa/libkappa/complex.c"
+    },
+    {
+      "command": "configecho",
+      "package": "kappa",
+      "path": "starlink/kappa_help/configecho.rst",
+      "sha256": "1587298641d4bc8c21a7c6ac0436b218cf02ba7b3eac8c13745b63c2c612cbcd",
+      "source": "applications/kappa/libkappa/configecho.c"
+    },
+    {
+      "command": "contour",
+      "package": "kappa",
+      "path": "starlink/kappa_help/contour.rst",
+      "sha256": "167d2e1f57d558e7e6fe616d877e4499e2efd05d3e80ac2f94eb7fa18ee0ea47",
+      "source": "applications/kappa/libkapview/contour.f"
+    },
+    {
+      "command": "convolve",
+      "package": "kappa",
+      "path": "starlink/kappa_help/convolve.rst",
+      "sha256": "fd587dc4aadf499128ee379b2e06e511bf1f7d7c6556958122ab7a0df6097264",
+      "source": "applications/kappa/libkappa/convolve.f"
+    },
+    {
+      "command": "copybad",
+      "package": "kappa",
+      "path": "starlink/kappa_help/copybad.rst",
+      "sha256": "da68a15f3d7736dd7e01dce88d52b4b0f8db6462d84139675ce467713717906b",
+      "source": "applications/kappa/libkappa/copybad.f"
+    },
+    {
+      "command": "creframe",
+      "package": "kappa",
+      "path": "starlink/kappa_help/creframe.rst",
+      "sha256": "b09b82ede7cff2408e40346d99779e84b9b3f2fa0cd57ecb7952379f467554d3",
+      "source": "applications/kappa/libkappa/creframe.f"
+    },
+    {
+      "command": "csub",
+      "package": "kappa",
+      "path": "starlink/kappa_help/csub.rst",
+      "sha256": "7a894a42ace0e1896fd3ce1a79c6cbcbaf9178536fb0a47b468bf0db809f8140",
+      "source": "applications/kappa/libkappa/csub.c"
+    },
+    {
+      "command": "cumulvec",
+      "package": "kappa",
+      "path": "starlink/kappa_help/cumulvec.rst",
+      "sha256": "9c125cacd1652c1100854c6e9c68533686134affaf56f143b8183e1bdd8c0813",
+      "source": "applications/kappa/libkappa/cumulvec.f"
+    },
+    {
+      "command": "cursor",
+      "package": "kappa",
+      "path": "starlink/kappa_help/cursor.rst",
+      "sha256": "5346f58d684e983998bf211b2018911563cb2fda1484b27c083f4397eb421516",
+      "source": "applications/kappa/libkapview/cursor.f"
+    },
+    {
+      "command": "display",
+      "package": "kappa",
+      "path": "starlink/kappa_help/display.rst",
+      "sha256": "283c2ade6240fa6dac341af9223dd8176e2598d86eb1e2cd928a095b05f9a2fa",
+      "source": "applications/kappa/libkapview/display.f"
+    },
+    {
+      "command": "drawnorth",
+      "package": "kappa",
+      "path": "starlink/kappa_help/drawnorth.rst",
+      "sha256": "bcbea0840867cca9fd18daaf9769105b5074e2387c8d54b3e2a58754780739f4",
+      "source": "applications/kappa/libkapview/drawnorth.f"
+    },
+    {
+      "command": "drawsig",
+      "package": "kappa",
+      "path": "starlink/kappa_help/drawsig.rst",
+      "sha256": "f5ffc11e25296f2f89422c52fd96509f76cb7bae46f4dc6fff71b9acc9228d02",
+      "source": "applications/kappa/libkapview/drawsig.f"
+    },
+    {
+      "command": "elprof",
+      "package": "kappa",
+      "path": "starlink/kappa_help/elprof.rst",
+      "sha256": "3912ea01c404b80ca2baa307ecd77bfa96f177cab4c8fe8ba840d445b324dc44",
+      "source": "applications/kappa/libkapview/elprof.f"
+    },
+    {
+      "command": "erase",
+      "package": "kappa",
+      "path": "starlink/kappa_help/erase.rst",
+      "sha256": "8e5af6bfb072300370f29be3f46095aa5b58566a98b93de24b5a05d56d53c07d",
+      "source": "applications/kappa/libndfpack/erase.f"
+    },
+    {
+      "command": "errclip",
+      "package": "kappa",
+      "path": "starlink/kappa_help/errclip.rst",
+      "sha256": "68f247908bce129fcbbcf8fcba1ffcd1acd5aaef3e1d676dffac0aabc271bcb7",
+      "source": "applications/kappa/libkappa/errclip.f"
+    },
+    {
+      "command": "excludebad",
+      "package": "kappa",
+      "path": "starlink/kappa_help/excludebad.rst",
+      "sha256": "5c554e64fdb489b708fb2323204d2a4b359143e15da2d3207be364a35e424d52",
+      "source": "applications/kappa/libkappa/excludebad.f"
+    },
+    {
+      "command": "expon",
+      "package": "kappa",
+      "path": "starlink/kappa_help/expon.rst",
+      "sha256": "2824da12508c55f85d3816024aa4b45f70cfb9248c7a7d89c4d88041a4330917",
+      "source": "applications/kappa/libkappa/expon.f"
+    },
+    {
+      "command": "ffclean",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ffclean.rst",
+      "sha256": "3cc20c7eab0487c3c1f24b61fe9c3caac7568c6e9dcc9dc696208907d2ff02df",
+      "source": "applications/kappa/libkappa/ffclean.f"
+    },
+    {
+      "command": "fillbad",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fillbad.rst",
+      "sha256": "a06cd453e2b0f79366c9baa3a171e68a9c7dd60c2ae7cae82cba74e27edb8397",
+      "source": "applications/kappa/libkappa/fillbad.f"
+    },
+    {
+      "command": "fitsdin",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsdin.rst",
+      "sha256": "d62fdb2f4a729d15bf037eec6682b142c8ada639f1c8d1c298dc14428e3d66f6",
+      "source": "applications/kappa/libndfpack/fitsdin.f"
+    },
+    {
+      "command": "fitsexist",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsexist.rst",
+      "sha256": "fc6d9df8682d909c9bd1b2ae30bdae176b8fb4cb2d9d6bebaddafe66cd2fb1ed",
+      "source": "applications/kappa/libndfpack/fitsexist.f"
+    },
+    {
+      "command": "fitsexp",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsexp.rst",
+      "sha256": "7a741492c56dffe8255e1000e1aab79c2ed72a055cb399581593fc2542b555cd",
+      "source": "applications/kappa/libndfpack/fitsexp.f"
+    },
+    {
+      "command": "fitsimp",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsimp.rst",
+      "sha256": "c946478181c4d428c5980176aa9fe1fb38a5dd4789dbc0d54894a59366f691d0",
+      "source": "applications/kappa/libndfpack/fitsimp.f"
+    },
+    {
+      "command": "fitslist",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitslist.rst",
+      "sha256": "22e505d83d98fe4332bdb33b45471e84055550f331badfc6da8a6937f765c8b2",
+      "source": "applications/kappa/libndfpack/fitslist.f"
+    },
+    {
+      "command": "fitsmod",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsmod.rst",
+      "sha256": "4a6ce91aa75a51b12e13a56cdea81bd3a19b3b141d56e216e12cdb4bc21d6565",
+      "source": "applications/kappa/libndfpack/fitsmod.f"
+    },
+    {
+      "command": "fitstext",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitstext.rst",
+      "sha256": "b226908c8b1abbeacca5a6bde8e73952d748b81c2c97746bde6956999171640a",
+      "source": "applications/kappa/libndfpack/fitstext.f"
+    },
+    {
+      "command": "fitsurface",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsurface.rst",
+      "sha256": "285e03588f9f9738f2a9c15ba80f11580b4b88ed154c244815b079de44096d8b",
+      "source": "applications/kappa/libkappa/fitsurface.f"
+    },
+    {
+      "command": "fitsval",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fitsval.rst",
+      "sha256": "632350aee328d56101218b869b60766b45696c6c0433c4990bed75868504e813",
+      "source": "applications/kappa/libndfpack/fitsval.f"
+    },
+    {
+      "command": "flip",
+      "package": "kappa",
+      "path": "starlink/kappa_help/flip.rst",
+      "sha256": "58fac9d88011d4df7cd8bddf4b3cf8de3d2a7cf14348d6df2d7364fb9ba81742",
+      "source": "applications/kappa/libkappa/flip.f"
+    },
+    {
+      "command": "fourier",
+      "package": "kappa",
+      "path": "starlink/kappa_help/fourier.rst",
+      "sha256": "d911f14a731508af71a7286cd40f2a47a35dd2fb500c523338e67c4269ca1038",
+      "source": "applications/kappa/libkappa/fourier.f"
+    },
+    {
+      "command": "gausmooth",
+      "package": "kappa",
+      "path": "starlink/kappa_help/gausmooth.rst",
+      "sha256": "83821c17ffcca8b9cd5d6a069168f8901bafed2e17cc6b6f94c91a53fa96728d",
+      "source": "applications/kappa/libkappa/gausmooth.f"
+    },
+    {
+      "command": "gdclear",
+      "package": "kappa",
+      "path": "starlink/kappa_help/gdclear.rst",
+      "sha256": "e74c7bac938b10dfe66b04c3e78e3a4bbdec610cda620ff331e66c4862e30991",
+      "source": "applications/kappa/libkapview/gdclear.f"
+    },
+    {
+      "command": "gdnames",
+      "package": "kappa",
+      "path": "starlink/kappa_help/gdnames.rst",
+      "sha256": "4ab30db4c4077a175468ff7b021580f8395ea4909b475110a7f1f485311096e8",
+      "source": "applications/kappa/libkapview/gdnames.f"
+    },
+    {
+      "command": "gdset",
+      "package": "kappa",
+      "path": "starlink/kappa_help/gdset.rst",
+      "sha256": "54d859fa71a1245244247bad9d4a8b6330a10da7b0e00d98a3349d6b5b9ac90a",
+      "source": "applications/kappa/libkapview/gdset.f"
+    },
+    {
+      "command": "gdstate",
+      "package": "kappa",
+      "path": "starlink/kappa_help/gdstate.rst",
+      "sha256": "8d8068da61764f94d3a9bc7ab4dcfeb175bb866744901c33dfb0d6b1780d8130",
+      "source": "applications/kappa/libkapview/gdstate.f"
+    },
+    {
+      "command": "glitch",
+      "package": "kappa",
+      "path": "starlink/kappa_help/glitch.rst",
+      "sha256": "d6c90faf2b647fb9122b40ad2000b7497ba9e1a1332c77c3d4e6ef04b3775de6",
+      "source": "applications/kappa/libkappa/glitch.f"
+    },
+    {
+      "command": "globals",
+      "package": "kappa",
+      "path": "starlink/kappa_help/globals.rst",
+      "sha256": "ac559b1f01d3ec7206fa9dd53545e7576052fe17f6367802973e0bd293125203",
+      "source": "applications/kappa/libkappa/globals.f"
+    },
+    {
+      "command": "hiscom",
+      "package": "kappa",
+      "path": "starlink/kappa_help/hiscom.rst",
+      "sha256": "55156880586daf1800c9f1e67c6aaca6590d9b37451534aab33d89e403b6553e",
+      "source": "applications/kappa/libndfpack/hiscom.f"
+    },
+    {
+      "command": "hislist",
+      "package": "kappa",
+      "path": "starlink/kappa_help/hislist.rst",
+      "sha256": "c5d13cc668aa0d771114681e7fe4ea0c7234dedd97132835cce265631576b73b",
+      "source": "applications/kappa/libndfpack/hislist.f"
+    },
+    {
+      "command": "hisset",
+      "package": "kappa",
+      "path": "starlink/kappa_help/hisset.rst",
+      "sha256": "5fb39d74fffb09f72ac0af2b7e0bb8a7b69a3dd17d9ef031a870e2c6d3748dd0",
+      "source": "applications/kappa/libndfpack/hisset.f"
+    },
+    {
+      "command": "histat",
+      "package": "kappa",
+      "path": "starlink/kappa_help/histat.rst",
+      "sha256": "c92eef85333f659cfed0fd82081b9557f99c99119d5b78751fb511e3dd0dc4f5",
+      "source": "applications/kappa/libkappa/histat.f"
+    },
+    {
+      "command": "histeq",
+      "package": "kappa",
+      "path": "starlink/kappa_help/histeq.rst",
+      "sha256": "c84eec840707b0d84d455bffd10e21e36fa3c525c3b5f1ffdb8fcf6b2957204f",
+      "source": "applications/kappa/libkappa/histeq.f"
+    },
+    {
+      "command": "histogram",
+      "package": "kappa",
+      "path": "starlink/kappa_help/histogram.rst",
+      "sha256": "cde398b91ab9b5887920fb775f0f67b9078450d34234054f09b28bbfd334c520",
+      "source": "applications/kappa/libkappa/histogram.f"
+    },
+    {
+      "command": "interleave",
+      "package": "kappa",
+      "path": "starlink/kappa_help/interleave.rst",
+      "sha256": "517d48769e62653df711c63bc8648216f546e31776fd7eab38e55ed0f6073aa2",
+      "source": "applications/kappa/libkappa/interleave.f"
+    },
+    {
+      "command": "kaphelp",
+      "package": "kappa",
+      "path": "starlink/kappa_help/kaphelp.rst",
+      "sha256": "9ea2f90f8c945207da98835a15fb222ab5335d5999ac69395d5e400b9f19cd2d",
+      "source": "applications/kappa/libkappa/kaphelp.f"
+    },
+    {
+      "command": "kapversion",
+      "package": "kappa",
+      "path": "starlink/kappa_help/kapversion.rst",
+      "sha256": "4ba5dffff0d6514ab1af62cb79f8262f289db6af8f2ceace5c387b14347ef624",
+      "source": "applications/kappa/libkappa/kapversion.f"
+    },
+    {
+      "command": "kstest",
+      "package": "kappa",
+      "path": "starlink/kappa_help/kstest.rst",
+      "sha256": "33ee4af1872896efae69cc5b8a4628bd6d6547ff84070d9127f64616c1fe1e61",
+      "source": "applications/kappa/libkappa/kstest.f"
+    },
+    {
+      "command": "laplace",
+      "package": "kappa",
+      "path": "starlink/kappa_help/laplace.rst",
+      "sha256": "b0bc78df39556c9052503a43e06ee302a090126ef9f143b68d02640d770b45fa",
+      "source": "applications/kappa/libkappa/laplace.f"
+    },
+    {
+      "command": "linplot",
+      "package": "kappa",
+      "path": "starlink/kappa_help/linplot.rst",
+      "sha256": "b4341a91112e8dbe25ec597873daac1b3ca593999aee2b3be2ae422131d71556",
+      "source": "applications/kappa/libkapview/linplot.f"
+    },
+    {
+      "command": "listmake",
+      "package": "kappa",
+      "path": "starlink/kappa_help/listmake.rst",
+      "sha256": "614b3ca129d3d4c9ed9076e8f1a432a9d8dd917eebbd6e9e73d877f68f6f5692",
+      "source": "applications/kappa/libkappa/listmake.f"
+    },
+    {
+      "command": "listshow",
+      "package": "kappa",
+      "path": "starlink/kappa_help/listshow.rst",
+      "sha256": "c7d2d92740c376153ad2fc899b7d9dcd0e6f1a652307b62f6bb32b35b6ddfe03",
+      "source": "applications/kappa/libkappa/listshow.f"
+    },
+    {
+      "command": "logar",
+      "package": "kappa",
+      "path": "starlink/kappa_help/logar.rst",
+      "sha256": "5a0fe70994c2fda9268a758e2a10fcafdb83fb2711c25c688dc1085869e9d233",
+      "source": "applications/kappa/libkappa/logar.f"
+    },
+    {
+      "command": "look",
+      "package": "kappa",
+      "path": "starlink/kappa_help/look.rst",
+      "sha256": "8e4de2901e9ee7b7daca823c9d2f04ae4d4124b9eb6ec268e65c82c36a887d42",
+      "source": "applications/kappa/libkappa/look.f"
+    },
+    {
+      "command": "lucy",
+      "package": "kappa",
+      "path": "starlink/kappa_help/lucy.rst",
+      "sha256": "9ddc31690f34ff55bfc821da4500d457c331a58acc9bc5e8c47d978889bf35ef",
+      "source": "applications/kappa/libkappa/lucy.f"
+    },
+    {
+      "command": "lutable",
+      "package": "kappa",
+      "path": "starlink/kappa_help/lutable.rst",
+      "sha256": "2ad5cc89a808609f6911d5893baf1c72dd3add825459d308302bc7df28e94c60",
+      "source": "applications/kappa/libkapview/lutable.f"
+    },
+    {
+      "command": "lutedit",
+      "package": "kappa",
+      "path": "starlink/kappa_help/lutedit.rst",
+      "sha256": "4c852b5e23f7aac16e9dba7d6cf8a298f881592bbeb221e7a7fac8f2e4438603",
+      "source": "applications/kappa/libkapview/lutedit.f"
+    },
+    {
+      "command": "lutsave",
+      "package": "kappa",
+      "path": "starlink/kappa_help/lutsave.rst",
+      "sha256": "f480c3a67e3668fe562f0eb578ecaf026bc5057c2da397f4ea59bce62b66d67b",
+      "source": "applications/kappa/libkapview/lutsave.f"
+    },
+    {
+      "command": "lutview",
+      "package": "kappa",
+      "path": "starlink/kappa_help/lutview.rst",
+      "sha256": "2303f8a3884ffcd01be0b179c6bacbaccca7691e9f250d6196baa0e99d530a79",
+      "source": "applications/kappa/libkapview/lutview.f"
+    },
+    {
+      "command": "makesnr",
+      "package": "kappa",
+      "path": "starlink/kappa_help/makesnr.rst",
+      "sha256": "a8612ab4860b87298ef5e248422fcf2e9d91ad77fcbd63a1541b4be6f024bc55",
+      "source": "applications/kappa/libkappa/makesnr.c"
+    },
+    {
+      "command": "makesurface",
+      "package": "kappa",
+      "path": "starlink/kappa_help/makesurface.rst",
+      "sha256": "5ef623e8b29ad51294425f3676b8d364d0e31cadc7cc4fe712ce54559db0fe36",
+      "source": "applications/kappa/libkappa/makesurface.f"
+    },
+    {
+      "command": "manic",
+      "package": "kappa",
+      "path": "starlink/kappa_help/manic.rst",
+      "sha256": "3bbbbcb3bbbb4dee41e0087754b2889b25c28dfd14636a7632013ffb432d0fa0",
+      "source": "applications/kappa/libkappa/manic.f"
+    },
+    {
+      "command": "maths",
+      "package": "kappa",
+      "path": "starlink/kappa_help/maths.rst",
+      "sha256": "93605c1aebb56624dde24dd720fd44274356a216524fa3051aa5e31c94588a0f",
+      "source": "applications/kappa/libkappa/maths.f"
+    },
+    {
+      "command": "median",
+      "package": "kappa",
+      "path": "starlink/kappa_help/median.rst",
+      "sha256": "cfc529583ecc5174e17ee579a84b882557da18ea4563e54e50693b02872a2e46",
+      "source": "applications/kappa/libkappa/median.f"
+    },
+    {
+      "command": "mfittrend",
+      "package": "kappa",
+      "path": "starlink/kappa_help/mfittrend.rst",
+      "sha256": "aa3f780d16bdcbc0fbc88de89c44d6fc23ecd57c43907faf8492cfa798e25bef",
+      "source": "applications/kappa/libkappa/mfittrend.f"
+    },
+    {
+      "command": "mlinplot",
+      "package": "kappa",
+      "path": "starlink/kappa_help/mlinplot.rst",
+      "sha256": "cd13692dc5060fb4f7946fdfdb96df85fd48a92ed5ed5efb69d04e9b7ae8701c",
+      "source": "applications/kappa/libkapview/mlinplot.f"
+    },
+    {
+      "command": "mocgen",
+      "package": "kappa",
+      "path": "starlink/kappa_help/mocgen.rst",
+      "sha256": "ac7ff35b28be31669c58b4c5ebcd25317af71456f857fc78b192aa55e0bef3e7",
+      "source": "applications/kappa/libkappa/mocgen.f"
+    },
+    {
+      "command": "mstats",
+      "package": "kappa",
+      "path": "starlink/kappa_help/mstats.rst",
+      "sha256": "e9b0f8a9607d286f26e8d90db85edaefd05ab991e0f684df57fd47bb2c142296",
+      "source": "applications/kappa/libkappa/mstats.f"
+    },
+    {
+      "command": "mult",
+      "package": "kappa",
+      "path": "starlink/kappa_help/mult.rst",
+      "sha256": "b29d894345cf2026905405a75dadaed0c88c94032ac6743315c9043f3e2480ed",
+      "source": "applications/kappa/libkappa/mult.c"
+    },
+    {
+      "command": "native",
+      "package": "kappa",
+      "path": "starlink/kappa_help/native.rst",
+      "sha256": "d9fee9285bea37921a74f54929baa0a6933fd7ab9f0663180cd9abe240057828",
+      "source": "applications/kappa/libndfpack/native.f"
+    },
+    {
+      "command": "ndfcompare",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ndfcompare.rst",
+      "sha256": "45f837d69cbfb5bb69d12a7b994d80f9048b443cd76ce1e7448c465b463e32c1",
+      "source": "applications/kappa/libndfpack/ndfcompare.c"
+    },
+    {
+      "command": "ndfcompress",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ndfcompress.rst",
+      "sha256": "cb4cfeb07e7a9677cd3bddec2699ef4e95511b32193ebf6ff782ca871b10b2ea",
+      "source": "applications/kappa/libndfpack/ndfcompress.f"
+    },
+    {
+      "command": "ndfcopy",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ndfcopy.rst",
+      "sha256": "d45e0b86f679391b2246ad91cae893cd7ebb43d8cade4dd63dc9f34f8a60d6d8",
+      "source": "applications/kappa/libndfpack/ndfcopy.f"
+    },
+    {
+      "command": "ndfecho",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ndfecho.rst",
+      "sha256": "21a53e29788bbf4a5c3c7b068b39425a6c40668db74ca1496e61c09495efd5e0",
+      "source": "applications/kappa/libndfpack/ndfecho.f"
+    },
+    {
+      "command": "ndftrace",
+      "package": "kappa",
+      "path": "starlink/kappa_help/ndftrace.rst",
+      "sha256": "ec5ae7d9aaabdeeaeb2c0fb3a60ee5b2b2f1dab8651c4cd10fecbdb5ee840f87",
+      "source": "applications/kappa/libndfpack/ndftrace.f"
+    },
+    {
+      "command": "noglobals",
+      "package": "kappa",
+      "path": "starlink/kappa_help/noglobals.rst",
+      "sha256": "0f464e931cfa7950da8cc6431b9b3ce685c0310bc2867443f63f1e941bedf490",
+      "source": "applications/kappa/libkappa/noglobals.f"
+    },
+    {
+      "command": "nomagic",
+      "package": "kappa",
+      "path": "starlink/kappa_help/nomagic.rst",
+      "sha256": "3e4fda651b479479380c32b42ecb36c1a5bf72cc35f8554110387b92abbb5fba",
+      "source": "applications/kappa/libkappa/nomagic.f"
+    },
+    {
+      "command": "normalize",
+      "package": "kappa",
+      "path": "starlink/kappa_help/normalize.rst",
+      "sha256": "4d3eecd621f81c7fe7d96297239519f3396d4128592e6df413d8edc0c401a7f4",
+      "source": "applications/kappa/libkappa/normalize.f"
+    },
+    {
+      "command": "numb",
+      "package": "kappa",
+      "path": "starlink/kappa_help/numb.rst",
+      "sha256": "e65345d57d59ff0d05ac1eebe7a5452c75b44ecd297184ff99931f06799106b3",
+      "source": "applications/kappa/libkappa/numb.f"
+    },
+    {
+      "command": "oddeven",
+      "package": "kappa",
+      "path": "starlink/kappa_help/oddeven.rst",
+      "sha256": "efcc88ee9b2d525661b9fe17ed3b82c2f93070c23876a49647c4270bf1885cd8",
+      "source": "applications/kappa/libkappa/oddeven.f"
+    },
+    {
+      "command": "outset",
+      "package": "kappa",
+      "path": "starlink/kappa_help/outset.rst",
+      "sha256": "8783fd61ce5906457905c225cd76d4fd65b1a0066cb983adb1465701733e5f13",
+      "source": "applications/kappa/libkappa/outset.f"
+    },
+    {
+      "command": "paldef",
+      "package": "kappa",
+      "path": "starlink/kappa_help/paldef.rst",
+      "sha256": "2ab2f32e5765eb37515e474133c9e0b15ba222f16473edf3fad77d1b60e97d70",
+      "source": "applications/kappa/libkapview/paldef.f"
+    },
+    {
+      "command": "palentry",
+      "package": "kappa",
+      "path": "starlink/kappa_help/palentry.rst",
+      "sha256": "347a6dfdc39b07de3d4256f8e479d1c3db555f7654da6932f7927ffeaf4d3a55",
+      "source": "applications/kappa/libkapview/palentry.f"
+    },
+    {
+      "command": "palread",
+      "package": "kappa",
+      "path": "starlink/kappa_help/palread.rst",
+      "sha256": "8bd22212a5f2871f6db959259752a0d459a2f23a06bb5cd881079edea39f31ac",
+      "source": "applications/kappa/libkapview/palread.f"
+    },
+    {
+      "command": "palsave",
+      "package": "kappa",
+      "path": "starlink/kappa_help/palsave.rst",
+      "sha256": "aab767ebedb46716fa72a06e33e7aa60085bd86eadda0877419a343b4cd0c639",
+      "source": "applications/kappa/libkapview/palsave.f"
+    },
+    {
+      "command": "parget",
+      "package": "kappa",
+      "path": "starlink/kappa_help/parget.rst",
+      "sha256": "2856ac079bc269d0335a90f6697e203d35ade7fdb7fe650128f87414c504a283",
+      "source": "applications/kappa/libkappa/parget.f"
+    },
+    {
+      "command": "paste",
+      "package": "kappa",
+      "path": "starlink/kappa_help/paste.rst",
+      "sha256": "7dd70e51ade5eaf7070bace6d1624403e5c6eeb3298da31a9992d38d1f9658c7",
+      "source": "applications/kappa/libkappa/paste.f"
+    },
+    {
+      "command": "permaxes",
+      "package": "kappa",
+      "path": "starlink/kappa_help/permaxes.rst",
+      "sha256": "b5fc723e40dc4e52e36886454132a3c39bc19fe2740b7265898f9b62125b60a9",
+      "source": "applications/kappa/libkappa/permaxes.f"
+    },
+    {
+      "command": "piccur",
+      "package": "kappa",
+      "path": "starlink/kappa_help/piccur.rst",
+      "sha256": "f80529b871db0a94fe6c3a248886c378535967cc7ac1e38cb0b833abf846b365",
+      "source": "applications/kappa/libkapview/piccur.f"
+    },
+    {
+      "command": "picdef",
+      "package": "kappa",
+      "path": "starlink/kappa_help/picdef.rst",
+      "sha256": "b1a665a9f55d31847ee742f820e9b65f202a1fca4d8d809839a71eaea7be4865",
+      "source": "applications/kappa/libkapview/picdef.f"
+    },
+    {
+      "command": "picempty",
+      "package": "kappa",
+      "path": "starlink/kappa_help/picempty.rst",
+      "sha256": "faaea8dfab8748f6e41e8fa2c981b7fd1339b7a1e15a0bf68529227c6938022a",
+      "source": "applications/kappa/libkapview/picempty.f"
+    },
+    {
+      "command": "picentire",
+      "package": "kappa",
+      "path": "starlink/kappa_help/picentire.rst",
+      "sha256": "35fb1b840a6648103137c92e303961f34ed8894e5d38e597fed8c66285c196a1",
+      "source": "applications/kappa/libkapview/picentire.f"
+    },
+    {
+      "command": "picin",
+      "package": "kappa",
+      "path": "starlink/kappa_help/picin.rst",
+      "sha256": "275562b6df88be79deab4f71ff15177dd816dcc8fdc6932b52047399e45bc2c7",
+      "source": "applications/kappa/libkapview/picin.f"
+    },
+    {
+      "command": "piclabel",
+      "package": "kappa",
+      "path": "starlink/kappa_help/piclabel.rst",
+      "sha256": "c63acfb9de86b474503c727fb1f78b0161717deec25bbba4c5a8aa1c86a09db8",
+      "source": "applications/kappa/libkapview/piclabel.f"
+    },
+    {
+      "command": "piclist",
+      "package": "kappa",
+      "path": "starlink/kappa_help/piclist.rst",
+      "sha256": "cd3ecbe18dc03ceb491ebfaf8370c91ff6cb20bf93ef552906cc66d599dd11b6",
+      "source": "applications/kappa/libkapview/piclist.f"
+    },
+    {
+      "command": "picsel",
+      "package": "kappa",
+      "path": "starlink/kappa_help/picsel.rst",
+      "sha256": "8f0f41f206a12b7f2fa4e42de786000e2957fdfe773482fdaac98e4bb5d8b2ae",
+      "source": "applications/kappa/libkapview/picsel.f"
+    },
+    {
+      "command": "pictrans",
+      "package": "kappa",
+      "path": "starlink/kappa_help/pictrans.rst",
+      "sha256": "60b56335589c28484d4411452c6615cc5bb0af80f0a65bb1e82d81c37601c60f",
+      "source": "applications/kappa/libkapview/pictrans.f"
+    },
+    {
+      "command": "picvis",
+      "package": "kappa",
+      "path": "starlink/kappa_help/picvis.rst",
+      "sha256": "7f32a236a17d1f9ddefa0b92f9c92a06cf5e5939cf66c4e3be9ecfd7c4b4389e",
+      "source": "applications/kappa/libkapview/picvis.f"
+    },
+    {
+      "command": "pixbin",
+      "package": "kappa",
+      "path": "starlink/kappa_help/pixbin.rst",
+      "sha256": "a8193a1e0a0495a9e3dc45eca442985c95a4512b554b7bedaa9984d94f9e0cf4",
+      "source": "applications/kappa/libkappa/pixbin.c"
+    },
+    {
+      "command": "pixdupe",
+      "package": "kappa",
+      "path": "starlink/kappa_help/pixdupe.rst",
+      "sha256": "b1cb9e6bf9adef510e4dba1ebbf662b7bab86a88b089dd17704e4cf8858f531b",
+      "source": "applications/kappa/libkappa/pixdupe.f"
+    },
+    {
+      "command": "pluck",
+      "package": "kappa",
+      "path": "starlink/kappa_help/pluck.rst",
+      "sha256": "b135bdf6af9da9d3ee3cac4d19f7bbd529e45d4de25f17c57ae20c2469ec462a",
+      "source": "applications/kappa/libkappa/pluck.f"
+    },
+    {
+      "command": "profile",
+      "package": "kappa",
+      "path": "starlink/kappa_help/profile.rst",
+      "sha256": "5eeae30ae48b6924cc5973f489e4f37542113fc8c6f7c063a98d185b59455ea8",
+      "source": "applications/kappa/libkappa/profile.f"
+    },
+    {
+      "command": "provadd",
+      "package": "kappa",
+      "path": "starlink/kappa_help/provadd.rst",
+      "sha256": "530620f090e0274d25638cf75927555d6b2793f71d949909c5aa63cee785e5da",
+      "source": "applications/kappa/libndfpack/provadd.f"
+    },
+    {
+      "command": "provmod",
+      "package": "kappa",
+      "path": "starlink/kappa_help/provmod.rst",
+      "sha256": "cd0afc2e6b92c80c8aa2f0d92c29b220e43e936466035ef599099f450b0541b1",
+      "source": "applications/kappa/libndfpack/provmod.f"
+    },
+    {
+      "command": "provrem",
+      "package": "kappa",
+      "path": "starlink/kappa_help/provrem.rst",
+      "sha256": "9645d6769a5bd43d65d97ca67b09705fff40dcddd94ec3fea370f65d512268a4",
+      "source": "applications/kappa/libndfpack/provrem.f"
+    },
+    {
+      "command": "provshow",
+      "package": "kappa",
+      "path": "starlink/kappa_help/provshow.rst",
+      "sha256": "0b5ba07fb707830f6440fa47cbf69d0e931fac31db7d0994fcd1154dff097563",
+      "source": "applications/kappa/libndfpack/provshow.f"
+    },
+    {
+      "command": "psf",
+      "package": "kappa",
+      "path": "starlink/kappa_help/psf.rst",
+      "sha256": "1acf0b84047b4f8a1922d4fb5529e2e5ebdf9c9cee6e622b10ab89a0eb2aac6d",
+      "source": "applications/kappa/libkappa/psf.f"
+    },
+    {
+      "command": "qualtobad",
+      "package": "kappa",
+      "path": "starlink/kappa_help/qualtobad.rst",
+      "sha256": "7d29e8b0900502d5a51e7c9a109d8a4a82e12151e3dc2031b24be67f68ddb2de",
+      "source": "applications/kappa/libndfpack/qualtobad.f"
+    },
+    {
+      "command": "regionmask",
+      "package": "kappa",
+      "path": "starlink/kappa_help/regionmask.rst",
+      "sha256": "05cc8419ab15fbd7e7b0a23555afdb68782afc02c3abb87aa2e8603d90dd3977",
+      "source": "applications/kappa/libkappa/regionmask.f"
+    },
+    {
+      "command": "regrid",
+      "package": "kappa",
+      "path": "starlink/kappa_help/regrid.rst",
+      "sha256": "6359228d2dba57f4745b2584996c717a76175f4b9246f9e4798e64b686a9cc32",
+      "source": "applications/kappa/libkappa/regrid.f"
+    },
+    {
+      "command": "remqual",
+      "package": "kappa",
+      "path": "starlink/kappa_help/remqual.rst",
+      "sha256": "bdeecef9443aeb140c21f1d5c0af20f203a6aa800e49b589cd1204f5966aa6f4",
+      "source": "applications/kappa/libndfpack/remqual.f"
+    },
+    {
+      "command": "reshape",
+      "package": "kappa",
+      "path": "starlink/kappa_help/reshape.rst",
+      "sha256": "2e40e0434d269bae3f52dc91e57cd04103c702cf86849fcb6f578caab28f8360",
+      "source": "applications/kappa/libndfpack/reshape.f"
+    },
+    {
+      "command": "rift",
+      "package": "kappa",
+      "path": "starlink/kappa_help/rift.rst",
+      "sha256": "8c2f42eb260e24b175e8d93c3a756e8388980c144580e58fafe3c1a598126afe",
+      "source": "applications/kappa/libkappa/rift.f"
+    },
+    {
+      "command": "rotate",
+      "package": "kappa",
+      "path": "starlink/kappa_help/rotate.rst",
+      "sha256": "08420f8e14084174ec1683ca22cd7714c2a942437418a7e26167f414c865eee6",
+      "source": "applications/kappa/libkappa/rotate.f"
+    },
+    {
+      "command": "scatter",
+      "package": "kappa",
+      "path": "starlink/kappa_help/scatter.rst",
+      "sha256": "6af3e716b7000a5e7b584e2977b7f543be9c18394c20e0c19ad36b5c132b63e1",
+      "source": "applications/kappa/libkapview/scatter.f"
+    },
+    {
+      "command": "segment",
+      "package": "kappa",
+      "path": "starlink/kappa_help/segment.rst",
+      "sha256": "1fbadff09c1f3b506e5be54e851738b194ece477f93afbb6a5bdb8edd0ea618b",
+      "source": "applications/kappa/libkappa/segment.f"
+    },
+    {
+      "command": "setaxis",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setaxis.rst",
+      "sha256": "fc610f32ed031ba86c4fc85182a6d0ebc793a071f4210cdd4677b791b023cf5e",
+      "source": "applications/kappa/libndfpack/setaxis.f"
+    },
+    {
+      "command": "setbad",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setbad.rst",
+      "sha256": "d7d902bba6db4a6bb6f8903927f046f6b20f661497bf431fa4d4228dc80c7419",
+      "source": "applications/kappa/libndfpack/setbad.f"
+    },
+    {
+      "command": "setbb",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setbb.rst",
+      "sha256": "8c86bb679e7d800e947798f8d4dc99a9682981ee776d77098a4f267ff523695f",
+      "source": "applications/kappa/libndfpack/setbb.f"
+    },
+    {
+      "command": "setbound",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setbound.rst",
+      "sha256": "a0002957314ce9a74dfbc063a334fc30ccb763b8ad90ceddab55c58ed445f2a2",
+      "source": "applications/kappa/libndfpack/setbound.f"
+    },
+    {
+      "command": "setext",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setext.rst",
+      "sha256": "5443bfdc13a083b815f3bda74b8ec0a4bb49dab9888a36ee4a86fd8c6d1212e9",
+      "source": "applications/kappa/libndfpack/setext.f"
+    },
+    {
+      "command": "setlabel",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setlabel.rst",
+      "sha256": "dfaf85ed40a4cb0e0f30d2ca5c64a6235025bc6952c098ee5f7f05e0651930db",
+      "source": "applications/kappa/libndfpack/setlabel.f"
+    },
+    {
+      "command": "setmagic",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setmagic.rst",
+      "sha256": "188ecffabfe0db79c41a62604a1a7c571afb35d912dc85faff0d921d1f2e1383",
+      "source": "applications/kappa/libkappa/setmagic.f"
+    },
+    {
+      "command": "setnorm",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setnorm.rst",
+      "sha256": "56f1ffbd8661d9dc7e0c748b89089ff5dc93f304ce4eb0349c5b0bbbe07c075d",
+      "source": "applications/kappa/libndfpack/setnorm.f"
+    },
+    {
+      "command": "setorigin",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setorigin.rst",
+      "sha256": "a9651fa9d0386d19f1b8123a966ca55e0a030fd15fde7664b37fe91662c4a14e",
+      "source": "applications/kappa/libndfpack/setorigin.f"
+    },
+    {
+      "command": "setqual",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setqual.rst",
+      "sha256": "f04c95694527ea2de664e91122782b6a1487b8c965e069a97f4c80d20abd1d5f",
+      "source": "applications/kappa/libndfpack/setqual.f"
+    },
+    {
+      "command": "setsky",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setsky.rst",
+      "sha256": "d22841c9d853731e7b3d0c988ef1cb457ab0d069d695352c194af4b8295a720c",
+      "source": "applications/kappa/libndfpack/setsky.f"
+    },
+    {
+      "command": "settitle",
+      "package": "kappa",
+      "path": "starlink/kappa_help/settitle.rst",
+      "sha256": "8de42ebccfe1c354e16b40550f7936847e7427b6b6dee4604434ee8d503c496e",
+      "source": "applications/kappa/libndfpack/settitle.f"
+    },
+    {
+      "command": "settype",
+      "package": "kappa",
+      "path": "starlink/kappa_help/settype.rst",
+      "sha256": "520447cd4694f36920982c39984ab116ba1cd52f02e3dbe5a670c93e66daf174",
+      "source": "applications/kappa/libndfpack/settype.f"
+    },
+    {
+      "command": "setunits",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setunits.rst",
+      "sha256": "467b4d4690d08330735a4f4214b9b372f5f3efa40504ce56ab0e2ca6da2e3c07",
+      "source": "applications/kappa/libndfpack/setunits.f"
+    },
+    {
+      "command": "setvar",
+      "package": "kappa",
+      "path": "starlink/kappa_help/setvar.rst",
+      "sha256": "34548befcb096431446051449e8c2e61cf0063587911f85e4ae121ca106cc560",
+      "source": "applications/kappa/libndfpack/setvar.f"
+    },
+    {
+      "command": "shadow",
+      "package": "kappa",
+      "path": "starlink/kappa_help/shadow.rst",
+      "sha256": "b3cc12340912b3140e3de279d652ba94af963bacde80fcff5a1fd6eeba3042e1",
+      "source": "applications/kappa/libkappa/shadow.f"
+    },
+    {
+      "command": "showqual",
+      "package": "kappa",
+      "path": "starlink/kappa_help/showqual.rst",
+      "sha256": "a3fcd85b486e6e1b5ae96edd44d0476d56f5cf6f9dcd741ef57195a6192005e5",
+      "source": "applications/kappa/libndfpack/showqual.f"
+    },
+    {
+      "command": "slide",
+      "package": "kappa",
+      "path": "starlink/kappa_help/slide.rst",
+      "sha256": "ef823d6a57e5260c4fa9abc1594750855e9a1aa01b1eeac2222a3dfe878fe1c4",
+      "source": "applications/kappa/libkappa/slide.f"
+    },
+    {
+      "command": "sqorst",
+      "package": "kappa",
+      "path": "starlink/kappa_help/sqorst.rst",
+      "sha256": "1b399d983d47267a1917e4aae810f37cb4b435506e957942b40a76d670da91bf",
+      "source": "applications/kappa/libkappa/sqorst.f"
+    },
+    {
+      "command": "stats",
+      "package": "kappa",
+      "path": "starlink/kappa_help/stats.rst",
+      "sha256": "ab3a042296ccd93d3b8abbbcdad5d51c030911eeb62393b224624612bc0974ee",
+      "source": "applications/kappa/libkappa/stats.f"
+    },
+    {
+      "command": "sub",
+      "package": "kappa",
+      "path": "starlink/kappa_help/sub.rst",
+      "sha256": "5317b707ef12c1e1b7963307a443b050094237ddedc4ed4cf7d61ddd4d42c5c7",
+      "source": "applications/kappa/libkappa/sub.c"
+    },
+    {
+      "command": "substitute",
+      "package": "kappa",
+      "path": "starlink/kappa_help/substitute.rst",
+      "sha256": "e5d3bdd0ca2700ae29544d7192ff6002a231fa8f1db82319b2e2476b5cb86c82",
+      "source": "applications/kappa/libkappa/substitute.f"
+    },
+    {
+      "command": "surfit",
+      "package": "kappa",
+      "path": "starlink/kappa_help/surfit.rst",
+      "sha256": "41c9e524a3c1c68e1fbf6c0740711b01382b43ea41bb7e053d9fd75b4761b778",
+      "source": "applications/kappa/libkappa/surfit.f"
+    },
+    {
+      "command": "thresh",
+      "package": "kappa",
+      "path": "starlink/kappa_help/thresh.rst",
+      "sha256": "7450a1bb92d630caf3779639e11aaefdd11881b0a1f2dcabde475d1480ca008c",
+      "source": "applications/kappa/libkappa/thresh.f"
+    },
+    {
+      "command": "trandat",
+      "package": "kappa",
+      "path": "starlink/kappa_help/trandat.rst",
+      "sha256": "06271a8df8320dcb12d14e6f7fa058da19488ec259533ed40209b970a35ffc39",
+      "source": "applications/kappa/libkappa/trandat.f"
+    },
+    {
+      "command": "trig",
+      "package": "kappa",
+      "path": "starlink/kappa_help/trig.rst",
+      "sha256": "1c6ad87ad187eb78b266ef8913034cdec192c1a65719ef1f657ca577ba68970a",
+      "source": "applications/kappa/libkappa/trig.f"
+    },
+    {
+      "command": "vecplot",
+      "package": "kappa",
+      "path": "starlink/kappa_help/vecplot.rst",
+      "sha256": "5d65b1611239927e37975659ae8d368f98d59f4dec3fd616662f11b804bddfa3",
+      "source": "applications/kappa/libkapview/vecplot.f"
+    },
+    {
+      "command": "wcsadd",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsadd.rst",
+      "sha256": "bb222fa0fcad1d62176737652d95df141d145163aef437e371f93a715242bac9",
+      "source": "applications/kappa/libndfpack/wcsadd.f"
+    },
+    {
+      "command": "wcsalign",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsalign.rst",
+      "sha256": "5fe2bb021d203bdbc2d9ed18742f680dba3a1ac3989c46c538811cb33a353167",
+      "source": "applications/kappa/libkappa/wcsalign.f"
+    },
+    {
+      "command": "wcsattrib",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsattrib.rst",
+      "sha256": "fa559ae01b7528d4985c7fd776fe3261b6730db25dd57f15649e296b7b27f6ce",
+      "source": "applications/kappa/libndfpack/wcsattrib.f"
+    },
+    {
+      "command": "wcscopy",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcscopy.rst",
+      "sha256": "6bcbb93d35f78ff6ab98566f9e10201c017c58befd54eaef09e71be95d94debd",
+      "source": "applications/kappa/libndfpack/wcscopy.f"
+    },
+    {
+      "command": "wcsframe",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsframe.rst",
+      "sha256": "15e75e55428fbb8d7c32fff87d221d481c524e11bb54515525629f90183214b1",
+      "source": "applications/kappa/libndfpack/wcsframe.f"
+    },
+    {
+      "command": "wcsmosaic",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsmosaic.rst",
+      "sha256": "59fd19bc0ddeda9020d57a681b53c5f137537dc282bd48feacfda709ac304089",
+      "source": "applications/kappa/libkappa/wcsmosaic.f"
+    },
+    {
+      "command": "wcsremove",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsremove.rst",
+      "sha256": "d7a66e9418605ea3ada04911a4ac2a1c77c59def0fdf81ec4e3d9819f647caad",
+      "source": "applications/kappa/libndfpack/wcsremove.f"
+    },
+    {
+      "command": "wcsshow",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsshow.rst",
+      "sha256": "cc943f89f8d6b72f3e0f470f7f5353b5a326a8c5b0fc30321fd32bd31d97182b",
+      "source": "applications/kappa/libndfpack/wcsshow.f"
+    },
+    {
+      "command": "wcsslide",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcsslide.rst",
+      "sha256": "0e11655fa55feb236c7eb8a1b5c2c5b06a746f219cddd93d555ab890711c85cf",
+      "source": "applications/kappa/libkappa/wcsslide.f"
+    },
+    {
+      "command": "wcstran",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wcstran.rst",
+      "sha256": "3276876b0074514c6e9a6b9b51492d4869dc9d84abccc31f2574896e1cb9bcbe",
+      "source": "applications/kappa/libkappa/wcstran.f"
+    },
+    {
+      "command": "wiener",
+      "package": "kappa",
+      "path": "starlink/kappa_help/wiener.rst",
+      "sha256": "88ec311d54a2109b67ff44ca3135f642ef08e71b93d14a66953837437610fa32",
+      "source": "applications/kappa/libkappa/wiener.f"
+    },
+    {
+      "command": "zaplin",
+      "package": "kappa",
+      "path": "starlink/kappa_help/zaplin.rst",
+      "sha256": "2fa695e327176f3b5d74475e22f18c1eddf9861cdc8e19dd8b473f34477cb649",
+      "source": "applications/kappa/libkappa/zaplin.f"
+    },
+    {
+      "command": "polbin",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polbin.rst",
+      "sha256": "f2047b7d3f200f1827376390d52521b6fbd24e47919459151c64acb799342a61",
+      "source": "applications/polpack/polbin.f"
+    },
+    {
+      "command": "polcal",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polcal.rst",
+      "sha256": "a5cf945f9dbabbd7321fd6c49b5995b4f9fc86b0ddde2b3f381c0021ebbcb549",
+      "source": "applications/polpack/polcal.f"
+    },
+    {
+      "command": "polcent",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polcent.rst",
+      "sha256": "0d3c056295d59af31dd8e33538ef6e359509ed42af611790503bb00a7719f15e",
+      "source": "applications/polpack/polcent.f"
+    },
+    {
+      "command": "polconcat",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polconcat.rst",
+      "sha256": "0f204ff1cc2e195cc84594051db6d0b49c39c65c75851d1ac3dee07a225d7f1a",
+      "source": "applications/polpack/polconcat.f"
+    },
+    {
+      "command": "poledit",
+      "package": "polpack",
+      "path": "starlink/polpack_help/poledit.rst",
+      "sha256": "2b7f29ee9f842eb8df8561ead17360449fd553ea36566e322c7cdbc78641a3d6",
+      "source": "applications/polpack/poledit.f"
+    },
+    {
+      "command": "polexp",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polexp.rst",
+      "sha256": "122a883ec37fb36058e04f27ca63dc3e18a3bb795d37245eb376d07728ed0adc",
+      "source": "applications/polpack/polexp.f"
+    },
+    {
+      "command": "polexpx",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polexpx.rst",
+      "sha256": "28b36adf67d07918b6973a2760ba6a18069137f069db17f6708ff3ce5c60170b",
+      "source": "applications/polpack/polexpx.f"
+    },
+    {
+      "command": "polext",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polext.rst",
+      "sha256": "4f47a0ac948778f68361f7d09d5ff8a08c34a7f105e24e2ee0b00e8c7b7775ad",
+      "source": "applications/polpack/polext.f"
+    },
+    {
+      "command": "polhelp",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polhelp.rst",
+      "sha256": "073fc28d31f4f0d7bf80e5185875d188b664df1689f4955dde30096728f170e1",
+      "source": "applications/polpack/polhelp.f"
+    },
+    {
+      "command": "polimage",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polimage.rst",
+      "sha256": "2825dfa41694ff409b972d8610f05d515cc702a1d1f7d1f2c22125180fdff612",
+      "source": "applications/polpack/polimage.f"
+    },
+    {
+      "command": "polimp",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polimp.rst",
+      "sha256": "155676a4f72aed4689e746fa5cb5e527f8d6000283ab832b8323b3b855f4fd03",
+      "source": "applications/polpack/polimp.f"
+    },
+    {
+      "command": "polimpx",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polimpx.rst",
+      "sha256": "dcaf80a23f56df6614f98f9abf3c694f83e355e1fc13399d2e1f450edc94f32a",
+      "source": "applications/polpack/polimpx.f"
+    },
+    {
+      "command": "polka",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polka.rst",
+      "sha256": "f0aa047248d90f2c641740b8fb26976e1ea41f1a5fe4b38e3256fd44c48e6b2b",
+      "source": "applications/polpack/polka.f"
+    },
+    {
+      "command": "polplot",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polplot.rst",
+      "sha256": "e5de5e4d7fbe7905ee516c8ebb865f60a14e6ae2f87bf30c2cce96dd1eb67cca",
+      "source": "applications/polpack/polplot.f"
+    },
+    {
+      "command": "polprep",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polprep.rst",
+      "sha256": "38fde8f97db09039d3d39fed23a7272193e9eb1891a7f2ab5c4e0989258bd20e",
+      "source": "applications/polpack/polprep.f"
+    },
+    {
+      "command": "polrdtcl",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polrdtcl.rst",
+      "sha256": "26dd3ae24455ccd363a0ea7117463cc4a74259089706b306bb7ad6a889cd8e7b",
+      "source": "applications/polpack/polrdtcl.f"
+    },
+    {
+      "command": "polrotref",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polrotref.rst",
+      "sha256": "a5684d19d454e872326272536bde6817c731478f80eb8be24a8e1790e5717061",
+      "source": "applications/polpack/polrotref.f"
+    },
+    {
+      "command": "polselect",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polselect.rst",
+      "sha256": "d3da87044c8da8f656c211f4efc306bbd41f41b757e340c5e78700ff01506a3c",
+      "source": "applications/polpack/polselect.f"
+    },
+    {
+      "command": "polsim",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polsim.rst",
+      "sha256": "0119455252b09e1f61aeea2ae11ee20b1795d8b9c82c9bf0f3441f7996214988",
+      "source": "applications/polpack/polsim.f"
+    },
+    {
+      "command": "polstack",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polstack.rst",
+      "sha256": "a320cd90c53ff504f9e9b6fab65186c9755db4dca07c2f5712831482f1816e23",
+      "source": "applications/polpack/polstack.f"
+    },
+    {
+      "command": "polvec",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polvec.rst",
+      "sha256": "74f3464c093beee989c3e18aeb5956c3ed74c3828839fb7be72e068d30c54c57",
+      "source": "applications/polpack/polvec.f"
+    },
+    {
+      "command": "polversion",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polversion.rst",
+      "sha256": "098841bfdc7043e55e5e390d706700f05cb4254e9d1cb8415d6d02ecd2c39213",
+      "source": "applications/polpack/polversion.f"
+    },
+    {
+      "command": "polwcscopy",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polwcscopy.rst",
+      "sha256": "9c4281b1598eda6b2dfb603f57abc5845d0d17b4c7dbc4a7cc2cb25dcf7ab335",
+      "source": "applications/polpack/polwcscopy.f"
+    },
+    {
+      "command": "polwrtcl",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polwrtcl.rst",
+      "sha256": "116181c36e81ad635e60f04dd921ef844955dfacd136d4d227a3dca0f82f8386",
+      "source": "applications/polpack/polwrtcl.f"
+    },
+    {
+      "command": "polzconv",
+      "package": "polpack",
+      "path": "starlink/polpack_help/polzconv.rst",
+      "sha256": "c1b594e0afef2bb46ef95ece05443a10646a2d94c4596624d4ae258c93902294",
+      "source": "applications/polpack/polzconv.f"
+    },
+    {
+      "command": "badbolos",
+      "package": "smurf",
+      "path": "starlink/smurf_help/badbolos.rst",
+      "sha256": "a101489090399971aceab5318b7d84541b17269cf8eb76f5753a18926aa638dc",
+      "source": "applications/smurf/libsmurf/smurf_badbolos.c"
+    },
+    {
+      "command": "calcdark",
+      "package": "smurf",
+      "path": "starlink/smurf_help/calcdark.rst",
+      "sha256": "ab2251960351efd4611ad504b80f2ff781de76155471f69b9f6a3dfa8ea5aac6",
+      "source": "applications/smurf/libsmurf/smurf_calcdark.c"
+    },
+    {
+      "command": "calcflat",
+      "package": "smurf",
+      "path": "starlink/smurf_help/calcflat.rst",
+      "sha256": "4b80aa68a2fb9a0a9e5cd581526e0907d4043d5d9d19bb6aaf4bad20dd0a2f81",
+      "source": "applications/smurf/libsmurf/smurf_calcflat.c"
+    },
+    {
+      "command": "calcnoise",
+      "package": "smurf",
+      "path": "starlink/smurf_help/calcnoise.rst",
+      "sha256": "6a8657c114a608d171e76999eb863e9410e30b0f077b4417a8eaa724195953f0",
+      "source": "applications/smurf/libsmurf/smurf_calcnoise.c"
+    },
+    {
+      "command": "calcqu",
+      "package": "smurf",
+      "path": "starlink/smurf_help/calcqu.rst",
+      "sha256": "93a52c2aa0157173618cced3e87cf802c40e006f64af4e99429087b36b117d94",
+      "source": "applications/smurf/libsmurf/smurf_calcqu.c"
+    },
+    {
+      "command": "calcresp",
+      "package": "smurf",
+      "path": "starlink/smurf_help/calcresp.rst",
+      "sha256": "d587c61448cae3fdc7fafded5a36f3876e677f2fcd315ae4d9bec3facd7b29b5",
+      "source": "applications/smurf/libsmurf/smurf_calcresp.c"
+    },
+    {
+      "command": "checkcoords",
+      "package": "smurf",
+      "path": "starlink/smurf_help/checkcoords.rst",
+      "sha256": "d7148ea15b234e0a98a688fa8899196cc477ac8646219ad4e3a08ebc944848e9",
+      "source": "applications/smurf/libsmurf/smurf_checkcoords.c"
+    },
+    {
+      "command": "configmeld",
+      "package": "smurf",
+      "path": "starlink/smurf_help/configmeld.rst",
+      "sha256": "dc736d99f923621c7b2ad8c574447c81a615b6b36b9d2cf6cf9ec7023744ed53",
+      "source": "applications/smurf/scripts/configmeld.py"
+    },
+    {
+      "command": "copyflat",
+      "package": "smurf",
+      "path": "starlink/smurf_help/copyflat.rst",
+      "sha256": "e4d368be99d73a2976f75efa61742b65a038ef9afb2bdbb48395cad1ff809c50",
+      "source": "applications/smurf/libsmurf/smurf_copyflat.c"
+    },
+    {
+      "command": "dreamsolve",
+      "package": "smurf",
+      "path": "starlink/smurf_help/dreamsolve.rst",
+      "sha256": "163f7a56f00905fe1174a0fa2febe696fb49ee9fec7e3e14aaeb6b63adb742a4",
+      "source": "applications/smurf/libsmurf/smurf_dreamsolve.c"
+    },
+    {
+      "command": "dreamweights",
+      "package": "smurf",
+      "path": "starlink/smurf_help/dreamweights.rst",
+      "sha256": "6c063ff8899f3ff416f7f17367a737e45a64f0d62c233796de33b337f9b18dbd",
+      "source": "applications/smurf/libsmurf/smurf_dreamweights.c"
+    },
+    {
+      "command": "dsutils",
+      "package": "smurf",
+      "path": "starlink/smurf_help/dsutils.rst",
+      "sha256": "9212dc8f9bf86b17b35382421999ab358a02fae3511bd9eb96cb820fb82a8175",
+      "source": "applications/smurf/libsmurf/smurf_dsutils.c"
+    },
+    {
+      "command": "extinction",
+      "package": "smurf",
+      "path": "starlink/smurf_help/extinction.rst",
+      "sha256": "e45f62d2ee46332a82db581df22d35a8d024415977fa372dbd6ce495a5f04180",
+      "source": "applications/smurf/libsmurf/smurf_extinction.c"
+    },
+    {
+      "command": "findslices",
+      "package": "smurf",
+      "path": "starlink/smurf_help/findslices.rst",
+      "sha256": "e9ab923fb0dc7411e2108847216ee3b976f4ac5bdf017d14c5d413fd8bf16305",
+      "source": "applications/smurf/libsmurf/smurf_findslices.c"
+    },
+    {
+      "command": "fit1d",
+      "package": "smurf",
+      "path": "starlink/smurf_help/fit1d.rst",
+      "sha256": "949b478e4da37c15b7d6c4fe3fb62131f90ffd8ed2ca1ab24962e68942cbb83c",
+      "source": "applications/smurf/libsmurf/smurf_fit1d.c"
+    },
+    {
+      "command": "fitsmerge",
+      "package": "smurf",
+      "path": "starlink/smurf_help/fitsmerge.rst",
+      "sha256": "20b649c2c0990fefd2c1ba3f86298881d643902a4ef109da11ad9ed5808eef53",
+      "source": "applications/smurf/libsmurf/smurf_fitsmerge.c"
+    },
+    {
+      "command": "fixsteps",
+      "package": "smurf",
+      "path": "starlink/smurf_help/fixsteps.rst",
+      "sha256": "d9dfb31e87e5fff6ccd6d2a3632406ad5014116562f71b9b4e1a25ee62323621",
+      "source": "applications/smurf/libsmurf/smurf_fixsteps.c"
+    },
+    {
+      "command": "flatfield",
+      "package": "smurf",
+      "path": "starlink/smurf_help/flatfield.rst",
+      "sha256": "636c0aa04389d3702db520532c5541e38ade05331525051f770e511dc78fc20b",
+      "source": "applications/smurf/libsmurf/smurf_flatfield.c"
+    },
+    {
+      "command": "fts2gaia",
+      "package": "smurf",
+      "path": "starlink/smurf_help/fts2gaia.rst",
+      "sha256": "4b4178fd63cfd07f5988faaa6e9c896df37674c259996104c3e1e26c2d816c5e",
+      "source": "applications/smurf/scripts/fts2gaia.py"
+    },
+    {
+      "command": "gau2fit",
+      "package": "smurf",
+      "path": "starlink/smurf_help/gau2fit.rst",
+      "sha256": "e2efd307e5e6d7ba8bf28bf2a6b0b81d378d9b895f1943dae5febba6feab64c0",
+      "source": "applications/smurf/libsmurf/smurf_gau2fit.c"
+    },
+    {
+      "command": "gsd2acsis",
+      "package": "smurf",
+      "path": "starlink/smurf_help/gsd2acsis.rst",
+      "sha256": "dded2f2798fe0918c5dcf6940f565b0f2e0f7ef94d88910ecd37fe83d820db57",
+      "source": "applications/smurf/libsmurf/smurf_gsd2acsis.c"
+    },
+    {
+      "command": "gsdshow",
+      "package": "smurf",
+      "path": "starlink/smurf_help/gsdshow.rst",
+      "sha256": "b0a9f38c704f4cdf00ad9128c8d301d3b9d612bedaf4bdecb3980d10824f8ea3",
+      "source": "applications/smurf/libsmurf/smurf_gsdshow.c"
+    },
+    {
+      "command": "impaztec",
+      "package": "smurf",
+      "path": "starlink/smurf_help/impaztec.rst",
+      "sha256": "a61f773aab73819f66029106a946fae0d3a23425c84c769d277fca3f99b1de8a",
+      "source": "applications/smurf/libsmurf/smurf_impaztec.c"
+    },
+    {
+      "command": "jsadicer",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsadicer.rst",
+      "sha256": "bd9ab1f9ee239ac4213dee1ecd0e79f1d44e5e43234cd95878461546fb6f030f",
+      "source": "applications/smurf/libsmurf/smurf_jsadicer.c"
+    },
+    {
+      "command": "jsajoin",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsajoin.rst",
+      "sha256": "55f96f3bd6f5e7aad41a793c5cfab75eb65ed71e004bc9330ed6b2a7817e48d4",
+      "source": "applications/smurf/scripts/jsajoin.py"
+    },
+    {
+      "command": "jsapaster",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsapaster.rst",
+      "sha256": "f7088375525f1c9b0cca4f80c1557fb9fcfa6711ffa7228817fd41d7ed6ae19f",
+      "source": "applications/smurf/libsmurf/smurf_jsapaster.c"
+    },
+    {
+      "command": "jsasplit",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsasplit.rst",
+      "sha256": "264915c1958e8c8150e858f895711c52b99e6e56819da35d53d01493b5af3b3d",
+      "source": "applications/smurf/scripts/jsasplit.py"
+    },
+    {
+      "command": "jsatileinfo",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsatileinfo.rst",
+      "sha256": "a500077a9433cf7e73a86b04e5cae0988ea7cfa45c5bb9d510ce11a855fd0fa1",
+      "source": "applications/smurf/libsmurf/smurf_jsatileinfo.c"
+    },
+    {
+      "command": "jsatilelist",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsatilelist.rst",
+      "sha256": "7a7103ad2bf266f73a871a44740324fdb45c59aa16245cd6c3d58b6a7a6063c2",
+      "source": "applications/smurf/libsmurf/smurf_jsatilelist.c"
+    },
+    {
+      "command": "jsatilemoc",
+      "package": "smurf",
+      "path": "starlink/smurf_help/jsatilemoc.rst",
+      "sha256": "412a4c719ed0b3e6e76a7bf2f9770a62d31e55b419226f9f1ed18d62b973dcbd",
+      "source": "applications/smurf/scripts/jsatilemoc.py"
+    },
+    {
+      "command": "makecube",
+      "package": "smurf",
+      "path": "starlink/smurf_help/makecube.rst",
+      "sha256": "2c0359f2a0a06ded3ef83730a54490363649d13e9d17af031f1bf9c02fc6dd9c",
+      "source": "applications/smurf/libsmurf/smurf_makecube.c"
+    },
+    {
+      "command": "makemap",
+      "package": "smurf",
+      "path": "starlink/smurf_help/makemap.rst",
+      "sha256": "e9f676e319850776b05d7cab20d74b8980f0dd0565e0e40117be4b655d0184e6",
+      "source": "applications/smurf/libsmurf/smurf_makemap.c"
+    },
+    {
+      "command": "nanten2acsis",
+      "package": "smurf",
+      "path": "starlink/smurf_help/nanten2acsis.rst",
+      "sha256": "f01218ef4238da0686c0a96dbdb77b8310db48bcd9c03f91098b71a0b7f16612",
+      "source": "applications/smurf/libsmurf/smurf_nanten2acsis.c"
+    },
+    {
+      "command": "pol2check",
+      "package": "smurf",
+      "path": "starlink/smurf_help/pol2check.rst",
+      "sha256": "3f4d4aadcc7b18b7d5b02c4ed75eda5526e61407207bb1101f5d27959efe0323",
+      "source": "applications/smurf/libsmurf/smurf_pol2check.c"
+    },
+    {
+      "command": "pol2ip",
+      "package": "smurf",
+      "path": "starlink/smurf_help/pol2ip.rst",
+      "sha256": "615bb884115d6316ea5af1bce69158b6426b2a53d9f86805bb06ee5dae4c59db",
+      "source": "applications/smurf/scripts/pol2ip.py"
+    },
+    {
+      "command": "pol2ipcor",
+      "package": "smurf",
+      "path": "starlink/smurf_help/pol2ipcor.rst",
+      "sha256": "b86b542235c231984792855ff701e4e603539f4c451c7f2e5c2add93fc98e9c4",
+      "source": "applications/smurf/libsmurf/smurf_pol2ipcor.c"
+    },
+    {
+      "command": "pol2map",
+      "package": "smurf",
+      "path": "starlink/smurf_help/pol2map.rst",
+      "sha256": "0ae48d34c22fb72f949ce9d1248139b07046e609c11b3a2ebd4da424e5981868",
+      "source": "applications/smurf/scripts/pol2map.py"
+    },
+    {
+      "command": "pol2scan",
+      "package": "smurf",
+      "path": "starlink/smurf_help/pol2scan.rst",
+      "sha256": "f95246ec81c7381efea6366b4cd3e9eb017ba3317e2d1783be8c286b25001ca4",
+      "source": "applications/smurf/scripts/pol2scan.py"
+    },
+    {
+      "command": "pol2stack",
+      "package": "smurf",
+      "path": "starlink/smurf_help/pol2stack.rst",
+      "sha256": "9be3d10045eb077e9f46de67fa5fc85368ca3104d619e94623f1cf7fde6edaa2",
+      "source": "applications/smurf/scripts/pol2stack.py"
+    },
+    {
+      "command": "qucovar",
+      "package": "smurf",
+      "path": "starlink/smurf_help/qucovar.rst",
+      "sha256": "fe670ba75c264f8d9eec499892f44352800b7a50291642a4653d965dc0c3d9b6",
+      "source": "applications/smurf/libsmurf/smurf_qucovar.c"
+    },
+    {
+      "command": "rawfixmeta",
+      "package": "smurf",
+      "path": "starlink/smurf_help/rawfixmeta.rst",
+      "sha256": "16c5926e0dd1e34601fcda540e3c662a3d83f19914192ec543dc25edd3a6c897",
+      "source": "applications/smurf/libsmurf/smurf_rawfixmeta.c"
+    },
+    {
+      "command": "rawpress",
+      "package": "smurf",
+      "path": "starlink/smurf_help/rawpress.rst",
+      "sha256": "55ff50485ab089c5d2d7eca5e9de79b2631871a55c911dd14475a088f995d794",
+      "source": "applications/smurf/libsmurf/smurf_rawpress.c"
+    },
+    {
+      "command": "rawrecreatewcs",
+      "package": "smurf",
+      "path": "starlink/smurf_help/rawrecreatewcs.rst",
+      "sha256": "32317e7e7ae19a278dc0950ae529e25e54ea48cd7e52017d9da2a580cdbc511e",
+      "source": "applications/smurf/libsmurf/smurf_rawrecreatewcs.c"
+    },
+    {
+      "command": "rawrewrtsc2wcs",
+      "package": "smurf",
+      "path": "starlink/smurf_help/rawrewrtsc2wcs.rst",
+      "sha256": "8b4c8e1aeaaf62caba380fd8b1f0c5106720e4026a8a002d04f53351f944890e",
+      "source": "applications/smurf/libsmurf/smurf_rawrewrtsc2wcs.c"
+    },
+    {
+      "command": "rawunpress",
+      "package": "smurf",
+      "path": "starlink/smurf_help/rawunpress.rst",
+      "sha256": "0524b03aba97359403e29de3496470be3042e040c45086e939a437d591d1200b",
+      "source": "applications/smurf/libsmurf/smurf_rawunpress.c"
+    },
+    {
+      "command": "remsky",
+      "package": "smurf",
+      "path": "starlink/smurf_help/remsky.rst",
+      "sha256": "f16b0ddd6832443fb5dd5d2086a6bfa2405c514311de8b6888520f44bf290a70",
+      "source": "applications/smurf/libsmurf/smurf_remsky.c"
+    },
+    {
+      "command": "sc2clean",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2clean.rst",
+      "sha256": "e9f643307837b73d68e60974b9fd10affef294f74e3f604a2e60c6aa4f6b1278",
+      "source": "applications/smurf/libsmurf/smurf_sc2clean.c"
+    },
+    {
+      "command": "sc2concat",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2concat.rst",
+      "sha256": "4bb7278be622c2f8a6e61f8a22de67d3b376ec376dd6f2de7be85c4e88e935fa",
+      "source": "applications/smurf/libsmurf/smurf_sc2concat.c"
+    },
+    {
+      "command": "sc2expandmodel",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2expandmodel.rst",
+      "sha256": "d6299f2c7ceaa56f103aef89b1bb7e8e9f35e496060e049aea10cb762de26e4e",
+      "source": "applications/smurf/libsmurf/smurf_sc2expandmodel.c"
+    },
+    {
+      "command": "sc2fft",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2fft.rst",
+      "sha256": "37d193c643be04f8d2b7eb0558cdb70ba33343c1ca86ee5ea3c38acc30c0a780",
+      "source": "applications/smurf/libsmurf/smurf_sc2fft.c"
+    },
+    {
+      "command": "sc2filtermap",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2filtermap.rst",
+      "sha256": "1fc029967e09d8bd886eef72a50ba710c0b6f405f1129fedddb43b821eae67d4",
+      "source": "applications/smurf/libsmurf/smurf_sc2filtermap.c"
+    },
+    {
+      "command": "sc2mapfft",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2mapfft.rst",
+      "sha256": "abc461af885f6a7339f4135a494ee8e4f44309e1781de1e7098699d1c03df654",
+      "source": "applications/smurf/libsmurf/smurf_sc2mapfft.c"
+    },
+    {
+      "command": "sc2pca",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2pca.rst",
+      "sha256": "f3a702a089d342f3eb5c36346cf76623060376b0b97d1d38ab635fce141af4d1",
+      "source": "applications/smurf/libsmurf/smurf_sc2pca.c"
+    },
+    {
+      "command": "sc2sim",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2sim.rst",
+      "sha256": "7aa9ead1f97d94182b0bfa72aa3b2d5123369ec90fac423fd2377d1acefa9ce1",
+      "source": "applications/smurf/libsmurf/smurf_sc2sim.c"
+    },
+    {
+      "command": "sc2threadtest",
+      "package": "smurf",
+      "path": "starlink/smurf_help/sc2threadtest.rst",
+      "sha256": "61d8b914fc8f63c55ebb672fed74d9285f35fefbb1e86fda488b8aa7c581e55b",
+      "source": "applications/smurf/libsmurf/smurf_sc2threadtest.c"
+    },
+    {
+      "command": "skyloop",
+      "package": "smurf",
+      "path": "starlink/smurf_help/skyloop.rst",
+      "sha256": "d8e94a3dc03c667ca836b9e0f3452294d0fd388533fc55104a1a18c8d279a4c3",
+      "source": "applications/smurf/scripts/skyloop.py"
+    },
+    {
+      "command": "skynoise",
+      "package": "smurf",
+      "path": "starlink/smurf_help/skynoise.rst",
+      "sha256": "223b8b6295b0039a0cddca04fac4d323d2adb00828f0d0a48fcaeb7de424b63f",
+      "source": "applications/smurf/libsmurf/smurf_skynoise.c"
+    },
+    {
+      "command": "smurfcopy",
+      "package": "smurf",
+      "path": "starlink/smurf_help/smurfcopy.rst",
+      "sha256": "96fb1f9e311dd84280e8fd450abb4f88f6c90a3e8d7eeaa7914520fbd651e25a",
+      "source": "applications/smurf/libsmurf/smurf_smurfcopy.c"
+    },
+    {
+      "command": "smurfhelp",
+      "package": "smurf",
+      "path": "starlink/smurf_help/smurfhelp.rst",
+      "sha256": "c7e0626fd1387a8791ba517ed2b048582f48a5682aceb123857ef511fa2f06f1",
+      "source": "applications/smurf/libsmurf/smurf_smurfhelp.c"
+    },
+    {
+      "command": "stackframes",
+      "package": "smurf",
+      "path": "starlink/smurf_help/stackframes.rst",
+      "sha256": "b9d48442e0947671a8f7e5114c0e3a0b4f582a5fb17e06ec04633a4d5b2b1aee",
+      "source": "applications/smurf/libsmurf/smurf_stackframes.c"
+    },
+    {
+      "command": "starecalc",
+      "package": "smurf",
+      "path": "starlink/smurf_help/starecalc.rst",
+      "sha256": "a4e9752d8cdb607778c1006ad484486f849ed393fc0b984ee75400bb436917cd",
+      "source": "applications/smurf/libsmurf/smurf_starecalc.c"
+    },
+    {
+      "command": "supercam2acsis",
+      "package": "smurf",
+      "path": "starlink/smurf_help/supercam2acsis.rst",
+      "sha256": "cbbf373fe89ec4c7fe495a7e549b95ca4f3850e712a3d2b833b7474c3e78f5d0",
+      "source": "applications/smurf/libsmurf/smurf_supercam2acsis.c"
+    },
+    {
+      "command": "timesort",
+      "package": "smurf",
+      "path": "starlink/smurf_help/timesort.rst",
+      "sha256": "7c50451514f4108854def4df1b70ef8289499f991999b531a153ff5b89cd73d3",
+      "source": "applications/smurf/libsmurf/smurf_timesort.c"
+    },
+    {
+      "command": "unmakecube",
+      "package": "smurf",
+      "path": "starlink/smurf_help/unmakecube.rst",
+      "sha256": "ac0165d65e855bc8e4abcaffc108c3adb298b5e8ec3e40ceeec13070f62c7baa",
+      "source": "applications/smurf/libsmurf/smurf_unmakecube.c"
+    },
+    {
+      "command": "unmakemap",
+      "package": "smurf",
+      "path": "starlink/smurf_help/unmakemap.rst",
+      "sha256": "299d8d376b2986e1ee0cda0284a04535b0045850f9fbc5806632287481b99a9f",
+      "source": "applications/smurf/libsmurf/smurf_unmakemap.c"
+    }
+  ],
+  "schema_version": 1,
+  "starlink_release": "2025A plus Errata Patch 1",
+  "starlink_source_commit": "899c03fc4af3b6feb26756b904e5a597343191ed"
+}

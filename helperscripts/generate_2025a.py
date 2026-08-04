@@ -12,6 +12,7 @@ import shlex
 import subprocess
 import sys
 
+from help_resources import generate_package_help, write_help_manifest
 from ifd_metadata import load_ifd_tree
 from metadata_2025a import (
     add_ifd_actions,
@@ -244,7 +245,13 @@ def _merge_ifd_metadata(
     return merged
 
 
-def generate(source: Path, installation: Path, output: Path, repo: Path) -> None:
+def generate(
+    source: Path,
+    installation: Path,
+    output: Path,
+    repo: Path,
+    help_manifest: Path | None = None,
+) -> None:
     _verify_source(source)
     generator = _load_legacy_generator(repo)
     generator.moduleline = (
@@ -256,6 +263,7 @@ def generate(source: Path, installation: Path, output: Path, repo: Path) -> None
     )
 
     output.mkdir(parents=True, exist_ok=True)
+    help_records: list[dict[str, str]] = []
     previous = Path.cwd()
     try:
         os.chdir(output)
@@ -374,6 +382,21 @@ def generate(source: Path, installation: Path, output: Path, repo: Path) -> None
                 signature_overrides,
             )
 
+            help_records.extend(
+                generate_package_help(
+                    source_repo=source,
+                    source_root=source_root,
+                    installation=installation,
+                    output=output,
+                    baseline=repo / "starlink",
+                    package=package_name,
+                    package_help=help_path,
+                    command_paths=command_paths,
+                    release=PINNED_STARLINK_RELEASE,
+                    commit=PINNED_STARLINK_COMMIT,
+                )
+            )
+
             docs = generator.make_docstrings(
                 module_info,
                 generator.sunnames.get(package_name),
@@ -384,6 +407,13 @@ def generate(source: Path, installation: Path, output: Path, repo: Path) -> None
                 package, names, docs, command_paths, module_info,
                 signature_overrides=signature_overrides
             )
+        if help_manifest is not None:
+            write_help_manifest(
+                help_manifest,
+                help_records,
+                release=PINNED_STARLINK_RELEASE,
+                commit=PINNED_STARLINK_COMMIT,
+            )
     finally:
         os.chdir(previous)
 
@@ -393,13 +423,25 @@ def main() -> int:
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--installation", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--help-manifest", type=Path)
     args = parser.parse_args()
     repo = Path(__file__).resolve().parents[1]
+    output = args.output.resolve()
+    help_manifest = (
+        args.help_manifest.resolve()
+        if args.help_manifest is not None
+        else (
+            repo / "manifests" / "help_manifest_2025a.json"
+            if output == (repo / "starlink").resolve()
+            else None
+        )
+    )
     generate(
         args.source.resolve(),
         args.installation.resolve(),
-        args.output.resolve(),
+        output,
         repo,
+        help_manifest,
     )
     return 0
 
