@@ -10,6 +10,7 @@ User guide
    :maxdepth: 2
 
    details
+   tutorial/installation_and_validation
    known_issues
    validation
 

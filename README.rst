@@ -160,6 +160,10 @@ Small live Starlink smoke tests and the opt-in full POL-2 Tutorial 1
 CLI-versus-wrapper reduction are documented in
 ``doc/validation.rst``. The full runner obtains and verifies its frozen
 tutorial fixture automatically; ordinary pytest runs do not download it.
+A start-to-finish installation and validation walkthrough, including
+sanitized expected output, is available in
+``doc/tutorial/installation_and_validation.rst``.
+
 
 Limitations
 -----------
